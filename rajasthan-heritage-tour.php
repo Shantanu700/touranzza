@@ -59,7 +59,7 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
+        "items": 1,
         "margin": 20,
         "smartSpeed": 700,
         "loop":true,
@@ -69,9 +69,9 @@
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{"items": 1},
-            "768":{"items": 2},
-            "992":{"items": 3},
-            "1300":{"items": 4,"dots": false}
+            "768":{"items": 1},
+            "992":{"items": 1},
+            "1300":{"items": 1,"dots": true}
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
@@ -130,6 +130,11 @@
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
               </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
@@ -168,16 +173,6 @@
             <!-- /.overview -->
 
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
-              </ul>
 <!-- TOUR HIGHLIGHTS -->
             <div class="tour-listing-details__included">
               <h2 class="tour-listing-details__title tour-listing-details__included-title">Tour Highlights</h2>
@@ -454,12 +449,26 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">The ideal window is October to March, when Rajasthan is cool, dry and sunlit — perfect for long drives and open-air forts. December and January bring crisp mornings and occasional mist around Agra. November is particularly good if you can align with the Pushkar Camel Fair, which transforms the town for a week. February and March are beautiful in Udaipur and Jaipur. The tour operates from April to June as well, though daytime heat in Jaisalmer, Bikaner, Jodhpur and Jaipur climbs sharply; monsoon months (July to September) soften the landscape and suit travellers who enjoy dramatic skies and fewer crowds.</p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Rajasthan Heritage Tour FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-listing-details__faq-2">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is the Rajasthan Heritage Tour private?</h3>
                   </div>
@@ -470,7 +479,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is 12 days too long? Will it feel rushed?</h3>
                   </div>
@@ -481,7 +490,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>How does this tour differ from the Royal Rajasthan Tour?</h3>
                   </div>
@@ -492,7 +501,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Can we stay in heritage hotels throughout?</h3>
                   </div>
@@ -503,7 +512,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is Jaisalmer worth the long drive?</h3>
                   </div>
@@ -514,7 +523,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>What is Mandawa and the Shekhawati region?</h3>
                   </div>

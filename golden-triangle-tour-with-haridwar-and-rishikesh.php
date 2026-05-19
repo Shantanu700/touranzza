@@ -62,83 +62,64 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
-        "margin": 20,
+        "items": 1,
+        "margin": 0,
         "smartSpeed": 700,
         "loop":true,
-        "autoplay": 6000,
+        "autoplay": 5000,
         "nav":true,
-        "dots":false,
+        "dots":true,
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{
                 "items": 1
             },
             "768":{
-                "items": 2
+                "items": 1
             },
             "992":{
-                "items": 3
+                "items": 1
             },
             "1300":{
-                "items": 4,
-                "dots": false
+                "items": 1,
+                "dots": true
             }
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour1.webp"
-                alt="Old Delhi — Jama Masjid and Red Fort">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar1.jpg.jpeg" alt="Haridwar Ganga Aarti">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/haridwar-tours.webp"}, {"src": "assets/images/tours/rishikesh-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
+                  data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour1.webp"
-                alt="Taj Mahal at sunrise, Agra">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar2.jpg.jpeg" alt="Rishikesh River Ganges">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/haridwar-tours.webp"}, {"src": "assets/images/tours/rishikesh-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
+                  data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour2.webp"
-                alt="Amber Fort and the pink city of Jaipur">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar3.jpg.jpeg" alt="Haridwar Temples">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/haridwar-tours.webp"}, {"src": "assets/images/tours/rishikesh-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
+                  data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/haridwar-tours.webp"
-                alt="Ganga Aarti at Har Ki Pauri, Haridwar">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar4.jpg.jpeg" alt="Rishikesh Yoga Capital">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/haridwar-tours.webp"}, {"src": "assets/images/tours/rishikesh-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
+                  data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/rishikesh-tours.webp"
-                alt="Laxman Jhula suspension bridge and ghats, Rishikesh">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar5.jpg.jpeg" alt="Haridwar Rishikesh Tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/haridwar-tours.webp"}, {"src": "assets/images/tours/rishikesh-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
+                  data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
         </div>
@@ -158,6 +139,11 @@
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
                     class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
               </div>
               <!-- /.tour-listing-details__ratings-box -->
             </div>
@@ -211,16 +197,6 @@
             </div>
             <!-- /.tour-listing-details__overview -->
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tour 5 Days</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-varanasi" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Varanasi</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a></li>
-              </ul>
             <div class="tour-listing-details__included">
               <h2 class="tour-listing-details__title tour-listing-details__included-title">Tour Highlights</h2>
               <div class="row">
@@ -451,12 +427,26 @@
               </p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tour 5 Days</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-varanasi" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Varanasi</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a></li>
+              </ul>
+            </div>
+
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">GT with Haridwar & Rishikesh FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-haridwar-faq">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>What is the Golden Triangle Tour with Haridwar and Rishikesh?</h4>
                   </div>
@@ -467,7 +457,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>What is the Ganga Aarti at Haridwar?</h4>
                   </div>
@@ -478,7 +468,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Can I extend my stay in Rishikesh?</h3>
                   </div>
@@ -489,7 +479,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> What is the Ganga Aarti?</h3>
                   </div>
@@ -500,7 +490,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Is Haridwar or Rishikesh better?</h3>
                   </div>
@@ -511,7 +501,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Can the itinerary be customised?</h3>
                   </div>

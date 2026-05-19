@@ -102,7 +102,7 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
+        "items": 1,
         "margin": 20,
         "smartSpeed": 700,
         "loop":true,
@@ -112,9 +112,9 @@
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{"items": 1},
-            "768":{"items": 2},
-            "992":{"items": 3},
-            "1300":{"items": 4,"dots": false}
+            "768":{"items": 1},
+            "992":{"items": 1},
+            "1300":{"items": 1,"dots": true}
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
@@ -166,6 +166,11 @@
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
               </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
@@ -198,14 +203,6 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">This <strong>Taj Mahal tour package</strong> is thoughtfully designed for international travelers who want a seamless experience. From assisted transfers in Delhi to guided sightseeing in Agra, every detail is handled with precision. Accompanied by an expert, you&rsquo;ll explore some of the most iconic tourist places in India, including the breathtaking Taj Mahal and the historic Agra Fort.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">Perfect for those searching for a <strong>same day Taj Mahal tour</strong> or an <strong>Agra tour from Delhi</strong>, this experience blends cultural discovery, efficiency, and a touch of luxury&mdash;making it one of the most convenient India tour experiences for first-time visitors.</p>
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">More Ways to Explore</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to extend your journey? Explore the famous <a href="golden-triangle-tour-india" style="color: inherit; text-decoration: underline; font-weight: 600;">Imperial Golden Triangle Tour India</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Need help planning? Read our guide on the <a href="#" style="color: inherit; text-decoration: underline; font-weight: 600;">best time to visit Taj Mahal</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to see more options? View all our <a href="agra-tours" style="color: inherit; text-decoration: underline; font-weight: 600;">Agra tour packages</a>.</li>
-              </ul>
             </div>
 
             <!-- ITINERARY -->
@@ -483,19 +480,19 @@
           <div class="tour-listing-details__plan">
             <h3 class="tour-listing-details__title tour-listing-details__plan-title">Taj Mahal Day Tour by Train FAQs</h3>
             <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="train-tour-seo-faq">
-            <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+            <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="accrodion-title"><h4>Which train is used for the Taj Mahal day tour from Delhi?</h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">The Gatimaan Express — India's fastest train — connects Delhi Hazrat Nizamuddin to Agra Cantonment in under 2 hours, making it the most efficient same-day option for visiting the Taj Mahal.</p></div></div>
             </div>
-            <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+            <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="accrodion-title"><h4>Is the Taj Mahal day tour by train better than by car?</h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">For most travelers yes. The train avoids Delhi-Agra highway traffic, is faster, and the air-conditioned journey is more comfortable. It is the premium same-day Agra experience.</p></div></div>
             </div>
-            <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+            <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="accrodion-title"><h4>What monuments are covered on this tour?</h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">The Taj Mahal, Agra Fort, and optionally Baby Taj (Itmad-ud-Daulah) — all with a private guide, lunch at a quality restaurant, and seamless station-to-monument transfers.</p></div></div>
             </div>
-            <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+            <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="accrodion-title"><h4>Can I visit the Taj Mahal at sunrise on this train tour?</h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">The Gatimaan Express departs Delhi at 8:10 AM, arriving in Agra around 10 AM — ideal for a mid-morning visit. For a true sunrise visit, the same-day Agra tour by car with an early departure is recommended.</p></div></div>
             </div>

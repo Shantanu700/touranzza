@@ -59,7 +59,7 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
+        "items": 1,
         "margin": 20,
         "smartSpeed": 700,
         "loop":true,
@@ -69,9 +69,9 @@
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{"items": 1},
-            "768":{"items": 2},
-            "992":{"items": 3},
-            "1300":{"items": 4,"dots": false}
+            "768":{"items": 1},
+            "992":{"items": 1},
+            "1300":{"items": 1,"dots": true}
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
@@ -123,6 +123,11 @@
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
               </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
@@ -161,16 +166,6 @@
               <!-- INTERLINK 1 → GT 5 Days (core page) -->
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.4s" data-wow-duration="1500ms">If your schedule allows only the core circuit, our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">5-day Golden Triangle private tour</a> covers Delhi, Agra and Jaipur in the ideal balance of depth and efficiency — the natural foundation for this extended journey.</p>
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
-              </ul>
             </div>
             <!-- /.overview -->
 
@@ -396,12 +391,26 @@
               </div>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Day Wise Itinerary</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-listing-details__faq-2">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is this a private tour?</h3>
                   </div>
@@ -412,7 +421,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Why should I add Amritsar to the Golden Triangle?</h3>
                   </div>
@@ -423,7 +432,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is the Golden Temple suitable for international visitors of all faiths?</h3>
                   </div>
@@ -434,7 +443,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>What is the Wagah Border ceremony?</h3>
                   </div>
@@ -445,7 +454,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Can this itinerary be customised?</h3>
                   </div>

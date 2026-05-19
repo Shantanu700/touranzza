@@ -125,27 +125,27 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
-        "margin": 20,
+        "items": 1,
+        "margin": 0,
         "smartSpeed": 700,
         "loop":true,
-        "autoplay": 6000,
+        "autoplay": 5000,
         "nav":true,
-        "dots":false,
+        "dots":true,
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{
                 "items": 1
             },
             "768":{
-                "items": 2
+                "items": 1
             },
             "992":{
-                "items": 3
+                "items": 1
             },
             "1300":{
-                "items": 4,
-                "dots": false
+                "items": 1,
+                "dots": true
             }
         }
         }'>
@@ -223,6 +223,11 @@
                     class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
               </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+              </div>
               <!-- /.tour-listing-details__ratings-box -->
             </div>
             <!-- /.col-xl-4 -->
@@ -264,16 +269,6 @@
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s"
                 data-wow-duration="1500ms">The Rajasthan Desert Tour is designed for travelers who want to go beyond the Golden Triangle and experience the desert edge of Rajasthan through historic towns, painted havelis, forts and golden sandstone landscapes. The route links Delhi with Mandawa, Bikaner and Jaisalmer, giving you a strong mix of Shekhawati frescoes, desert architecture, royal history and cultural encounters. It works beautifully after a <a href="golden-triangle-tour-6-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tour 6 Days</a> or as a focused Rajasthan itinerary for guests who prefer forts, dunes, heritage hotels and slow private travel. Touranzza can customize the desert safari, hotel category, guide services, pickup city and onward route to Jaipur, Jodhpur or Udaipur.</p>
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
-              </ul>
 </div>
             <!-- /.tour-listing-details__explore -->
             <div class="tour-listing-details__included">
@@ -498,10 +493,24 @@
               </div>
               <!-- /.row -->
             </div>
+
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Rajasthan Desert Tour FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="desert-tour-seo-faq">
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>What makes this Rajasthan Desert Tour different?</h4>
                   </div>
@@ -511,7 +520,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>Can I add a desert safari or heritage hotel?</h4>
                   </div>

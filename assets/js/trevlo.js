@@ -242,13 +242,20 @@
   }
 
   let trevloImagePopupGallery = $(".trevlo-image-popup");
-  trevloImagePopupGallery.each(function () {
-    let elm = $(this);
-    let options = elm.data("gallery-options");
-    let imageGallery = elm.magnificPopup(
-      "object" === typeof options ? options : JSON.parse(options)
-    );
-  });
+  let isMobileViewport = window.matchMedia("(max-width: 767px)").matches;
+  if (isMobileViewport) {
+    trevloImagePopupGallery.on("click", function (e) {
+      e.preventDefault();
+    });
+  } else {
+    trevloImagePopupGallery.each(function () {
+      let elm = $(this);
+      let options = elm.data("gallery-options");
+      let imageGallery = elm.magnificPopup(
+        "object" === typeof options ? options : JSON.parse(options)
+      );
+    });
+  }
 
 
   function dynamicCurrentMenuClass(selector) {

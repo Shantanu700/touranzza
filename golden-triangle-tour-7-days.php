@@ -174,80 +174,69 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
-        "margin": 20,
+        "items": 1,
+        "margin": 0,
         "smartSpeed": 700,
         "loop":true,
-        "autoplay": 6000,
+        "autoplay": 5000,
         "nav":true,
-        "dots":false,
+        "dots":true,
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{
                 "items": 1
             },
             "768":{
-                "items": 2
+                "items": 1
             },
             "992":{
-                "items": 3
+                "items": 1
             },
             "1300":{
-                "items": 4,
-                "dots": false
+                "items": 1,
+                "dots": true
             }
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour2.webp"
-                alt="Delhi sightseeing on Golden Triangle Tour 7 Days">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt17.jpg"
+                alt="Golden Triangle Tour 7 Days photo 1">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt17.jpg"}, {"src": "assets/images/gtimages/gt18.jpg"}, {"src": "assets/images/gtimages/gt19.jpg"}, {"src": "assets/images/gtimages/gt20.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour1.webp"
-                alt="Old Delhi and New Delhi heritage tour">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt18.jpg"
+                alt="Golden Triangle Tour 7 Days photo 2">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt17.jpg"}, {"src": "assets/images/gtimages/gt18.jpg"}, {"src": "assets/images/gtimages/gt19.jpg"}, {"src": "assets/images/gtimages/gt20.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour2.webp"
-                alt="Taj Mahal sunrise tour in Agra India">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt19.jpg"
+                alt="Golden Triangle Tour 7 Days photo 3">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt17.jpg"}, {"src": "assets/images/gtimages/gt18.jpg"}, {"src": "assets/images/gtimages/gt19.jpg"}, {"src": "assets/images/gtimages/gt20.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour1.webp"
-                alt="Agra Fort sightseeing on Delhi Agra Jaipur tour">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt20.jpg"
+                alt="Golden Triangle Tour 7 Days photo 4">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
-            </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
-          </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
-          <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour1.webp"
-                alt="Jaipur Amer Fort visit on Golden Triangle itinerary">
-              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
-                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt17.jpg"}, {"src": "assets/images/gtimages/gt18.jpg"}, {"src": "assets/images/gtimages/gt19.jpg"}, {"src": "assets/images/gtimages/gt20.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
@@ -271,6 +260,11 @@
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
                     class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
               </div>
               <!-- /.tour-listing-details__ratings-box -->
             </div>
@@ -312,16 +306,6 @@
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s"
                 data-wow-duration="1500ms">Our Golden Triangle Tour 7 Days is a private Delhi Agra Jaipur tour package designed for travelers who want India's most iconic heritage route at a comfortable pace. The itinerary covers Old Delhi, New Delhi, the Taj Mahal at sunrise, Agra Fort, Fatehpur Sikri, Amer Fort, Hawa Mahal, City Palace, Jantar Mantar and colorful Jaipur bazaars, with time for guided sightseeing, photography and relaxed transfers. This 7 days Golden Triangle India tour is ideal for first-time visitors, couples, families and culture lovers who want a smooth, well-planned journey through North India's best monuments, palaces, markets and UNESCO World Heritage sites.</p>
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
-              </ul>
 </div>
             <!-- /.tour-listing-details__explore -->
             <div class="tour-listing-details__included">
@@ -505,10 +489,24 @@
               </div>
               <!-- /.row -->
             </div>
+
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Golden Triangle Tour 7 Days FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-listing-details__seo-faq">
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>What places are included in the Golden Triangle Tour 7 Days?</h4>
                   </div>
@@ -518,7 +516,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>Is this Delhi Agra Jaipur tour package private?</h4>
                   </div>
@@ -528,7 +526,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h4>Can I customize the 7 days Golden Triangle India tour?</h4>
                   </div>

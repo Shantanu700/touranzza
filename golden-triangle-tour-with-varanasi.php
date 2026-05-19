@@ -135,7 +135,7 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
+        "items": 1,
         "margin": 20,
         "smartSpeed": 700,
         "loop":true,
@@ -145,46 +145,77 @@
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{"items": 1},
-            "768":{"items": 2},
-            "992":{"items": 3},
-            "1300":{"items": 4,"dots": false}
+            "768":{"items": 1},
+            "992":{"items": 1},
+            "1300":{"items": 1,"dots": true}
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour2.webp" alt="Kashi Vishwanath Temple corridor">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi1.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 1">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agra-4.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour2.webp" alt="Taj Mahal on Golden Triangle Varanasi tour">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi2.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 2">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agra-4.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-4.webp" alt="Sarnath Dhamek Stupa">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi3.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 3">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agra-4.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours3.webp" alt="Amber Fort Jaipur Rajasthan">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi4.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 4">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agra-4.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/varanasi-tours-1.webp" alt="Sunrise boat on River Ganges Ganga Aarti ceremony Varanasi">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi5.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 5">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/agra-4.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
           </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
+          <div class="tour-listing-details__top-carousel-item item">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtvaranasi6.jpg"
+                alt="Golden Triangle Tour with Varanasi photo 6">
+              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
+                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gtvaranasi3.jpg"}, {"src": "assets/images/gtimages/gtvaranasi4.jpg"}, {"src": "assets/images/gtimages/gtvaranasi5.jpg"}, {"src": "assets/images/gtimages/gtvaranasi6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
+            </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
+          </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
         </div>
       </div>
 </div><!-- /.container -->
@@ -198,6 +229,11 @@
               <div class="tour-listing-details__ratings-box"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
               </div>
             </div>
             <div class="col-xl-6">
@@ -231,16 +267,6 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Over ten thoughtfully paced days, travelers move from imperial capitals and UNESCO landmarks to sacred riverfront ceremonies that have shaped Indian civilization for millennia. Witness the Taj Mahal, Amber Fort, bustling bazaars, and architectural masterpieces before arriving in Varanasi, where sunrise boat rides, temple bells, and the evening Ganga Aarti offer an entirely different dimension of India.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">This is not simply a sightseeing circuit—it is a carefully curated first-time India journey that balances history, spirituality, and cultural depth. With private transfers, expert local guides, seamless domestic connections, and handpicked stays, it is ideal for international travelers seeking India's most iconic landmarks alongside its most profound spiritual experiences.</p>
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
-              </ul>
             </div>
 
             <div class="tour-listing-details__included">
@@ -485,12 +511,26 @@
               </div>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Just want the heritage core? View our <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle 5 Days</a> itinerary.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want to dive deeper into the desert? Explore the <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Interested in spiritual hubs near the Himalayas? Try our <a href="golden-triangle-tour-with-haridwar-and-rishikesh" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Haridwar &amp; Rishikesh</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Short on time? Do a quick <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">GT with Varanasi FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-listing-details__faq-2">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is Varanasi worth adding to the Golden Triangle?</h3>
                   </div>
@@ -501,7 +541,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is Varanasi overwhelming for first-time visitors?</h3>
                   </div>
@@ -512,7 +552,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>What is the highlight of Varanasi?</h3>
                   </div>
@@ -523,7 +563,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Can this tour be customized?</h3>
                   </div>

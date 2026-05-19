@@ -62,7 +62,7 @@
         <div class="tour-listing-details__top-carousel">
           <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
             data-owl-options='{
-          "items": 4,
+          "items": 1,
           "margin": 20,
           "smartSpeed": 700,
           "loop":true,
@@ -72,9 +72,9 @@
           "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
           "responsive":{
               "0":{"items": 1},
-              "768":{"items": 2},
-              "992":{"items": 3},
-              "1300":{"items": 4,"dots": false}
+              "768":{"items": 1},
+              "992":{"items": 1},
+              "1300":{"items": 1,"dots": true}
           }
           }'>
             <div class="tour-listing-details__top-carousel-item item">
@@ -126,6 +126,11 @@
               <div class="tour-listing-details__ratings-box"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
                 <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
               </div>
             </div>
             <div class="col-xl-6">
@@ -395,7 +400,7 @@
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Royal Rajasthan Tour FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-listing-details__faq-2">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is this a private tour or a group tour?</h3>
                   </div>
@@ -406,7 +411,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Is the Royal Rajasthan tour suitable for first-time visitors to India?</h3>
                   </div>
@@ -417,7 +422,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>What hotels are included, and can they be upgraded?</h3>
                   </div>
@@ -428,7 +433,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Can the itinerary be customised?</h3>
                   </div>
@@ -439,7 +444,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>How much driving is involved each day?</h3>
                   </div>
@@ -450,7 +455,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>When is the best time to take this tour?</h3>
                   </div>
@@ -461,7 +466,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>Do you assist with flights and visas?</h3>
                   </div>
@@ -472,7 +477,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3>How far in advance should I book?</h3>
                   </div>

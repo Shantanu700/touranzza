@@ -62,27 +62,27 @@
       <div class="tour-listing-details__top-carousel">
         <div class="tour-listing-details__top-carousel-wrapper trevlo-owl__carousel owl-theme owl-carousel"
           data-owl-options='{
-        "items": 4,
-        "margin": 20,
+        "items": 1,
+        "margin": 0,
         "smartSpeed": 700,
         "loop":true,
-        "autoplay": 6000,
+        "autoplay": 5000,
         "nav":true,
-        "dots":false,
+        "dots":true,
         "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
         "responsive":{
             "0":{
                 "items": 1
             },
             "768":{
-                "items": 2
+                "items": 1
             },
             "992":{
-                "items": 3
+                "items": 1
             },
             "1300":{
-                "items": 4,
-                "dots": false
+                "items": 1,
+                "dots": true
             }
         }
         }'>
@@ -159,6 +159,11 @@
                     class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
                 <p class="tour-listing-details__ratings-text">5.0 Superb</p>
               </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+              </div>
               <!-- /.tour-listing-details__ratings-box -->
             </div>
   
@@ -211,16 +216,6 @@
             </div>
             <!-- /.tour-listing-details__overview -->
 
-              <div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
-              </div>
-              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tour 5 Days</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-goa" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Goa</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-kerala" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Kerala</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a></li>
-                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a></li>
-              </ul>
             <div class="tour-listing-details__included">
               <h2 class="tour-listing-details__title tour-listing-details__included-title">Tour Highlights</h2>
               <div class="row">
@@ -436,12 +431,26 @@
               </p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-5-days" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tour 5 Days</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-goa" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Goa</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="golden-triangle-tour-with-kerala" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Kerala</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour</a></li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a></li>
+              </ul>
+            </div>
+
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">GT with Mumbai FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="tour-mumbai-faq">
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Is this tour entirely private?</h3>
                   </div>
@@ -452,7 +461,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Why Mumbai instead of Goa?</h3>
                   </div>
@@ -463,7 +472,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Can I extend my time in Mumbai?</h3>
                   </div>
@@ -474,7 +483,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Is the Jaipur–Mumbai flight included?</h3>
                   </div>
@@ -485,7 +494,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> Can we visit a Bollywood studio?</h3>
                   </div>
@@ -496,7 +505,7 @@
                   </div>
                 </div>
 
-                <div class="accrodion active wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <div class="accrodion-title">
                     <h3><span>Q</span> How much time is spent in Mumbai?</h3>
                   </div>

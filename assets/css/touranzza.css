@@ -1179,24 +1179,48 @@ html, body, .page-wrapper {
 
 .tour-listing-details__top-carousel {
     max-width: 1140px !important;
-    margin: 30px auto 50px !important;
-    border-radius: 12px !important;
+    margin: 30px auto 40px !important;
+    border-radius: 0 !important;
     overflow: hidden !important;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.10) !important;
+}
+
+.tour-listing-details__top-carousel .owl-item:not(.active) {
+    display: block !important;
 }
 
 .tour-listing-details__top-carousel-image {
-    height: 450px !important;
+    height: 460px !important;
     overflow: hidden !important;
     position: relative !important;
+    border-radius: 0 !important;
+    width: 100% !important;
 }
 
 .tour-listing-details__top-carousel-image img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
     height: 100% !important;
     width: 100% !important;
     object-fit: cover !important;
+    object-position: center center !important;
     transform: none !important;
     transition: none !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+@media (max-width: 991px) {
+    .tour-listing-details__top-carousel-image {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .tour-listing-details__top-carousel-image {
+        height: 220px !important;
+    }
 }
 
 /* PLUS ICON BUTTON */
@@ -1312,3 +1336,162 @@ html, body, .page-wrapper {
     border-color: rgba(255, 194, 2, 0.4) !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* Mobile tour-detail optimization */
+@media (max-width: 767px) {
+    .tour-listing-details-right {
+        padding-bottom: 28px !important;
+    }
+
+    .tour-listing-details__top-carousel {
+        width: calc(100% - 24px) !important;
+        margin: 16px auto 22px !important;
+        box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12) !important;
+    }
+
+    .tour-listing-details__top-carousel-image {
+        height: clamp(165px, 48vw, 220px) !important;
+    }
+
+    .tour-listing-details__top-carousel-btn {
+        display: none !important;
+    }
+
+    .tour-listing-details__top-carousel-overlay {
+        display: none !important;
+        pointer-events: none !important;
+        background: transparent !important;
+    }
+
+    .tour-listing-details__top-carousel-image .trevlo-image-popup {
+        pointer-events: none !important;
+    }
+
+    .tour-listing-details__top-carousel .owl-nav {
+        padding: 0 6px !important;
+    }
+
+    .tour-listing-details__top-carousel .owl-nav button {
+        width: 34px !important;
+        height: 34px !important;
+    }
+
+    .tour-listing-details__top-carousel .owl-nav .owl-prev::after,
+    .tour-listing-details__top-carousel .owl-nav .owl-next::after {
+        font-size: 14px !important;
+    }
+
+    .tour-listing-details__destination {
+        padding-top: 22px !important;
+        padding-bottom: 22px !important;
+        margin-bottom: 24px !important;
+    }
+
+    h1.tour-listing-details__dastination-title {
+        font-size: 23px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 14px !important;
+    }
+
+    .tour-listing-details__title,
+    .tour-listing-details__overview-title,
+    .tour-listing-details__included-title,
+    .tour-listing-details__plan-title,
+    .tour-listing-details__sidebar-title {
+        font-size: 19px !important;
+        line-height: 1.3 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .tour-listing-details__overview-text,
+    p.tour-listing-details__overview-text.wow.animated.fadeInUp.animated,
+    .tour-listing-details__included-list-one li p,
+    .tour-listing-details__included-list-two li p,
+    .tour-listing-details__faq .accrodion-content p {
+        font-size: 15px !important;
+        line-height: 1.7 !important;
+        text-align: left !important;
+    }
+
+    .tour-listing-details__included {
+        padding-bottom: 16px !important;
+        margin-bottom: 22px !important;
+    }
+
+    .tour-listing-details__faq .accrodion {
+        padding: 12px 16px !important;
+        border-radius: 8px !important;
+    }
+
+    .tour-listing-details__faq .accrodion-title h3,
+    .tour-listing-details__faq .accrodion-title h4 {
+        font-size: 16px !important;
+        line-height: 1.45 !important;
+    }
+
+    .tour-listing-details__destination-info {
+        padding: 14px 16px !important;
+    }
+
+    .tour-listing-details__destination-info-top,
+    .tour-listing-details__destination-info-bottom {
+        font-size: 14px !important;
+        line-height: 1.35 !important;
+    }
+
+    .tour-listing-details__sidebar-single {
+        padding: 22px 16px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .mobile-nav__wrapper {
+        z-index: 99999 !important;
+    }
+
+    .mobile-nav__content {
+        width: min(86vw, 340px) !important;
+        max-width: 340px !important;
+        background: #ffffff !important;
+        overflow-x: hidden !important;
+    }
+
+    .mobile-nav__content .main-menu__list li.dropdown > a button {
+        display: inline-flex !important;
+        flex: 0 0 30px !important;
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 12px !important;
+        border-radius: 50% !important;
+        background: #f4f1ec !important;
+        border: 1px solid #e7dfd4 !important;
+        color: #130f10 !important;
+        transform: none !important;
+    }
+
+    .mobile-nav__content .main-menu__list li.dropdown > a button.expanded {
+        background: #ffc202 !important;
+        border-color: #ffc202 !important;
+        color: #130f10 !important;
+        transform: rotate(180deg) !important;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .tour-listing-details__top-carousel-image {
+        height: 155px !important;
+    }
+
+    h1.tour-listing-details__dastination-title {
+        font-size: 21px !important;
+    }
+
+    .tour-listing-details__title,
+    .tour-listing-details__overview-title,
+    .tour-listing-details__included-title,
+    .tour-listing-details__plan-title,
+    .tour-listing-details__sidebar-title {
+        font-size: 18px !important;
+    }
+}
