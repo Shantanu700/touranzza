@@ -1,7 +1,7 @@
 # Enable Rewrite Engine
 RewriteEngine On
 Options -MultiViews
-RewriteBase /backup
+RewriteBase /
 
 # -----------------------------------
 # 4XX Error Redirects - Fix broken URLs
