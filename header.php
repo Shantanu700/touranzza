@@ -44,80 +44,106 @@
         <ul class="main-menu__list">
           <li> <a href="./">Home</a> </li>
           <li class="dropdown tour-pkg-dropdown"> <a href="tour-packages">Tour Packages</a>
-            <ul class="sub-menu">
-              <li class="dropdown"><a href="golden-triangle-tours">Imperial Golden Triangle Tours</a>
-                <ul class="sub-menu">
-                  <li><a href="golden-triangle-tour-6-days">6 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-with-ranthambore"> GT with Ranthambore</a></li>
-                  <li><a href="golden-triangle-tour-with-rajasthan">GT with Rajasthan</a></li>
-                  <li><a href="golden-triangle-tour-with-varanasi">GT with Varanasi</a></li>
-                  <li><a href="golden-triangle-tour-with-amritsar">GT with Amritsar</a></li>
-                  <li><a href="golden-triangle-tour-with-haridwar-and-rishikesh">GT with Haridwar &amp;
-                      Rishikesh</a>
-                  </li>
-                  <li><a href="golden-triangle-tour-with-orchha-khajuraho">GT with Orchha &amp; Khajuraho</a></li>
-                  <li><a href="golden-triangle-tour-with-orchha-khajuraho-and-varanasi">GT with Orchha, Khajuraho &amp; Varanasi</a></li>
-                  <li><a href="golden-triangle-tour-with-ajmer-and-pushkar">GT with Ajmer &amp; Pushkar</a></li>
-                  <li><a href="golden-triangle-tour-with-udaipur">GT with Udaipur</a></li>
-                  <li><a href="golden-triangle-tour-with-goa">GT with Goa</a></li>
-                  <li><a href="golden-triangle-tour-with-kerala">GT with Kerala</a></li>
-                  <li><a href="golden-triangle-tour-with-mumbai">GT with Mumbai</a></li>
-                </ul>
-              </li>
-              <li class="dropdown rajasthan-tours-col"><a href="rajasthan-tours">Royal Rajasthan Retreats</a>
-                <ul class="sub-menu">
-                  <li><a href="royal-rajasthan-tour">Royal Rajasthan Tour</a></li>
-                  <li><a href="desert-tour-rajasthan">Desert Tour Rajasthan</a></li>
-                  <li><a href="fort-and-palaces-tour">Fort &amp; Palaces Tour</a></li>
-                  <li><a href="rajasthan-heritage-tour">Rajasthan Heritage Tour</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="same-day-tours">Private Day Experiences</a>
-                <ul class="sub-menu">
-                  <li><a href="same-day-agra-tour-by-car">Same Day Agra by Car</a></li>
-                  <li><a href="taj-mahal-day-tour-by-train">Same Day Agra by Train</a></li>
-                  <li><a href="same-day-delhi-tour">Same Day Delhi Tour</a></li>
-                  <li><a href="same-day-jaipur-tour">Same Day Jaipur Tour</a></li>
+            <div class="mega-menu">
+              <div class="mega-menu__inner">
 
-                </ul>
-              </li>
-              <li class="dropdown"><a href="tour-packages#india-discovery">India Discovery Journeys</a>
-                <ul class="sub-menu">
-                  <li><a href="golden-triangle-tour-3-days">3 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-4-days">4 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-5-days">5 Days Golden Triangle</a></li>
-                  <li><a href="desert-tour-rajasthan">5 Days Desert Tour</a></li>
-                  <li><a href="golden-triangle-tour-6-days">6 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-7-days">7 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-with-varanasi">7 Days GT + Varanasi</a></li>
-                  <li><a href="golden-triangle-tour-with-ranthambore">7 Days GT + Ranthambore</a></li>
-                  <li><a href="royal-rajasthan-tour">8 Days Royal Rajasthan</a></li>
-                  <li><a href="rajasthan-heritage-tour">9 Days Heritage Tour</a></li>
-                  <li><a href="fort-and-palaces-tour">10 Days Fort &amp; Palaces</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="tour-packages#grand-india-voyages">Grand India Voyages</a>
-                <ul class="sub-menu">
-                  <li><a href="golden-triangle-tour-with-rajasthan">GT with Full Rajasthan</a></li>
-                  <li><a href="golden-triangle-tour-with-goa">GT with Goa</a></li>
-                  <li><a href="golden-triangle-tour-with-mumbai">GT with Mumbai</a></li>
-                  <li><a href="golden-triangle-tour-with-haridwar-and-rishikesh">GT with Haridwar &amp;
-                      Rishikesh</a>
-                  </li>
-                  <li><a href="golden-triangle-tour-with-amritsar">GT with Amritsar</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="soul-of-india-tours">Soul of India Tours</a>
-                <ul class="sub-menu">
-                  <li><a href="soul-of-india-tours">View All Tours</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="the-maharaja-collection">The Maharaja Collection</a>
-                <ul class="sub-menu">
-                  <li><a href="the-maharaja-collection">View All Tours</a></li>
-                </ul>
-              </li>
-            </ul>
+                <!-- Col 1: Golden Triangle by Duration -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-route"></i>
+                    <span>Golden Triangle</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="golden-triangle-tour-3-days">3 Days</a></li>
+                    <li><a href="golden-triangle-tour-4-days">4 Days</a></li>
+                    <li><a href="golden-triangle-tour-5-days">5 Days <span class="mega-badge">Popular</span></a></li>
+                    <li><a href="golden-triangle-tour-6-days">6 Days</a></li>
+                    <li><a href="golden-triangle-tour-7-days">7 Days</a></li>
+                  </ul>
+                  <a href="golden-triangle-tours" class="mega-col__viewall">View All &rsaquo;</a>
+                </div>
+
+                <!-- Col 2: GT Extensions North -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>GT + North India</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="golden-triangle-tour-with-varanasi">+ Varanasi</a></li>
+                    <li><a href="golden-triangle-tour-with-ranthambore">+ Ranthambore</a></li>
+                    <li><a href="golden-triangle-tour-with-amritsar">+ Amritsar</a></li>
+                    <li><a href="golden-triangle-tour-with-haridwar-and-rishikesh">+ Haridwar &amp; Rishikesh</a></li>
+                    <li><a href="golden-triangle-tour-with-ajmer-and-pushkar">+ Ajmer &amp; Pushkar</a></li>
+                    <li><a href="golden-triangle-tour-with-orchha-khajuraho">+ Orchha &amp; Khajuraho</a></li>
+                    <li><a href="golden-triangle-tour-with-orchha-khajuraho-and-varanasi">+ Orchha, Khajuraho &amp; Varanasi</a></li>
+                  </ul>
+                </div>
+
+                <!-- Col 3: GT Extensions Rajasthan & South -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-landmark"></i>
+                    <span>GT + Rajasthan &amp; South</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="golden-triangle-tour-with-rajasthan">+ Full Rajasthan <span class="mega-badge">Best</span></a></li>
+                    <li><a href="golden-triangle-tour-with-udaipur">+ Udaipur</a></li>
+                    <li><a href="golden-triangle-tour-with-goa">+ Goa</a></li>
+                    <li><a href="golden-triangle-tour-with-kerala">+ Kerala</a></li>
+                    <li><a href="golden-triangle-tour-with-mumbai">+ Mumbai</a></li>
+                  </ul>
+                </div>
+
+                <!-- Divider -->
+                <div class="mega-divider"></div>
+
+                <!-- Col 4: Rajasthan -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-fort-awesome"></i>
+                    <span>Royal Rajasthan</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="royal-rajasthan-tour">Royal Rajasthan Tour</a></li>
+                    <li><a href="desert-tour-rajasthan">Desert Tour</a></li>
+                    <li><a href="fort-and-palaces-tour">Forts &amp; Palaces</a></li>
+                    <li><a href="rajasthan-heritage-tour">Heritage Tour</a></li>
+                  </ul>
+                  <a href="rajasthan-tours" class="mega-col__viewall">View All &rsaquo;</a>
+                </div>
+
+                <!-- Col 5: Same Day -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-sun"></i>
+                    <span>Same Day Tours</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="same-day-agra-tour-by-car">Agra by Car</a></li>
+                    <li><a href="taj-mahal-day-tour-by-train">Agra by Train</a></li>
+                    <li><a href="taj-mahal-sunrise-tour">Taj Sunrise Tour</a></li>
+                    <li><a href="same-day-delhi-tour">Delhi Tour</a></li>
+                    <li><a href="same-day-jaipur-tour">Jaipur Tour</a></li>
+                  </ul>
+                  <a href="same-day-tours" class="mega-col__viewall">View All &rsaquo;</a>
+                </div>
+
+                <!-- Col 6: Premium -->
+                <div class="mega-col">
+                  <div class="mega-col__header">
+                    <i class="fas fa-crown"></i>
+                    <span>Premium Collections</span>
+                  </div>
+                  <ul class="mega-col__list">
+                    <li><a href="soul-of-india-tours">Soul of India Tours</a></li>
+                    <li><a href="the-maharaja-collection">The Maharaja Collection</a></li>
+                  </ul>
+                  <a href="tour-packages" class="mega-col__viewall">All Packages &rsaquo;</a>
+                </div>
+
+              </div>
+            </div>
           </li>
           <li> <a href="photo-gallery">Photo Gallery</a> </li>
           <li> <a href="contact">Contact</a> </li>
@@ -231,141 +257,7 @@
       position: static !important;
     }
 
-    .tour-pkg-dropdown>.sub-menu {
-      display: none;
-      pointer-events: none;
-      position: absolute !important;
-      left: 50% !important;
-      right: auto !important;
-      top: 100% !important;
-      transform: translateX(-50%) !important;
-      min-width: unset !important;
-      width: 100vw !important;
-      max-width: 100vw !important;
-      box-sizing: border-box !important;
-      grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
-      padding: 14px 18px !important;
-      gap: 0;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
-      border-top: 3px solid #ffc202;
-      background: #fff;
-      z-index: 99999;
-      overflow-x: hidden !important;
-      overflow-y: auto !important;
-      max-height: calc(100vh - 170px) !important;
-    }
-
-    /* Open state (JS controlled) */
-    .tour-pkg-dropdown.is-open > .sub-menu {
-      display: grid !important;
-      pointer-events: auto;
-    }
-
-    /* Each category column */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown {
-      min-width: 0 !important;
-      padding: 0 8px;
-      border-right: 1px solid #e0e0e0;
-      /* Darkened division line */
-    }
-
-    /* Specific darker line after Royal Rajasthan Retreats */
-    .tour-pkg-dropdown>.sub-menu>li.rajasthan-tours-col {
-      border-right: 2px solid #555555 !important;
-      /* Darker and thicker separator */
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown:last-child {
-      border-right: none;
-    }
-
-    /* Category heading link → gold badge */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>a {
-      display: block !important;
-      background: #ffc202 !important;
-      color: #000000 !important;
-      /* Changed to black for visibility */
-      font-size: 10px !important;
-      font-weight: 700 !important;
-      text-transform: uppercase !important;
-      letter-spacing: 0.4px;
-      padding: 4px 7px !important;
-      border-radius: 3px;
-      margin-bottom: 8px;
-      min-height: 32px;
-      white-space: normal;
-      line-height: 1.2;
-      text-align: center !important;
-      overflow-wrap: anywhere;
-      /* Keeps the headings centered in their blocks */
-    }
-
-    /* Sub-sub-menu: always visible, static block — override theme scaleY(0) hide */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu {
-      position: static !important;
-      display: block !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-      transform: none !important;
-      transform-origin: unset !important;
-      transition: none !important;
-      box-shadow: none !important;
-      padding: 0 !important;
-      min-width: unset !important;
-      background: transparent !important;
-      border: none !important;
-      border-radius: 0 !important;
-      max-height: none !important;
-      /* Removed fixed height to prevent scrolling */
-      overflow: visible !important;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu::-webkit-scrollbar {
-      width: 3px;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu::-webkit-scrollbar-thumb {
-      background: #ffc202;
-      border-radius: 2px;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li {
-      border-bottom: 1px solid #e0e0e0;
-      /* Darkened the horizontal separators slightly as well */
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a {
-      padding: 4px 4px !important;
-      font-size: 11px !important;
-      color: #444 !important;
-      white-space: normal !important;
-      line-height: 1.3;
-      display: flex !important;
-      align-items: flex-start;
-      justify-content: flex-start !important;
-      /* Forces left alignment */
-      text-align: left !important;
-      /* Forces left alignment */
-      gap: 4px;
-      background: transparent !important;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a::before {
-      content: '›';
-      color: #ffc202;
-      font-size: 14px;
-      flex-shrink: 0;
-      line-height: 1.4;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a:hover {
-      color: #ffc202 !important;
-      padding-left: 8px !important;
-    }
-  }
-
-  /* ── Desktop-Only Menu Styles (Moved from inline to CSS) ── */
-  @media (min-width: 1200px) {
+  /* ── Desktop-Only Menu Styles ── */
     .main-header__nav.main-menu {
       flex: 1 !important;
       display: flex !important;
@@ -380,13 +272,6 @@
       gap: 10px !important;
       margin: 0 !important;
       padding: 0 !important;
-    }
-  }
-
-  /* ── Mobile Dropdown Hiding ── */
-  @media (max-width: 1199px) {
-    .tour-pkg-dropdown>.sub-menu {
-      display: none !important;
     }
   }
 </style>
