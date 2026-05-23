@@ -317,38 +317,32 @@
 
             <!-- INCLUSIONS / EXCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned vehicle with professional driver</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Hotel or airport pick-up and drop-off in Delhi</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Experienced local tour guide in Jaipur</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>All monument entrance fees</p>
+                      <p>Entrance fees</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Lunch at a quality restaurant</p>
+                      <p>All interstate parking fee</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Bottled water during the journey</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All tolls, parking and applicable taxes</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Personalised assistance throughout</p>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
                 <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h2>
+                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>Personal expenses (shopping, tips)</p>

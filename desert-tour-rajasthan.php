@@ -452,7 +452,7 @@
               </div>
             </div>
             <div class="tour-listing-details__included">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">Included/Exclude</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">

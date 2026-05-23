@@ -343,42 +343,33 @@
 
             <!-- INCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Accommodation in 4-star or heritage hotels (upgrades available)</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Daily breakfast throughout</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned car with driver throughout</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>English-speaking local guides in Delhi, Agra, Jaipur, Haridwar and Rishikesh</p>
+                      <p>Entrance fees</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>All monument entrance fees on the itinerary</p>
+                      <p>All interstate parking fee</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Elephant or jeep ride at Amber Fort</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Airport arrival and departure transfers</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All taxes and tolls</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>24/7 on-tour support</p>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
                 <!-- /.col-lg-6 col-md-7 -->
                 <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h2>
+                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International flights and domestic connections</p>

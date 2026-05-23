@@ -427,21 +427,27 @@
               </ul>
             </div>
             <div class="tour-listing-details__included">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">Included / Excluded</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Delhi pickup and departure transfer</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned vehicle with driver</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Delhi, Agra, Jaipur, Ajmer and Pushkar sightseeing route</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Assistance for hotels, guides and monument planning</p>
+                      <p>Entrance fees</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>All interstate parking fee</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->

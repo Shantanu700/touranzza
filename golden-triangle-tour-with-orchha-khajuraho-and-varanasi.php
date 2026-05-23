@@ -504,21 +504,27 @@
               </div>
             </div>
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What's Included & Excluded</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Pick and Drop Service</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>1 Meal Per Day</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Cruise Dinner & Music Event</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Visit 7 Best Places in the City with Group</p>
+                      <p>Entrance fees</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>All interstate parking fee</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->

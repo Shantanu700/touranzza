@@ -446,21 +446,27 @@
             </div>
 
             <div class="tour-listing-details__included">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>9 nights accommodation in selected hotels</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Daily breakfast</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned transport during the Golden Triangle sector</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Local guides in Delhi, Agra, Jaipur &amp; Varanasi</p>
+                      <p>Entrance fees</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>All interstate parking fee</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
@@ -484,7 +490,7 @@
             </div>
 
             <div class="tour-listing-details__included" style="margin-top:-30px;">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
               <div class="row">
                 <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">

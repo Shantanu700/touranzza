@@ -347,44 +347,32 @@
 
             <!-- INCLUSIONS / EXCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Accommodation in 4-star or 5-star hotels and beach resorts</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Daily breakfast throughout</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned car with driver in Delhi, Agra, Jaipur and Goa</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>English-speaking guides in each city</p>
+                      <p>Entrance fees</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Domestic flight: Jaipur to Goa (economy class)</p>
+                      <p>All interstate parking fee</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>All monument entrance fees</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Elephant or jeep ride at Amber Fort</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Mandovi River cruise</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Spice plantation visit with lunch</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All airport transfers and 24/7 on-tour support</p>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
                 <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h2>
+                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International flights</p>

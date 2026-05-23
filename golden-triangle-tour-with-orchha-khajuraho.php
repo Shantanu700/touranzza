@@ -357,41 +357,32 @@
 
             <!-- INCLUSIONS / EXCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>9 nights accommodation in selected heritage and boutique hotels</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Daily breakfast</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned vehicle for all road transfers</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Train from Agra to Jhansi (class as per itinerary)</p>
+                      <p>Entrance fees</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Flight from Khajuraho to Delhi (economy class)</p>
+                      <p>All interstate parking fee</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Local expert guides in Delhi, Jaipur, Agra, Orchha &amp; Khajuraho</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All airport, station and hotel transfers</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All tolls, parking and applicable taxes</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>24-hour assistance throughout the tour</p>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
                 <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h2>
+                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International or domestic airfare unless specified</p>

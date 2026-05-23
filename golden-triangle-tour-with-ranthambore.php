@@ -315,41 +315,32 @@
 
             <!-- INCLUSIONS / EXCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Included</h2>
+              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>6 nights accommodation in selected hotels or heritage stays</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Daily breakfast at hotels</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned vehicle with dedicated driver</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Local guides in Delhi, Agra and Jaipur</p>
+                      <p>Entrance fees</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Expert naturalist guide for Ranthambore safaris</p>
+                      <p>All interstate parking fee</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>2 shared or private jeep safaris in Ranthambore National Park</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Monument entrance assistance</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>All tolls, taxes and parking</p>
-                    </li>
-                    <li> <i class="fas fa-check-circle"></i>
-                      <p>Airport transfers on arrival and departure</p>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
                 <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">What&rsquo;s Not Included</h2>
+                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International flights</p>

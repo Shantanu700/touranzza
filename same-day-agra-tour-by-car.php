@@ -292,16 +292,22 @@
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Private air-conditioned car with professional driver</p>
+                      <p>Accommodation of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Hotel/airport pick-up and drop-off in Delhi</p>
+                      <p>Breakfast</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Expert local tour guide in Agra</p>
+                      <p>Vehicle of your choice</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Bottled water during the journey</p>
+                      <p>Entrance fees</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>All interstate parking fee</p>
+                    </li>
+                    <li> <i class="fas fa-check-circle"></i>
+                      <p>24 * 7 support</p>
                     </li>
                   </ul>
                 </div>
