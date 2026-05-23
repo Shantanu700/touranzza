@@ -1560,17 +1560,18 @@ html, body, .page-wrapper {
         display: none !important;
     }
 
-    /* Make testimonial card images much bigger */
+    /* Make testimonial card images much bigger and properly visible */
     .testimonials-card__image,
     .testimonials-card__image.enlarge-image {
-        width: 110px !important;
-        height: 110px !important;
-        min-width: 110px !important;
-        min-height: 110px !important;
-        margin: 0 auto 14px !important;
-        border-radius: 50% !important;
+        width: 140px !important;
+        height: 160px !important;
+        min-width: 140px !important;
+        min-height: 160px !important;
+        margin: 0 auto 50px !important;
+        border-radius: 12px !important;
         overflow: hidden !important;
         display: block !important;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
     }
 
     .testimonials-card__image img,
@@ -1579,7 +1580,7 @@ html, body, .page-wrapper {
         height: 100% !important;
         object-fit: cover !important;
         object-position: center top !important;
-        border-radius: 50% !important;
+        border-radius: 12px !important;
         display: block !important;
     }
 
@@ -1591,6 +1592,11 @@ html, body, .page-wrapper {
 
     .testimonials-card__meta {
         margin-bottom: 10px !important;
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        border-radius: 6px !important;
+        display: inline-block !important;
     }
 
     .testimonials-card__meta__name {
@@ -1600,6 +1606,7 @@ html, body, .page-wrapper {
     .testimonials-card__quote {
         font-size: 14px !important;
         line-height: 1.7 !important;
+        margin-top: 10px !important;
     }
 }
 /* ─────────────────────────────────────────────────────────────────────── */
