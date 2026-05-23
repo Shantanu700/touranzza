@@ -75,35 +75,35 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhitour2.webp);" aria-label="India Gate New Delhi on Imperial Golden Triangle Tour with Amritsar">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour2.webp" alt="India Gate New Delhi on Imperial Golden Triangle Tour with Amritsar">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/amritsar1.webp"}, {"src": "assets/images/tours/amritsar2.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/agratour1.webp);" aria-label="Taj Mahal and Golden Temple private tour India">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour1.webp" alt="Taj Mahal and Golden Temple private tour India">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/amritsar1.webp"}, {"src": "assets/images/tours/amritsar2.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipur-tours3.webp);" aria-label="Amber Fort Jaipur Rajasthan heritage tour">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours3.webp" alt="Amber Fort Jaipur Rajasthan heritage tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/amritsar1.webp"}, {"src": "assets/images/tours/amritsar2.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/amritsar1.webp);" aria-label="Golden Temple Harmandir Sahib Amritsar spiritual tour">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/amritsar1.webp" alt="Golden Temple Harmandir Sahib Amritsar spiritual tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/amritsar1.webp"}, {"src": "assets/images/tours/amritsar2.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/amritsar2.webp);" aria-label="Wagah Border ceremony Amritsar India Pakistan">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/amritsar2.webp" alt="Wagah Border ceremony Amritsar India Pakistan">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/agratour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/amritsar1.webp"}, {"src": "assets/images/tours/amritsar2.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

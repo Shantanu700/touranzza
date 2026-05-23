@@ -157,7 +157,7 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gt13.jpg);" aria-label="Golden Triangle Tour 6 Days photo 1">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt13.jpg" alt="Golden Triangle Tour 6 Days photo 1">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"}, {"src": "assets/images/gtimages/gt14.jpg"}, {"src": "assets/images/gtimages/gt15.jpg"}, {"src": "assets/images/gtimages/gt16.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -167,7 +167,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gt14.jpg);" aria-label="Golden Triangle Tour 6 Days photo 2">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt14.jpg" alt="Golden Triangle Tour 6 Days photo 2">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"}, {"src": "assets/images/gtimages/gt14.jpg"}, {"src": "assets/images/gtimages/gt15.jpg"}, {"src": "assets/images/gtimages/gt16.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -177,7 +177,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gt15.jpg);" aria-label="Golden Triangle Tour 6 Days photo 3">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt15.jpg" alt="Golden Triangle Tour 6 Days photo 3">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"}, {"src": "assets/images/gtimages/gt14.jpg"}, {"src": "assets/images/gtimages/gt15.jpg"}, {"src": "assets/images/gtimages/gt16.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -187,7 +187,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gt16.jpg);" aria-label="Golden Triangle Tour 6 Days photo 4">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt16.jpg" alt="Golden Triangle Tour 6 Days photo 4">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"}, {"src": "assets/images/gtimages/gt14.jpg"}, {"src": "assets/images/gtimages/gt15.jpg"}, {"src": "assets/images/gtimages/gt16.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

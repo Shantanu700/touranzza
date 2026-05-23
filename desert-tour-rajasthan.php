@@ -150,7 +150,7 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhitour1.webp);" aria-label="listing-details-carousel">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour1.webp" alt="listing-details-carousel">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/mandawa1.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -160,7 +160,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/mandawa2.webp);" aria-label="listing-details-carousel">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/mandawa2.webp" alt="listing-details-carousel">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/mandawa1.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -170,7 +170,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/mandawa1.webp);" aria-label="listing-details-carousel">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/mandawa1.webp" alt="listing-details-carousel">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/mandawa1.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -180,7 +180,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/bikaner-2.webp);" aria-label="listing-details-carousel">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/bikaner-2.webp" alt="listing-details-carousel">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/mandawa1.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -190,7 +190,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaisalmer-1.webp);" aria-label="listing-details-carousel">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaisalmer-1.webp" alt="listing-details-carousel">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/mandawa1.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

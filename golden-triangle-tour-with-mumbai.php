@@ -87,7 +87,7 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours3.webp);" aria-label="Delhi monuments - Red Fort and Humayun's Tomb">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours3.webp" alt="Delhi monuments - Red Fort and Humayun's Tomb">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/mumbai-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -97,7 +97,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/agra-3.webp);" aria-label="Taj Mahal at sunrise, Agra">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-3.webp" alt="Taj Mahal at sunrise, Agra">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/mumbai-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -107,7 +107,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour2.webp);" aria-label="Amber Fort and Jaipur pink city">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour2.webp" alt="Amber Fort and Jaipur pink city">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/mumbai-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -117,7 +117,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour1.webp);" aria-label="Hawa Mahal, Jaipur">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour1.webp" alt="Hawa Mahal, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/mumbai-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -127,7 +127,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/mumbai-tours.webp);" aria-label="Gateway of India and Marine Drive, Mumbai">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/mumbai-tours.webp" alt="Gateway of India and Marine Drive, Mumbai">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/mumbai-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
