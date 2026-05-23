@@ -184,6 +184,17 @@
     display: none !important;
   }
 
+  /* Prevent theme's own hover JS from showing sub-menu on tour-pkg-dropdown */
+  /* The custom JS handles this — theme must not interfere */
+  .tour-pkg-dropdown > .sub-menu {
+    display: none !important;
+    pointer-events: none !important;
+  }
+  .tour-pkg-dropdown.is-open > .sub-menu {
+    display: grid !important;
+    pointer-events: auto !important;
+  }
+
   /* ── Header Width Constraint ── */
   .main-header .container {
     max-width: 1200px !important;
