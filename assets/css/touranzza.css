@@ -1203,12 +1203,13 @@ html, body, .page-wrapper {
     left: 0 !important;
     height: 100% !important;
     width: 100% !important;
-    object-fit: cover !important;
+    object-fit: contain !important;
     object-position: center center !important;
     transform: none !important;
     transition: none !important;
     border-radius: 0 !important;
     display: block !important;
+    background-color: #000 !important;
 }
 
 @media (max-width: 991px) {
@@ -1495,3 +1496,111 @@ html, body, .page-wrapper {
         font-size: 18px !important;
     }
 }
+
+/* ── Mobile fixes: footer logo, destination alignment, section spacing ── */
+@media (max-width: 767px) {
+
+    /* Footer logo — smaller on mobile */
+    .main-footer__logo-box img {
+        max-width: 120px !important;
+        height: auto !important;
+    }
+    .main-footer__logo-box p {
+        font-size: 18px !important;
+    }
+
+    /* Destination info block — fix right-shift, full width, left aligned */
+    .tour-listing-details__destination-right {
+        padding-left: 0 !important;
+        width: 100% !important;
+        margin-top: 16px !important;
+    }
+
+    .tour-listing-details__destination-info {
+        padding: 10px 0 !important;
+        gap: 10px !important;
+        width: 100% !important;
+        justify-content: flex-start !important;
+    }
+
+    /* Section spacing — breathable gaps between every section */
+    .tour-listing-details__overview,
+    .tour-listing-details__included,
+    .tour-listing-details__plan {
+        margin-bottom: 28px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .tour-listing-details__overview {
+        border-bottom: 1px solid #ebebeb;
+    }
+
+    /* Ratings box — stack vertically on mobile */
+    .tour-listing-details__ratings-box {
+        margin-bottom: 8px !important;
+    }
+
+    /* Container padding so content doesn't touch screen edges */
+    .tour-listing-details .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    /* Destination section padding */
+    .tour-listing-details__destination {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+/* ── Testimonials mobile fixes ─────────────────────────────────────────── */
+@media (max-width: 767px) {
+
+    /* Hide nav arrows — auto-slide only on mobile */
+    .testimonial-one__carousel .owl-nav {
+        display: none !important;
+    }
+
+    /* Make testimonial card images much bigger */
+    .testimonials-card__image,
+    .testimonials-card__image.enlarge-image {
+        width: 110px !important;
+        height: 110px !important;
+        min-width: 110px !important;
+        min-height: 110px !important;
+        margin: 0 auto 14px !important;
+        border-radius: 50% !important;
+        overflow: hidden !important;
+        display: block !important;
+    }
+
+    .testimonials-card__image img,
+    .testimonials-card__image.enlarge-image img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center top !important;
+        border-radius: 50% !important;
+        display: block !important;
+    }
+
+    /* Center the card content */
+    .testimonials-card.centered-card {
+        text-align: center !important;
+        padding: 20px 16px !important;
+    }
+
+    .testimonials-card__meta {
+        margin-bottom: 10px !important;
+    }
+
+    .testimonials-card__meta__name {
+        font-size: 16px !important;
+    }
+
+    .testimonials-card__quote {
+        font-size: 14px !important;
+        line-height: 1.7 !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────── */
