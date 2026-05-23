@@ -75,42 +75,42 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour2.webp" alt="Private car and chauffeur for 12-day Royal Rajasthan Retreats">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhitour2.webp);" aria-label="Private car and chauffeur for 12-day Royal Rajasthan Retreats">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours1.webp" alt="Taj Mahal at dawn Agra on Rajasthan heritage tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours1.webp);" aria-label="Taj Mahal at dawn Agra on Rajasthan heritage tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours3.webp" alt="Amber Fort above Maota Lake near Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours3.webp);" aria-label="Amber Fort above Maota Lake near Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/mandawa2.webp" alt="Mandawa painted haveli frescoes Shekhawati region Rajasthan">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/mandawa2.webp);" aria-label="Mandawa painted haveli frescoes Shekhawati region Rajasthan">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/bikaner-2.webp" alt="Junagarh Fort red sandstone interiors Bikaner">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/bikaner-2.webp);" aria-label="Junagarh Fort red sandstone interiors Bikaner">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaisalmer-1.webp" alt="Jaisalmer Golden Fort ramparts at sunset Rajasthan">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaisalmer-1.webp);" aria-label="Jaisalmer Golden Fort ramparts at sunset Rajasthan">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour2.webp"}, {"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/mandawa2.webp"}, {"src": "assets/images/tours/bikaner-2.webp"}, {"src": "assets/images/tours/jaisalmer-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

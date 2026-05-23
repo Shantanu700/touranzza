@@ -87,35 +87,35 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar1.jpg.jpeg" alt="Haridwar Ganga Aarti">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gallery/haridwar1.jpg.jpeg);" aria-label="Haridwar Ganga Aarti">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar2.jpg.jpeg" alt="Rishikesh River Ganges">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gallery/haridwar2.jpg.jpeg);" aria-label="Rishikesh River Ganges">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar3.jpg.jpeg" alt="Haridwar Temples">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gallery/haridwar3.jpg.jpeg);" aria-label="Haridwar Temples">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar4.jpg.jpeg" alt="Rishikesh Yoga Capital">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gallery/haridwar4.jpg.jpeg);" aria-label="Rishikesh Yoga Capital">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gallery/haridwar5.jpg.jpeg" alt="Haridwar Rishikesh Tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gallery/haridwar5.jpg.jpeg);" aria-label="Haridwar Rishikesh Tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gallery/haridwar1.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar2.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar3.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar4.jpg.jpeg"}, {"src": "assets/images/gallery/haridwar5.jpg.jpeg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

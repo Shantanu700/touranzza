@@ -75,35 +75,35 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore1.jpg" alt="Golden Triangle Tour with Ranthambore photo 1">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gtranthambore1.jpg);" aria-label="Golden Triangle Tour with Ranthambore photo 1">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gtranthambore3.jpg"}, {"src": "assets/images/gtimages/gtranthambore4.jpg"}, {"src": "assets/images/gtimages/gtranthambore5.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore2.jpg" alt="Golden Triangle Tour with Ranthambore photo 2">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gtranthambore2.jpg);" aria-label="Golden Triangle Tour with Ranthambore photo 2">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gtranthambore3.jpg"}, {"src": "assets/images/gtimages/gtranthambore4.jpg"}, {"src": "assets/images/gtimages/gtranthambore5.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore3.jpg" alt="Golden Triangle Tour with Ranthambore photo 3">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gtranthambore3.jpg);" aria-label="Golden Triangle Tour with Ranthambore photo 3">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gtranthambore3.jpg"}, {"src": "assets/images/gtimages/gtranthambore4.jpg"}, {"src": "assets/images/gtimages/gtranthambore5.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore4.jpg" alt="Golden Triangle Tour with Ranthambore photo 4">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gtranthambore4.jpg);" aria-label="Golden Triangle Tour with Ranthambore photo 4">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gtranthambore3.jpg"}, {"src": "assets/images/gtimages/gtranthambore4.jpg"}, {"src": "assets/images/gtimages/gtranthambore5.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore5.jpg" alt="Golden Triangle Tour with Ranthambore photo 5">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/gtimages/gtranthambore5.jpg);" aria-label="Golden Triangle Tour with Ranthambore photo 5">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gtranthambore3.jpg"}, {"src": "assets/images/gtimages/gtranthambore4.jpg"}, {"src": "assets/images/gtimages/gtranthambore5.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

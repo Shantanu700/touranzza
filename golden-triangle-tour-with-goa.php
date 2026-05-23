@@ -87,40 +87,35 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours1.webp"
-                alt="Red Fort and Old Delhi sightseeing">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours1.webp);" aria-label="Red Fort and Old Delhi sightseeing">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}, {"src": "assets/images/tours/goa-tour.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours3.webp"
-                alt="Humayun's Tomb and Qutub Minar, Delhi">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours3.webp);" aria-label="Humayun's Tomb and Qutub Minar, Delhi">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}, {"src": "assets/images/tours/goa-tour.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-2.webp"
-                alt="Taj Mahal, Agra — sunrise view">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/agra-2.webp);" aria-label="Taj Mahal, Agra — sunrise view">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}, {"src": "assets/images/tours/goa-tour.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours1.webp"
-                alt="Amber Fort and Jaipur pink city">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipur-tours1.webp);" aria-label="Amber Fort and Jaipur pink city">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}, {"src": "assets/images/tours/goa-tour.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/goa-tour.webp"
-                alt="Goa beaches and Portuguese colonial churches">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/goa-tour.webp);" aria-label="Goa beaches and Portuguese colonial churches">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours1.webp"}, {"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}, {"src": "assets/images/tours/goa-tour.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

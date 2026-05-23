@@ -1195,6 +1195,9 @@ html, body, .page-wrapper {
     position: relative !important;
     border-radius: 0 !important;
     width: 100% !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
 }
 
 .tour-listing-details__top-carousel-image img {
@@ -1203,13 +1206,13 @@ html, body, .page-wrapper {
     left: 0 !important;
     height: 100% !important;
     width: 100% !important;
-    object-fit: contain !important;
+    object-fit: cover !important;
     object-position: center center !important;
     transform: none !important;
     transition: none !important;
     border-radius: 0 !important;
     display: block !important;
-    background-color: #000 !important;
+    background-color: transparent !important;
 }
 
 @media (max-width: 991px) {

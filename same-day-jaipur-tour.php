@@ -75,35 +75,35 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour2.webp" alt="Amber Fort, Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour2.webp);" aria-label="Amber Fort, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/jaipur-tours2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour1.webp" alt="Hawa Mahal — Wind Palace, Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour1.webp);" aria-label="Hawa Mahal — Wind Palace, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/jaipur-tours2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours3.webp" alt="City Palace museum and courtyards, Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipur-tours3.webp);" aria-label="City Palace museum and courtyards, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/jaipur-tours2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours2.webp" alt="Jantar Mantar UNESCO site, Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipur-tours2.webp);" aria-label="Jantar Mantar UNESCO site, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/jaipur-tours2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipur-tours1.webp" alt="Jal Mahal water palace, Man Sagar Lake, Jaipur">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipur-tours1.webp);" aria-label="Jal Mahal water palace, Man Sagar Lake, Jaipur">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/jaipur-tours3.webp"}, {"src": "assets/images/tours/jaipur-tours2.webp"}, {"src": "assets/images/tours/jaipur-tours1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

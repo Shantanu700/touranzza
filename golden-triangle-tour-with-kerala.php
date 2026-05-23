@@ -199,8 +199,7 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhi-tours3.webp"
-                alt="Delhi sightseeing on Golden Triangle with Kerala tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhi-tours3.webp);" aria-label="Delhi sightseeing on Golden Triangle with Kerala tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/kerala-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -210,8 +209,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-3.webp"
-                alt="Taj Mahal sunrise visit in Agra India">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/agra-3.webp);" aria-label="Taj Mahal sunrise visit in Agra India">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/kerala-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -221,8 +219,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour2.webp"
-                alt="Jaipur Amer Fort sightseeing on India tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour2.webp);" aria-label="Jaipur Amer Fort sightseeing on India tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/kerala-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -232,8 +229,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour1.webp"
-                alt="Jaipur City Palace and heritage tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour1.webp);" aria-label="Jaipur City Palace and heritage tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/kerala-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -243,8 +239,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/kerala-tours.webp"
-                alt="Kerala backwaters and tropical South India tour">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/kerala-tours.webp);" aria-label="Kerala backwaters and tropical South India tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhi-tours3.webp"}, {"src": "assets/images/tours/agra-3.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/jaipurtour1.webp"}, {"src": "assets/images/tours/kerala-tours.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>

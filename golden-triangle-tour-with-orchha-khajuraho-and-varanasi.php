@@ -196,8 +196,7 @@
         }
         }'>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/delhitour1.webp"
-                alt="Delhi sightseeing - India Gate and Humayun's Tomb">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/delhitour1.webp);" aria-label="Delhi sightseeing - India Gate and Humayun's Tomb">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -207,8 +206,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agratour2.webp"
-                alt="Taj Mahal Agra - iconic white marble mausoleum">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/agratour2.webp);" aria-label="Taj Mahal Agra - iconic white marble mausoleum">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -218,8 +216,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/jaipurtour2.webp"
-                alt="Jaipur city palace and Hawa Mahal pink architecture">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/jaipurtour2.webp);" aria-label="Jaipur city palace and Hawa Mahal pink architecture">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -229,8 +226,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/khajuraho-tour.webp"
-                alt="Khajuraho temples - UNESCO world heritage monuments">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/khajuraho-tour.webp);" aria-label="Khajuraho temples - UNESCO world heritage monuments">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -240,8 +236,7 @@
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/orchha-tour.webp"
-                alt="Orchha palace and temples - royal heritage site">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/orchha-tour.webp);" aria-label="Orchha palace and temples - royal heritage site">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
@@ -250,8 +245,7 @@
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/varanasi-tours-1.webp"
-                alt="Varanasi ghats on River Ganges - spiritual India">
+            <div class="tour-listing-details__top-carousel-image" style="background-image:url(assets/images/tours/varanasi-tours-1.webp);" aria-label="Varanasi ghats on River Ganges - spiritual India">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
                   data-gallery-options='{"items": [{"src": "assets/images/tours/delhitour1.webp"}, {"src": "assets/images/tours/agratour2.webp"}, {"src": "assets/images/tours/jaipurtour2.webp"}, {"src": "assets/images/tours/khajuraho-tour.webp"}, {"src": "assets/images/tours/orchha-tour.webp"}, {"src": "assets/images/tours/varanasi-tours-1.webp"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
