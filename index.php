@@ -1973,63 +1973,6 @@
 
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
-      <section class="home-seo">
-        <div class="container">
-          <div class="home-seo__card">
-            <p class="home-seo__tagline">Private India Travel, Planned With Care</p>
-            <h1 class="home-seo__title">Luxury India Tours by Touranzza</h1>
-
-            <details class="home-seo__details">
-              <p class="home-seo__text home-seo__preview">
-                Touranzza creates private luxury India tours for travelers who want more than a rushed checklist. Our
-                itineraries bring together personal drivers, handpicked hotels, expert local guides and thoughtful
-                pacing across India's most rewarding routes.
-              </p>
-
-              <summary class="home-seo__summary">
-                Read more
-                <span class="home-seo__chev" aria-hidden="true"><span class="icon-right-arrow"></span></span>
-              </summary>
-
-              <div class="home-seo__full">
-                <p class="home-seo__text">
-                  First-time visitors often begin with the
-                  <a href="golden-triangle-tour-3-days">Golden Triangle Tour 3 Days</a>, the
-                  <a href="golden-triangle-tour-4-days">Golden Triangle Tour 4 Days</a> or the more relaxed
-                  <a href="golden-triangle-tour-6-days">Golden Triangle Tour 6 Days</a>, each covering Delhi, Agra, Jaipur
-                  and the Taj Mahal with private comfort.
-                </p>
-                <p class="home-seo__text">
-                  For travelers who want deeper culture, we extend the route into Rajasthan's palaces, desert towns and
-                  sacred cities. You can pair the Taj Mahal with the
-                  <a href="desert-tour-rajasthan">Rajasthan Desert Tour</a>, explore forts and lake palaces on the
-                  <a href="golden-triangle-tour-with-rajasthan">Golden Triangle with Rajasthan</a>, or choose a short
-                  <a href="same-day-agra-tour-by-car">Same Day Agra Tour by Car</a> when time is limited. Every trip can be
-                  tailored around your hotel style, guide language, pickup city, flight schedule and preferred pace.
-                </p>
-
-                <div class="home-seo__faq" aria-label="Frequently asked questions">
-                  <details>
-                    <summary>Which Touranzza tour should I choose first?</summary>
-                    <p>
-                      Choose a Golden Triangle tour if this is your first India visit. Choose a Rajasthan tour if you want
-                      forts, desert landscapes and palace hotels. Choose a same-day tour if you are short on time but want a
-                      private Taj Mahal, Delhi or Jaipur experience.
-                    </p>
-                  </details>
-                  <details>
-                    <summary>Are Touranzza itineraries private and customizable?</summary>
-                    <p>
-                      Yes. Most Touranzza journeys are planned as private tours with flexible routing, vehicle type, hotel
-                      category, guides and add-on experiences.
-                    </p>
-                  </details>
-                </div>
-              </div>
-            </details>
-          </div>
-        </div>
-      </section>
       <!-- Testimonial One Start -->
       <section class="testimonial-one testimonial-one--home"
         style="padding-top: 60px !important; background: transparent !important;">
@@ -2208,6 +2151,68 @@
         </div>
       </section>
       <!-- Testimonial One End -->
+
+      <!-- SEO + Testimonial combined translucent box -->
+      <div class="home-seo-combined">
+        <section class="home-seo">
+          <div class="container">
+            <div class="home-seo__card">
+              <p class="home-seo__tagline">Private India Travel, Planned With Care</p>
+              <h1 class="home-seo__title">Luxury India Tours by Touranzza</h1>
+
+              <details class="home-seo__details">
+                <p class="home-seo__text home-seo__preview">
+                  Touranzza creates private luxury India tours for travelers who want more than a rushed checklist. Our
+                  itineraries bring together personal drivers, handpicked hotels, expert local guides and thoughtful
+                  pacing across India's most rewarding routes.
+                </p>
+
+                <summary class="home-seo__summary">
+                  Read more
+                  <span class="home-seo__chev" aria-hidden="true"><span class="icon-right-arrow"></span></span>
+                </summary>
+
+                <div class="home-seo__full">
+                  <p class="home-seo__text">
+                    First-time visitors often begin with the
+                    <a href="golden-triangle-tour-3-days">Golden Triangle Tour 3 Days</a>, the
+                    <a href="golden-triangle-tour-4-days">Golden Triangle Tour 4 Days</a> or the more relaxed
+                    <a href="golden-triangle-tour-6-days">Golden Triangle Tour 6 Days</a>, each covering Delhi, Agra, Jaipur
+                    and the Taj Mahal with private comfort.
+                  </p>
+                  <p class="home-seo__text">
+                    For travelers who want deeper culture, we extend the route into Rajasthan's palaces, desert towns and
+                    sacred cities. You can pair the Taj Mahal with the
+                    <a href="desert-tour-rajasthan">Rajasthan Desert Tour</a>, explore forts and lake palaces on the
+                    <a href="golden-triangle-tour-with-rajasthan">Golden Triangle with Rajasthan</a>, or choose a short
+                    <a href="same-day-agra-tour-by-car">Same Day Agra Tour by Car</a> when time is limited. Every trip can be
+                    tailored around your hotel style, guide language, pickup city, flight schedule and preferred pace.
+                  </p>
+
+                  <div class="home-seo__faq" aria-label="Frequently asked questions">
+                    <details>
+                      <summary>Which Touranzza tour should I choose first?</summary>
+                      <p>
+                        Choose a Golden Triangle tour if this is your first India visit. Choose a Rajasthan tour if you want
+                        forts, desert landscapes and palace hotels. Choose a same-day tour if you are short on time but want a
+                        private Taj Mahal, Delhi or Jaipur experience.
+                      </p>
+                    </details>
+                    <details>
+                      <summary>Are Touranzza itineraries private and customizable?</summary>
+                      <p>
+                        Yes. Most Touranzza journeys are planned as private tours with flexible routing, vehicle type, hotel
+                        category, guides and add-on experiences.
+                      </p>
+                    </details>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- /SEO + Testimonial combined box -->
     </div>
     <!-- MANDALA BACKGROUND WRAPPER END -->
     <?php include("footer.php") ?>
