@@ -126,14 +126,7 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Rajasthan Heritage Tour &mdash; 12 Days Across the Golden Triangle &amp; Desert Cities</h1>
               </div>
-              <div class="tour-listing-details__ratings-box"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
-                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
-                <p class="tour-listing-details__ratings-text">5.0 Superb</p>
-              </div>
-              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
-                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
-                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
-                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+                <p class="tour-listing-details__ratings-text">5.0</p>
               </div>
             </div>
             <div class="col-xl-6">
@@ -150,6 +143,16 @@
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Mandawa &rsaquo; Bikaner &rsaquo; Jaisalmer &rsaquo; Jodhpur &rsaquo; Udaipur &rsaquo; Pushkar &rsaquo; Jaipur &rsaquo; Agra &rsaquo; Delhi</h4>
                   </div>
                 </div>
+              </div>
+            
+              <div class="tour-listing-details__ratings-box" style="margin-top:12px;"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:8px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0</p>
               </div>
             </div>
           </div>

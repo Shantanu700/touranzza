@@ -135,15 +135,7 @@
                 <h1 class="tour-listing-details__dastination-title">Golden Triangle with Haridwar &amp; Rishikesh &mdash; 8 Days from Monuments to the Mountains</h1>
               </div>
               <!-- /.tour-listing-details__daetination-left -->
-              <div class="tour-listing-details__ratings-box"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
-                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
-                    class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
-                <p class="tour-listing-details__ratings-text">5.0 Superb</p>
-              </div>
-              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:10px;">
-                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
-                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
-                <p class="tour-listing-details__ratings-text">5.0 Google</p>
+                <p class="tour-listing-details__ratings-text">5.0</p>
               </div>
               <!-- /.tour-listing-details__ratings-box -->
             </div>
@@ -169,6 +161,15 @@
                 <!-- /.tour-listing-details__destination-info -->
               </div>
               <!-- /.tour-listing-details__destination-right -->
+              <div class="tour-listing-details__ratings-box" style="margin-top:12px;"><i class="fab fa-tripadvisor tripadvisor-icon"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0</p>
+              </div>
+              <div class="tour-listing-details__ratings-box google-ratings-box" style="margin-top:8px;">
+                <i class="fab fa-google google-icon" style="color:#4285F4; font-size:24px; margin-right:12px;"></i>
+                <div class="trevlo-ratings"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </div>
+                <p class="tour-listing-details__ratings-text">5.0</p>
+              </div>
             </div>
             <!-- /.col-xl-8 -->
           </div>
