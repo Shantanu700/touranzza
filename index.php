@@ -743,6 +743,7 @@
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
       <!-- Tour Listing One Start -->
+      <div class="tour-listing-glass-wrap">
       <section class="tour-listing-one" style="background-image: url(assets/images/backgrounds/tour-bg-1.webp);">
         <div class="container">
           <div class="sec-title text-center">
@@ -762,7 +763,7 @@
             "loop":true,
             "autoplay": 3000,
             "nav":true,
-            "dots":true,
+            "dots":false,
             "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
             "responsive":{
                 "0":{
@@ -819,10 +820,6 @@
                     Jaipur. Experience private guided tours of the Taj Mahal and royal forts with seamless five-star
                     transfers.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Jaipur - Delhi</p>
                     </div>
@@ -894,10 +891,6 @@
                     Jaipur’s Royal Palaces, and Delhi’s heritage. Perfect for travelers seeking a premium, fast-paced
                     introduction to India’s splendor.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Jaipur - Delhi</p>
                     </div>
@@ -969,10 +962,6 @@
                     in the Pink City and Agra. Enjoy private guided heritage walks and leisure time at India’s finest
                     five-star luxury hotels</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Jaipur - Delhi</p>
                     </div>
@@ -1043,10 +1032,6 @@
                     birthplace with private guided temple tours. A soulful addition to your luxury heritage circuit
                     through Delhi, Agra, and Jaipur.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Jaipur - Delhi</p>
                     </div>
@@ -1119,10 +1104,6 @@
                     Triangle with the ancient soul of Varanasi. Discover timeless spirituality along the private ghats
                     of the Ganges.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Jaipur - Agra - Varanasi - Delhi
                       </p>
@@ -1196,10 +1177,6 @@
                     Pushkar. A perfect blend of royalty and soulsum
                     agtilable.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Ajmer - Pushkar - Jaipur</p>
                     </div>
@@ -1271,10 +1248,6 @@
                     forts of Udaipur, the golden sands of Jaisalmer, and the iconic Taj Mahal. Witness the grandeur of
                     Rajasthan with private guided tours and palace stays.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Fatehpur Sikri - Jaipur -
                         Ajmer
@@ -1349,10 +1322,6 @@
                     Ranthambore National Park. The perfect itinerary for travelers seeking both royal history and wild
                     adventure.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.5 (30 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Fatehpur Sikri - Jaipur -
                         Ranthambore</p>
@@ -1426,10 +1395,6 @@
                     majesty of the Golden Temple. A curated blend of Mughal architecture and the serene traditions of
                     Punjab.</p>
                   <div class="tour-listing__card-inner-content">
-                    <div class="tour-listing__card-review-box"> <span class="icon-star"></span>
-                      <p class="tour-listing__card-review-text text-small">4.7 (28 Reviews)</p>
-                    </div>
-                    <!-- /.tour-listing__card-review-box -->
                     <div class="tour-listing__card-location-box"> <span class="icon-location-1"></span>
                       <p class="tour-listing__card-location-text text-small">Delhi - Agra - Jaipur - Amritsar - Delhi
                       </p>
@@ -1464,6 +1429,7 @@
         </div>
         <!-- /.container -->
       </section>
+      </div><!-- /.tour-listing-glass-wrap -->
       <!-- Tour Listing One End -->
 
 
@@ -1629,7 +1595,7 @@
             "loop":false,
             "autoplay": 6000,
             "nav":false,
-            "dots":true,
+            "dots":false,
             "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
             "responsive":{
                 "0":{

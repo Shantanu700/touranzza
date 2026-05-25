@@ -1798,3 +1798,23 @@ html, body, .page-wrapper {
     border: none !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Tour listing slider translucent glass wrapper ──────────────────────── */
+.tour-listing-glass-wrap {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+}
+
+.tour-listing-glass-wrap .tour-listing-one {
+    background: transparent !important;
+}
+
+/* Hide owl dots on tour listing carousel */
+.tour-listing-one__carousel .owl-dots {
+    display: none !important;
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
