@@ -162,7 +162,6 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Taj Mahal Day Tour by Gatimaan Express Train</h1>
               </div>
-              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">

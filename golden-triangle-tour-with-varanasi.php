@@ -195,7 +195,6 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Imperial Golden Triangle Tour with Varanasi &mdash; 10 Days Through India&rsquo;s Icons, Sacred Ganges &amp; Timeless Heritage</h1>
               </div>
-              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">

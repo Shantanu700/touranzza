@@ -123,7 +123,6 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Royal Rajasthan Tour &mdash; 9 Days Through Delhi, Agra &amp; the Land of Kings</h1>
               </div>
-              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
