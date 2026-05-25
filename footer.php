@@ -266,3 +266,21 @@
   }
 
 </script>
+
+<script>
+/* ── Mobile: collapse all itinerary accordion items on load ── */
+(function() {
+  if (window.innerWidth <= 767) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var itineraryAccordions = document.querySelectorAll(
+        '.trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion'
+      );
+      itineraryAccordions.forEach(function(acc) {
+        acc.classList.remove('active');
+        var content = acc.querySelector('.accrodion-content');
+        if (content) content.style.display = 'none';
+      });
+    });
+  }
+})();
+</script>

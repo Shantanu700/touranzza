@@ -1910,3 +1910,57 @@ html, body, .page-wrapper {
     line-height: 1.4 !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── FAQ arrows: ensure visible on FAQ sections ─────────────────────────── */
+/* FAQ grp names are anything except tour-listing-details__faq (itinerary) */
+[data-grp-name]:not([data-grp-name="tour-listing-details__faq"]) .accrodion-title h4::after {
+    content: "\f078" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    font-size: 13px !important;
+    color: #ffc202 !important;
+    transition: transform 0.3s ease !important;
+}
+
+[data-grp-name]:not([data-grp-name="tour-listing-details__faq"]) .accrodion.active .accrodion-title h4::after {
+    transform: translateY(-50%) rotate(180deg) !important;
+    color: #ffc202 !important;
+}
+
+/* ── Itinerary on DESKTOP: hide collapse arrow ───────────────────────────── */
+@media (min-width: 768px) {
+    [data-grp-name="tour-listing-details__faq"] .accrodion-title h4::after {
+        display: none !important;
+    }
+    /* Keep all itinerary items open on desktop */
+    [data-grp-name="tour-listing-details__faq"] .accrodion-content {
+        display: block !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+}
+
+/* ── Itinerary on MOBILE: collapse all by default ───────────────────────── */
+@media (max-width: 767px) {
+    [data-grp-name="tour-listing-details__faq"] .accrodion-title h4::after {
+        content: "\f078" !important;
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+        position: absolute !important;
+        right: 0 !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        font-size: 13px !important;
+        color: #ffc202 !important;
+        display: block !important;
+        transition: transform 0.3s ease !important;
+    }
+    [data-grp-name="tour-listing-details__faq"] .accrodion.active .accrodion-title h4::after {
+        transform: translateY(-50%) rotate(180deg) !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
