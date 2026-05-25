@@ -1902,42 +1902,40 @@ html, body, .page-wrapper {
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-/* ── FAQ accordion title font size — smaller across all tour pages ───────── */
-.tour-listing-details__faq .accrodion-title h4,
-.tour-listing-details__faq .accrodion-title h3 {
+/* ── Accordion: FAQ arrows + Itinerary behaviour ────────────────────────── */
+
+/* All accordion h4 titles — ensure position relative for ::after */
+.tour-listing-details__faq .accrodion-title h4 {
+    position: relative !important;
+    padding-right: 25px !important;
     font-size: 15px !important;
     font-weight: 600 !important;
     line-height: 1.4 !important;
 }
-/* ─────────────────────────────────────────────────────────────────────────── */
 
-/* ── FAQ arrows: ensure visible on FAQ sections ─────────────────────────── */
-/* FAQ grp names are anything except tour-listing-details__faq (itinerary) */
-[data-grp-name]:not([data-grp-name="tour-listing-details__faq"]) .accrodion-title h4::after {
-    content: "\f078" !important;
+/* ── FAQs: yellow chevron arrow on ALL screen sizes ─────────────────────── */
+.trevlo-accrodion:not([data-grp-name="tour-listing-details__faq"]) .accrodion .accrodion-title h4::after {
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
+    content: "\f078" !important;
     position: absolute !important;
     right: 0 !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
     font-size: 13px !important;
     color: #ffc202 !important;
+    display: inline-block !important;
     transition: transform 0.3s ease !important;
 }
-
-[data-grp-name]:not([data-grp-name="tour-listing-details__faq"]) .accrodion.active .accrodion-title h4::after {
+.trevlo-accrodion:not([data-grp-name="tour-listing-details__faq"]) .accrodion.active .accrodion-title h4::after {
     transform: translateY(-50%) rotate(180deg) !important;
-    color: #ffc202 !important;
 }
 
-/* ── Itinerary on DESKTOP: always open, no arrow ────────────────────────── */
+/* ── Itinerary DESKTOP: always open, no arrow ───────────────────────────── */
 @media (min-width: 768px) {
-    /* Hide arrow ONLY on the main itinerary accordion (grp = tour-listing-details__faq) */
-    .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion-title h4::after {
+    .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion .accrodion-title h4::after {
         display: none !important;
     }
-    /* Force itinerary items open on desktop */
     .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion-content {
         display: block !important;
         height: auto !important;
@@ -1945,19 +1943,19 @@ html, body, .page-wrapper {
     }
 }
 
-/* ── Itinerary on MOBILE: collapsible with arrow, closed by default ──────── */
+/* ── Itinerary MOBILE: collapsible, arrow shown ─────────────────────────── */
 @media (max-width: 767px) {
-    .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion-title h4::after {
-        display: block !important;
-        content: "\f078" !important;
+    .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion .accrodion-title h4::after {
         font-family: "Font Awesome 5 Free" !important;
         font-weight: 900 !important;
+        content: "\f078" !important;
         position: absolute !important;
         right: 0 !important;
         top: 50% !important;
         transform: translateY(-50%) !important;
         font-size: 13px !important;
         color: #ffc202 !important;
+        display: inline-block !important;
         transition: transform 0.3s ease !important;
     }
     .trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion.active .accrodion-title h4::after {
@@ -1972,24 +1970,5 @@ html, body, .page-wrapper {
         padding-left: 0 !important;
         margin-top: 12px !important;
     }
-}
-
-/* ── FAQs: ensure arrow visible on ALL screen sizes ─────────────────────── */
-/* Target all non-itinerary accordion groups */
-.trevlo-accrodion:not([data-grp-name="tour-listing-details__faq"]) .accrodion-title h4::after {
-    display: block !important;
-    content: "\f078" !important;
-    font-family: "Font Awesome 5 Free" !important;
-    font-weight: 900 !important;
-    position: absolute !important;
-    right: 0 !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    font-size: 13px !important;
-    color: #ffc202 !important;
-    transition: transform 0.3s ease !important;
-}
-.trevlo-accrodion:not([data-grp-name="tour-listing-details__faq"]) .accrodion.active .accrodion-title h4::after {
-    transform: translateY(-50%) rotate(180deg) !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
