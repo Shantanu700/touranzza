@@ -186,7 +186,6 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Imperial Golden Triangle Tour with Rajasthan &mdash; 9 Days Through India&rsquo;s Icons, Royal Cities &amp; Desert Landscapes</h1>
               </div>
-                <p class="tour-listing-details__ratings-text">5.0</p>
               </div>
             </div>
             <div class="col-xl-6">

@@ -148,10 +148,7 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Golden Triangle with Mumbai &mdash; 7 Days from Monuments to Metropolis</h1>
               </div>
-              <!-- /.tour-listing-details__daetination-left -->
-                <p class="tour-listing-details__ratings-text">5.0</p>
-              </div>
-              <!-- /.tour-listing-details__ratings-box -->
+              <!-- /.tour-listing-details__daetination-left --></div>
             </div>
   
           <!-- /.col-xl-4 -->

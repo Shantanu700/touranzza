@@ -119,7 +119,6 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Rajasthan Forts &amp; Palaces Tour &mdash; 11 Days Through the Architecture of the Rajputs</h1>
               </div>
-                <p class="tour-listing-details__ratings-text">5.0</p>
               </div>
             </div>
             <div class="col-xl-6">

@@ -125,9 +125,7 @@
             <div class="col-xl-6 wow animated fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Golden Triangle with Orchha &amp; Khajuraho &mdash; 10 Days Through India&rsquo;s Architectural Masterpieces</h1>
-              </div>
-                <p class="tour-listing-details__ratings-text">5.0</p>
-              </div>
+              </div></div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">

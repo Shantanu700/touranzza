@@ -118,9 +118,7 @@
             <div class="col-xl-6 wow animated fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Same Day Agra Tour by Private Car from Delhi</h1>
-              </div>
-                <p class="tour-listing-details__ratings-text">5.0</p>
-              </div>
+              </div></div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">

@@ -792,28 +792,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-3-days"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-3-days">Imperial Golden Triangle Tour 3
                       Days</a></h3>
                   <p class="tour-listing__card-text text-small">A swift, ultra-luxury journey through Delhi, Agra, and
@@ -863,28 +841,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-4-days"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-4-days">Imperial Golden Triangle Tour 4
                       Days</a></h3>
                   <p class="tour-listing__card-text text-small">A signature luxury circuit featuring the Taj Mahal,
@@ -934,28 +890,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-5-days"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-5-days">Imperial Golden Triangle Tour 5
                       Days</a></h3>
                   <p class="tour-listing__card-text text-small">Immerse yourself in regal history with an extended stay
@@ -1005,28 +939,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="#"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="#">Imperial Golden Triangle Tour with Mathura Vrindavan</a></h3>
                   <p class="tour-listing__card-text text-small">Experience the divine essence of Lord Krishna’s
                     birthplace with private guided temple tours. A soulful addition to your luxury heritage circuit
@@ -1075,28 +987,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-with-varanasi"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-with-varanasi">Golden Triangle
                       Tour
                       with Varanasi</a></h3>
@@ -1148,28 +1038,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-with-ajmer-and-pushkar"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-with-ajmer-and-pushkar">Golden
                       Triangle Tour with Ajmer Pushkar</a></h3>
                   <p class="tour-listing__card-text text-small">Experience the ultimate spiritual and heritage journey
@@ -1220,28 +1088,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-with-rajasthan"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-with-rajasthan">Golden Triangle
                       Tour with Rajasthan</a></h3>
                   <p class="tour-listing__card-text text-small">Our most comprehensive luxury circuit covering the regal
@@ -1293,28 +1139,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                "items": [
-                  {
-                    "src": "assets/images/tours/tour-3-1.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-2.webp"
-                  },
-                  {
-                    "src": "assets/images/tours/tour-3-3.webp"
-                  }
-                ],
-                "gallery": {
-                  "enabled": true
-                },
-                "type": "image"
-            }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-with-ranthambore"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-with-ranthambore">Golden
                       Triangle
                       Tour with Ranthambore</a></h3>
@@ -1366,28 +1190,6 @@
                 <!-- /.tour-listing__card-image-box -->
                 <a href="javascript:void(0);" class="tour-listing__card-wishlist"><span class="icon-heart"></span></a>
                 <div class="tour-listing__card-content">
-                  <div class="tour-listing__card-camera-group"> <a href="javascript:void(0);"
-                      class="tour-listing__card-camera-btn trevlo-image-popup" data-gallery-options='{
-                  "items": [
-                    {
-                      "src": "assets/images/tours/tour-3-1.webp"
-                    },
-                    {
-                      "src": "assets/images/tours/tour-3-2.webp"
-                    },
-                    {
-                      "src": "assets/images/tours/tour-3-3.webp"
-                    }
-                  ],
-                  "gallery": {
-                    "enabled": true
-                  },
-                  "type": "image"
-              }'> <span class="icon-photo-camera-1"></span> </a> <a href="golden-triangle-tour-with-amritsar"
-                      class="tour-listing__card-camera-btn video-popup"> <span class="icon-video-camera-1-1"></span>
-                    </a>
-                  </div>
-                  <!-- /.tour-listing__card-camera-group -->
                   <h3 class="tour-listing__card-title"><a href="golden-triangle-tour-with-amritsar">Golden Triangle
                       Tour
                       with Amritsar</a></h3>
