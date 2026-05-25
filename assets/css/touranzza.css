@@ -1818,3 +1818,38 @@ html, body, .page-wrapper {
     display: none !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Tour destination box: force 2-col layout at all desktop sizes ───────── */
+@media (min-width: 992px) {
+    .tour-listing-details__destination-row.row {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        align-items: flex-start !important;
+    }
+
+    .tour-listing-details__destination-row .col-xl-6:first-child {
+        flex: 0 0 55% !important;
+        max-width: 55% !important;
+    }
+
+    .tour-listing-details__destination-row .col-xl-6:last-child {
+        flex: 0 0 45% !important;
+        max-width: 45% !important;
+        padding-left: 30px !important;
+    }
+
+    .tour-listing-details__destination-right {
+        padding-left: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 8px !important;
+    }
+
+    .tour-listing-details__destination-info {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        padding: 0 !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
