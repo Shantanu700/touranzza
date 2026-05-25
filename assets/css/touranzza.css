@@ -1934,13 +1934,20 @@ html, body, .page-wrapper {
 /* ── Itinerary on DESKTOP: hide collapse arrow ───────────────────────────── */
 @media (min-width: 768px) {
     [data-grp-name="tour-listing-details__faq"] .accrodion-title h4::after {
-        display: none !important;
-    }
-    /* Keep all itinerary items open on desktop */
-    [data-grp-name="tour-listing-details__faq"] .accrodion-content {
+        content: "\f078" !important;
+        font-family: "Font Awesome 5 Free" !important;
+        font-weight: 900 !important;
+        position: absolute !important;
+        right: 0 !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        font-size: 13px !important;
+        color: #ffc202 !important;
         display: block !important;
-        height: auto !important;
-        overflow: visible !important;
+        transition: transform 0.3s ease !important;
+    }
+    [data-grp-name="tour-listing-details__faq"] .accrodion.active .accrodion-title h4::after {
+        transform: translateY(-50%) rotate(180deg) !important;
     }
 }
 
@@ -1961,6 +1968,15 @@ html, body, .page-wrapper {
     }
     [data-grp-name="tour-listing-details__faq"] .accrodion.active .accrodion-title h4::after {
         transform: translateY(-50%) rotate(180deg) !important;
+    }
+
+    /* No padding on destination title box on mobile */
+    .tour-listing-details__destination-row.row {
+        flex-direction: column !important;
+    }
+    .tour-listing-details__destination-row .col-xl-6:last-child {
+        padding-left: 0 !important;
+        margin-top: 12px !important;
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
