@@ -1576,22 +1576,6 @@
             <div class="item">
               <div class="gallery-single">
                 <div class="gallery-single__img-box"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_46_42 AM.webp" alt="gallery"
-                    class="gallery-single__img">
-                  <div class="gallery-single__overlay"> <a
-                      href="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_46_42 AM.webp"
-                      class="gallery-single__btn trevlo-btn trevlo-btn--base-three img-popup"><span
-                        class="icon-plus"></span></a> </div>
-                  <!-- /.gallery-single__overlay -->
-                </div>
-                <!-- /.gallery-single__img-box -->
-              </div>
-              <!-- /.gallery-single -->
-            </div>
-            <!-- /.item -->
-            <div class="item">
-              <div class="gallery-single">
-                <div class="gallery-single__img-box"> <img
                     src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_48_41 AM.webp" alt="gallery"
                     class="gallery-single__img">
                   <div class="gallery-single__overlay"> <a
@@ -2053,8 +2037,7 @@
           <div class="sec-title text-center" style="margin-bottom: 20px;">
             <p class="sec-title__tagline">Testimonial</p>
             <!-- /.sec-title__tagline -->
-            <h2 class="sec-title__title">What Our Customers are<br>
-              Saying?</h2>
+            <h2 class="sec-title__title">What Our Customers are Saying ? </h2>
             <!-- /.sec-title__title -->
           </div>
         </div>
