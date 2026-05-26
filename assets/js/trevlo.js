@@ -1070,29 +1070,15 @@ function thmOwlInit() {
 // Global AJAX Form Interceptor for Touranzza Contact Forms
 $(document).ready(function() {
   $('.contact-page__form, .tour-listing-details__sidebar-form').on('submit', function(e) {
-    e.preventDefault(); // Prevent standard POST reload
-    
+    e.preventDefault();
     var form = $(this);
-    var submitBtn = form.find('button[type="submit"]');
-    var originalText = submitBtn.text();
-    
-    submitBtn.text('Sending...');
-    submitBtn.prop('disabled', true);
-    
+    // Fire email in background — don't wait for response
     $.ajax({
       type: form.attr('method') || 'POST',
       url: form.attr('action') || 'tourmail.php',
-      data: form.serialize(),
-      success: function(response) {
-        // Redirect to thank-you page on any success response
-        window.location.href = 'thank-you';
-      },
-      error: function(xhr, status, error) {
-        form.find('.form-messages').remove();
-        form.prepend('<div class="form-messages wow animated fadeInUp" style="width: 100%; margin-bottom: 20px;"><div class="alert alert-danger" role="alert" style="background-color: #f8d7da; color: #721c24; border-color: #f5c6cb; padding: 15px; border-radius: 5px;">Failed to connect to the server. Please try again.</div></div>');
-        submitBtn.text(originalText);
-        submitBtn.prop('disabled', false);
-      }
+      data: form.serialize()
     });
+    // Redirect immediately without waiting
+    window.location.href = 'thank-you';
   });
 });

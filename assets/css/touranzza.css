@@ -2073,3 +2073,29 @@ html, body, .page-wrapper {
     margin: 0;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Luxury font for offer and benefit headings ─────────────────────────── */
+.offer-one__top-title {
+    font-family: 'Playfair Display SC', serif !important;
+    font-size: 16px !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    color: #ffc202 !important;
+    text-transform: none !important;
+}
+
+.benefit-one__content__heading {
+    font-family: 'Playfair Display SC', serif !important;
+    font-size: 22px !important;
+    letter-spacing: 1px !important;
+    font-weight: 700 !important;
+    color: #130f10 !important;
+    line-height: 1.4 !important;
+}
+
+/* ── Why choose icons — gold color ──────────────────────────────────────── */
+.why-choose-custom-icon {
+    filter: invert(78%) sepia(60%) saturate(800%) hue-rotate(5deg) brightness(105%) contrast(105%) !important;
+}
+/* ─────────────────────────────────────────────────────────────────────────── */

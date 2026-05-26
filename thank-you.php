@@ -142,6 +142,8 @@
       text-decoration: none;
       display: block;
       color: inherit;
+      position: relative;
+      overflow: hidden;
     }
     .explore-card:hover {
       transform: translateY(-4px);
@@ -150,20 +152,27 @@
       text-decoration: none;
     }
     .explore-card__icon {
-      font-size: 32px;
-      color: #ffc202;
-      margin-bottom: 14px;
+      width: 60px;
+      height: 60px;
+      background: #ffc202;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      font-size: 24px;
+      color: #130f10;
     }
     .explore-card__title {
-      font-size: 16px;
-      font-weight: 700;
+      font-size: 17px;
+      font-weight: 800;
       color: #130f10;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
     .explore-card__text {
       font-size: 13px;
       color: #666;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     @media (max-width: 767px) {
@@ -202,20 +211,49 @@
       "loop": true,
       "autoplay": true,
       "autoplayTimeout": 5000,
-      "nav": false,
-      "dots": true
+      "nav": true,
+      "dots": true,
+      "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"]
     }'>
       <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-1.webp);"></div>
+        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-1.webp);">
+        </div>
+        <div class="container">
+          <div class="main-slider-one__content">
+            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
+            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
+          </div>
+        </div>
       </div>
       <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-2.webp);"></div>
+        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-2.webp);">
+        </div>
+        <div class="container">
+          <div class="main-slider-one__content">
+            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
+            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
+          </div>
+        </div>
       </div>
       <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-3.webp);"></div>
+        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-3.webp);">
+        </div>
+        <div class="container">
+          <div class="main-slider-one__content">
+            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
+            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
+          </div>
+        </div>
       </div>
       <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-4.webp);"></div>
+        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-4.webp);">
+        </div>
+        <div class="container">
+          <div class="main-slider-one__content">
+            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
+            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -266,8 +304,11 @@
 
 <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
 <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
 <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
 <script src="assets/vendors/wow/wow.js"></script>
+<script src="assets/vendors/tilt/tilt.jquery.js"></script>
 <script src="assets/js/trevlo.js?v=4"></script>
 </body>
 </html>
