@@ -125,7 +125,7 @@
             <div class="col-xl-6 wow animated fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Rajasthan Heritage Tour &mdash; 12 Days Across the Golden Triangle &amp; Desert Cities</h1>
-              </div></div>
+              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
