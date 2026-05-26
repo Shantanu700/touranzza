@@ -152,49 +152,46 @@
       <div class="row">
         <div class="col-md-6">
           <div class="tour-listing-details__sidebar-form-input">
-            <label>No. of Adults</label>
-            <select class="selectpicker" name="adults" aria-label="Adults">
-              <option selected value="">Adults</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15+">15+</option>
-            </select>
-          </div>
+                    <label>Travellers</label>
+                    <div class="travellers-stepper">
+                      <div class="stepper-row">
+                        <div class="stepper-info">
+                          <span class="stepper-label">Adults</span>
+                          <span class="stepper-sub">Ages 13 or above</span>
+                        </div>
+                        <div class="stepper-control">
+                          <button type="button" class="stepper-btn stepper-minus" data-target="adults">&#8722;</button>
+                          <input type="number" name="adults" id="adults-count" value="1" min="1" max="20" readonly class="stepper-input">
+                          <button type="button" class="stepper-btn stepper-plus" data-target="adults">&#43;</button>
+                        </div>
+                      </div>
+                      <div class="stepper-row">
+                        <div class="stepper-info">
+                          <span class="stepper-label">Children</span>
+                          <span class="stepper-sub">Ages 2-12</span>
+                        </div>
+                        <div class="stepper-control">
+                          <button type="button" class="stepper-btn stepper-minus" data-target="children">&#8722;</button>
+                          <input type="number" name="children" id="children-count" value="0" min="0" max="20" readonly class="stepper-input">
+                          <button type="button" class="stepper-btn stepper-plus" data-target="children">&#43;</button>
+                        </div>
+                      </div>
+                      <div class="stepper-row">
+                        <div class="stepper-info">
+                          <span class="stepper-label">Infants</span>
+                          <span class="stepper-sub">Under 2</span>
+                        </div>
+                        <div class="stepper-control">
+                          <button type="button" class="stepper-btn stepper-minus" data-target="infants">&#8722;</button>
+                          <input type="number" name="infants" id="infants-count" value="0" min="0" max="10" readonly class="stepper-input">
+                          <button type="button" class="stepper-btn stepper-plus" data-target="infants">&#43;</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         </div>
         <div class="col-md-6">
-          <div class="tour-listing-details__sidebar-form-input">
-            <label>No. of Children</label>
-            <select class="selectpicker" name="children" aria-label="Children">
-              <option selected value="">Children</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15+">15+</option>
-            </select>
-          </div>
+          
         </div>
       </div>
       <div class="row">
@@ -265,4 +262,32 @@
     }
   }
 
+</script>
+
+<script>
+/* ── Travellers stepper + mobile itinerary collapse ── */
+document.addEventListener('DOMContentLoaded', function() {
+  /* Stepper buttons */
+  document.querySelectorAll('.stepper-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var input = this.closest('.stepper-control').querySelector('.stepper-input');
+      var val = parseInt(input.value) || 0;
+      var min = parseInt(input.getAttribute('min')) || 0;
+      var max = parseInt(input.getAttribute('max')) || 20;
+      if (this.classList.contains('stepper-plus') && val < max) input.value = val + 1;
+      if (this.classList.contains('stepper-minus') && val > min) input.value = val - 1;
+      this.closest('.stepper-control').querySelector('.stepper-minus').disabled = parseInt(input.value) <= min;
+      this.closest('.stepper-control').querySelector('.stepper-plus').disabled = parseInt(input.value) >= max;
+    });
+  });
+
+  /* Mobile: collapse itinerary by default */
+  if (window.innerWidth <= 767) {
+    document.querySelectorAll('.trevlo-accrodion[data-grp-name="tour-listing-details__faq"] .accrodion').forEach(function(acc) {
+      acc.classList.remove('active');
+      var c = acc.querySelector('.accrodion-content');
+      if (c) c.style.display = 'none';
+    });
+  }
+});
 </script>

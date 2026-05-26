@@ -1983,3 +1983,93 @@ html, body, .page-wrapper {
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Travellers stepper input ────────────────────────────────────────────── */
+.travellers-stepper {
+    background: var(--trevlo-white2, #FAF5EE);
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.stepper-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.stepper-row:last-child {
+    border-bottom: none;
+}
+
+.stepper-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.stepper-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #130f10;
+}
+
+.stepper-sub {
+    font-size: 11px;
+    color: #888;
+    margin-top: 1px;
+}
+
+.stepper-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stepper-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ffc202;
+    background: transparent;
+    color: #ffc202;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.stepper-btn:hover {
+    background: #ffc202;
+    color: #000;
+}
+
+.stepper-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.stepper-input {
+    width: 36px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    color: #130f10;
+    pointer-events: none;
+    -moz-appearance: textfield;
+}
+
+.stepper-input::-webkit-outer-spin-button,
+.stepper-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
