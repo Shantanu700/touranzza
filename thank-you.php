@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
   <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
   <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
   <link rel="stylesheet" href="assets/vendors/trevlo-icons/style.css" />
   <link rel="stylesheet" href="assets/css/trevlo.css" />
   <link rel="stylesheet" href="assets/css/touranzza.css" />
@@ -335,7 +336,7 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
             <a href="rajasthan-tours" class="explore-card">
-              <div class="explore-card__icon"><i class="fas fa-fort-awesome"></i></div>
+              <div class="explore-card__icon"><i class="fas fa-chess-rook"></i></div>
               <div class="explore-card__title">Royal Rajasthan</div>
               <div class="explore-card__text">Forts, palaces, deserts and royal heritage</div>
             </a>
@@ -365,11 +366,16 @@
 
 <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
 <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
 <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
 <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
 <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
 <script src="assets/vendors/wow/wow.js"></script>
 <script src="assets/vendors/tilt/tilt.jquery.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
 <script src="assets/js/trevlo.js?v=4"></script>
 </body>
 </html>
