@@ -137,7 +137,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Mandawa &rsaquo; Bikaner &rsaquo; Jaisalmer &rsaquo; Jodhpur &rsaquo; Udaipur &rsaquo; Pushkar &rsaquo; Jaipur &rsaquo; Agra &rsaquo; Delhi</h4>
                   </div>
                 </div>
@@ -165,7 +165,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Rajasthan is vast enough to reward a long itinerary, and this 12-day heritage tour is built to give you the breadth of the state without the rush. It begins in Delhi and moves through the Golden Triangle — Agra's Taj Mahal and Jaipur's pink palaces — before opening into the full Rajasthan circuit: the painted havelis of Shekhawati, the golden sandstone fort of Jaisalmer, Jodhpur's clifftop Mehrangarh, the marble Jain temples at Ranakpur, the lake palaces of Udaipur, and the sacred ghats of Pushkar.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">The route is designed so that each city offers something genuinely different. Mandawa and the Shekhawati region show you the merchant havelis with their frescoed courtyards. Bikaner and Jaisalmer bring desert-edge remoteness and camel-trade history. Jodhpur and Udaipur give you the royal strongholds and lake-mirrored palaces. Pushkar shifts the register to the sacred. And the Golden Triangle closes the loop with the monuments every first-time India visitor wants to see.</p>

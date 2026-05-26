@@ -197,7 +197,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Jaipur &rsaquo; Udaipur &rsaquo; Jaisalmer Route</h4>
                   </div>
                 </div>
@@ -221,7 +221,7 @@
           <div class="col-xl-8">
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">For travelers who want more than India's classic Golden Triangle, this extended journey opens the country wider—linking Delhi, Agra, and Jaipur with Rajasthan's lakes, deserts, sacred towns, and fortress cities. Over nine thoughtfully paced days, this private Imperial Golden Triangle Tour with Rajasthan combines India's essential first-time landmarks with the deeper romance of Rajputana.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Stand before the Taj Mahal, trace Mughal and imperial legacies through Delhi, and explore Jaipur's pink-hued palaces before Rajasthan unfolds further—through Pushkar's sacred lakeside rituals, Udaipur's shimmering palace reflections, Jaisalmer's golden sandstone citadel, and the desert-edge heritage of Bikaner and Mandawa.</p>

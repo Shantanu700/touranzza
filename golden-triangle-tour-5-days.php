@@ -206,7 +206,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Jaipur</h4>
                   </div>
                 </div>
@@ -233,7 +233,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">For travelers visiting India for the first time, no journey offers a more complete introduction than the Golden Triangle. Over five carefully paced days, this private Imperial Golden Triangle Tour connects Delhi's layered capitals, Agra's Mughal grandeur, and Jaipur's royal Rajasthan heritage into one seamless route.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">From the bustling lanes of Old Delhi to the timeless marble beauty of the Taj Mahal and the rose-hued palaces of Jaipur, this itinerary is designed to reveal India's defining contrasts without feeling rushed. You'll experience imperial architecture, UNESCO landmarks, vibrant bazaars, and local cultural depth—all while traveling with private transfers, expert guides, and thoughtfully selected accommodations.</p>

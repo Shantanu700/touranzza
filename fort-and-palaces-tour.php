@@ -154,7 +154,7 @@
           <div class="col-xl-8">
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Rajasthan is a museum without walls, and nowhere is that clearer than on a journey built around its forts and palaces. Over 11 days, this itinerary moves from Delhi into the heartland of former princely states, tracing a line of Rajput architecture from Jaipur's pink sandstone palaces to Jodhpur's cliff-edge Mehrangarh.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">It is a tour for travellers who want to understand Rajasthan rather than simply see it. Between the great strongholds, you'll spend time in the Sufi shrine town of Ajmer and at Pushkar's lakeside Brahma temple, where the register shifts from royal to sacred. Udaipur brings lakes and mirror-inlaid palaces. Mount Abu — Rajasthan's only hill station — offers a cooler pause and the astonishing Dilwara Jain temples, some of the finest marble carving anywhere in India. The tour closes in Jodhpur, where the blue city unfolds beneath Mehrangarh and Umaid Bhawan looms from its sandstone ridge.</p>

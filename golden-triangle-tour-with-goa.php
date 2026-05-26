@@ -146,7 +146,7 @@
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s"
                   data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Jaipur &rsaquo; Goa</h4>
                   </div>
                 </div>
@@ -173,7 +173,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s"
                 data-wow-duration="1500ms">The Golden Triangle is monumental, intense, and rewarding. Goa — 1,900 km south on the Arabian Sea coast — is the opposite: Portuguese churches, palm-fringed beaches, seafood shacks, and a pace that invites you to slow down entirely.</p>

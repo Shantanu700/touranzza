@@ -130,7 +130,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Delhi</h4>
                   </div>
                 </div>
@@ -158,7 +158,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Some journeys are about ticking landmarks off a list—others stay with you long after they end. This same day Taj Mahal tour from Delhi is designed for travelers who want to experience one of the top tourist attractions in India without compromising on comfort or depth. As you leave behind the energy of Delhi and drive along the Yamuna Expressway, the anticipation builds for a visit to the world-renowned Taj Mahal.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">This carefully curated Agra tour from Delhi combines seamless travel with immersive storytelling. Accompanied by a knowledgeable guide, you'll explore the elegance of the Taj Mahal, one of the most iconic tourist places in India, and uncover the grandeur of Agra Fort. Every moment is planned to balance exploration with ease.</p>

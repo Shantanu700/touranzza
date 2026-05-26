@@ -158,7 +158,7 @@
           <div class="col-xl-8">
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Few journeys capture the romance of India quite like a tour through Rajasthan. This nine-day itinerary begins in Delhi and winds south-west through Agra's Mughal monuments before opening into the sandstone palaces, lake-mirrored havelis and desert-edge forts that give Rajasthan its royal reputation.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">You'll move from the marble calm of the Taj Mahal to the pink-walled bazaars of Jaipur, ride up to the ramparts of Amber Fort, stand at the edge of Jodhpur's indigo city beneath the vast Mehrangarh, and end in Udaipur — arguably the most beautiful city in India — where palaces rise out of Lake Pichola at dusk.</p>

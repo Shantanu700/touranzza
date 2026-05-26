@@ -165,7 +165,7 @@
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s"
                   data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Jaipur &rsaquo; Mumbai</h4>
                   </div>
                 </div>
@@ -196,7 +196,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s"
                 data-wow-duration="1500ms">The Golden Triangle — Delhi, Agra, Jaipur — gives you Mughal and Rajput India. Mumbai, perched on the Arabian Sea 1,400 km south, gives you everything else: colonial grandeur, Art Deco seafronts, Bollywood glamour, and the relentless energy of India's financial capital.</p>

@@ -130,7 +130,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Jaipur &rsaquo; Amritsar</h4>
                   </div>
                 </div>
@@ -158,7 +158,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">India's Golden Triangle is often considered the perfect first introduction to the country — but extending it to Amritsar creates a far richer and more meaningful journey. Over eight carefully designed days, this private Imperial Golden Triangle Tour with Amritsar combines India's most iconic landmarks with one of its deepest spiritual and historical destinations.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Begin in Delhi, where ancient empires and colonial avenues reveal the country's layered past. Continue to Agra for the timeless beauty of the Taj Mahal, then on to Jaipur, where Rajasthan's hilltop forts, royal courtyards, and pink sandstone façades capture India's regal imagination. Finally, travel north to Amritsar — where the shimmering Golden Temple, the solemn history of Jallianwala Bagh, and the electrifying Wagah Border ceremony reveal a profoundly different and deeply moving side of India.</p>

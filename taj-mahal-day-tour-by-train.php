@@ -197,7 +197,7 @@
           <div class="col-xl-8">
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">If you&rsquo;re looking to experience one of the top tourist attractions in India without compromising on comfort, this <strong>Taj Mahal day tour from Delhi</strong> by high-speed train offers a refined and time-efficient journey. Traveling aboard the Gatimaan Express&mdash;the fastest train in India&mdash;you avoid long road hours and instead enjoy a smooth ride through North India&rsquo;s changing landscapes.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">This <strong>Taj Mahal tour package</strong> is thoughtfully designed for international travelers who want a seamless experience. From assisted transfers in Delhi to guided sightseeing in Agra, every detail is handled with precision. Accompanied by an expert, you&rsquo;ll explore some of the most iconic tourist places in India, including the breathtaking Taj Mahal and the historic Agra Fort.</p>

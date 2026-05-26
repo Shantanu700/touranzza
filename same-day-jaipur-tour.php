@@ -130,7 +130,7 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
                     <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Jaipur &rsaquo; Delhi</h4>
                   </div>
                 </div>
@@ -157,7 +157,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Some cities impress you at first glance — Jaipur unfolds slowly, revealing layers of royalty, artistry, and timeless charm. This same day Jaipur tour from Delhi is crafted for travellers who want to experience the elegance of Rajasthan without the need for an overnight stay. As you leave Delhi behind and journey towards the Pink City, the landscape shifts, setting the tone for a day filled with architectural wonders and cultural richness.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">Designed as a seamless Jaipur day trip from Delhi, this experience combines comfort with meaningful exploration. From majestic hilltop forts to intricately designed palaces, Jaipur stands among the most captivating tourist destinations in India. With a private local guide, you'll gain deeper insights into royal traditions, craftsmanship, and the stories behind each monument — not just captions on a placard.</p>

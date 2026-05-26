@@ -158,7 +158,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">Delhi is not just a city — it's a living narrative of empires, cultures, and contrasts. This Delhi city tour invites you to step into that story, where centuries-old Mughal architecture coexists with grand colonial avenues and modern urban energy. Designed for international travellers, this experience offers a seamless way to explore the most iconic tourist attractions in Delhi in a single, well-paced day.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">From the vibrant chaos of Old Delhi's historic lanes to the refined elegance of New Delhi's boulevards, every moment reveals a different side of India's capital. With a private guide by your side, you'll uncover the deeper meaning behind each monument — from sacred spaces to royal tombs and architectural masterpieces. This is not a rushed bus tour; it's a private, guided day at your pace.</p>
