@@ -50,8 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = $body;
 
         if (!$mail->send()) {
-            header('Location: thank-you?status=error');
-            exit;
+            echo 'error';
         } else {
             // Send auto-reply
             $autoReply = new PHPMailer(true);
