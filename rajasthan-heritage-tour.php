@@ -551,7 +551,7 @@
                 data-wow-delay="0.1s" data-wow-duration="1500ms">
                 <h3 class="tour-listing-details__sidebar-title">Plan Your Rajasthan Heritage Tour</h3>
                 <p class="tour-listing-details__sidebar-text">Share your dates and preferences. Our India specialist will reply within 24 hours with a tailored 12-day itinerary — heritage hotel options included, no obligation.</p>
-                <form action="#" class="tour-listing-details__sidebar-form">
+                <form action="tourmail" method="POST" class="tour-listing-details__sidebar-form">
                   <div class="tour-listing-details__sidebar-form-input">
                     <label>Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name" class="form-one__input">

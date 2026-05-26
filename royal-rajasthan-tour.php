@@ -509,7 +509,7 @@
               <div class="tour-listing-details__sidebar-book-tours tour-listing-details__sidebar-single wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                 <h3 class="tour-listing-details__sidebar-title">Plan Your Royal Rajasthan Tour</h3>
                 <p class="tour-listing-details__sidebar-text">Share your travel dates and preferences. Our India specialist will reply within 24 hours with a tailored itinerary — no obligation.</p>
-                <form action="#" class="tour-listing-details__sidebar-form">
+                <form action="tourmail" method="POST" class="tour-listing-details__sidebar-form">
                   <div class="tour-listing-details__sidebar-form-input">
                     <label>Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name" class="form-one__input">

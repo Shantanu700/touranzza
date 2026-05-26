@@ -50,38 +50,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = $body;
 
         if (!$mail->send()) {
-            echo 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo;
+            header('Location: thank-you?status=error');
+            exit;
         } else {
-            echo 'Success';
+            // Send auto-reply
+            $autoReply = new PHPMailer(true);
+            $autoReply->isSMTP();
+            $autoReply->Host = 'smtp.hostinger.com';
+            $autoReply->SMTPAuth = true;
+            $autoReply->Username = 'india@touranzza.com';
+            $autoReply->Password = 'Touranzzza@26';
+            $autoReply->SMTPSecure = 'tls';
+            $autoReply->Port = 587;
+            $autoReply->setFrom('india@touranzza.com', 'Touranzza');
+            $autoReply->addAddress($senderEmail);
+            $autoReply->isHTML(true);
+            $autoReply->Subject = "Thank you for your enquiry";
+            $autoReply->Body = "<b>Dear $senderName</b>,<br><br>We have received your enquiry for <b>$hiddenField</b>.<br><br>We will get in touch with you within 24 hours with a personalised itinerary.<br><br>Best regards,<br>Touranzza Team";
+            $autoReply->send();
+            // Redirect to thank you page
+            header('Location: thank-you');
+            exit;
         }
-
-        // Start of auto-reply code
-        $autoReply = new PHPMailer(true); // Create a new PHPMailer instance for the auto-reply
-        $autoReply->isSMTP();
-        $autoReply->Host = 'smtp.hostinger.com';
-        $autoReply->SMTPAuth = true;
-        $autoReply->Username = 'india@touranzza.com';
-        $autoReply->Password = 'Touranzzza@26';
-        $autoReply->SMTPSecure = 'tls';
-        $autoReply->Port = 587;
-
-        $autoReply->setFrom('india@touranzza.com', 'Touranzza');
-        $autoReply->addAddress($senderEmail);
-        $autoReply->isHTML(true);
-        $autoReply->Subject = "Thank you for your enquiry";
-        $autoReply->Body = "<b>Dear $senderName</b>,<br><br>We have received your enquiry for <b>$hiddenField</b>. <br><br>We will get in touch with you soon.<br><br>For more information, please visit our website: <a href='https://tajnirvanatours.com'>https://tajnirvanatours.com</a><br><br>Best regards,<br>Touranzza Team";
-
-        if (!$autoReply->send()) {
-            echo 'Auto-reply could not be sent.';
-            echo 'Mailer Error: ', $autoReply->ErrorInfo;
-        }
-        // End of auto-reply code
-
 
     } catch (Exception $e) {
-        echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+        header('Location: thank-you?status=error');
+        exit;
     }
 } else {
-    echo "Sorry, there was an issue sending your enquiry. Please try again later.";
+    header('Location: ./');
+    exit;
 }
 ?>
