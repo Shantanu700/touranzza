@@ -118,7 +118,7 @@
             <div class="col-xl-6 wow animated fadeInLeft" data-wow-delay="0.1s" data-wow-duration="1500ms">
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Imperial Golden Triangle Tour with Ranthambore &mdash; 7 Days of India&rsquo;s Icons, Palaces &amp; Tiger Safari</h1>
-              </div></div>
+              </div>
             </div>
             <div class="col-xl-6">
               <div class="tour-listing-details__destination-right">
@@ -130,8 +130,8 @@
                 </div>
                 <div class="tour-listing-details__destination-info wow animated fadeInUp" data-wow-delay="0.7s" data-wow-duration="1500ms"> <span class="icon-location-1"></span>
                   <div class="tour-listing-details__destination-info-title">
-                    <h4 class="tour-listing-details__destination-info-top">Route</h4>
-                    <h4 class="tour-listing-details__destination-info-bottom">Delhi &rsaquo; Agra &rsaquo; Ranthambore &rsaquo; Jaipur</h4>
+                    <h4 class="tour-listing-details__destination-info-top">Location</h4>
+                    <h4 class="tour-listing-details__destination-info-bottom">Delhi, Agra, Ranthambore, Jaipur</h4>
                   </div>
                 </div>
               </div>
@@ -158,7 +158,7 @@
             <!-- OVERVIEW -->
             <div class="tour-listing-details__overview">
               <div class="wow animated fadeIn" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <h2 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h2>
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title">Overview</h3>
               </div>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">For many first-time travellers, India can feel impossibly vast — so this journey distils its most unforgettable contrasts into one carefully designed route. Over seven immersive days, this Imperial Golden Triangle Tour with Ranthambore connects the architectural drama of Delhi, Agra, and Jaipur with the wild landscapes of Rajasthan's most celebrated tiger reserve.</p>
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.2s" data-wow-duration="1500ms">You'll begin among Delhi's layered empires, stand before the timeless marble symmetry of the Taj Mahal, then trade monuments for wilderness as Ranthambore National Park introduces you to India's untamed side — where ancient fort ruins and Bengal tigers share the same terrain. From there, Jaipur's rose-hued palaces, royal courtyards, and Amber Fort complete the circuit.</p>
@@ -172,7 +172,7 @@
 
 <!-- TOUR HIGHLIGHTS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">Tour Highlights</h2>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Tour Highlights</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one tour-highlights">
@@ -316,7 +316,7 @@
 
             <!-- INCLUSIONS / EXCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h2>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
@@ -340,8 +340,13 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
-                  <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
+              </div>
+            </div>
+
+            <div class="tour-listing-details__included" style="margin-top:-30px;">
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International flights</p>
