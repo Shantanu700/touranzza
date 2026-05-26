@@ -209,7 +209,7 @@
                 <h1 class="tour-listing-details__dastination-title">Imperial Golden Triangle Tour 6 Days</h1>
                 <!-- <h4 class="tour-listing-details__dastination-price"><span>$130</span><span class="tour-listing-details__dastination-person">/ Per Person</span></h4> -->
               </div>
-              <!-- /.tour-listing-details__daetination-left --></div>
+              <!-- /.tour-listing-details__daetination-left -->
             </div>
             <!-- /.col-xl-4 -->
             <div class="col-xl-6">

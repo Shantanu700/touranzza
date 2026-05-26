@@ -134,7 +134,7 @@
               <div class="tour-listing-details__destination-left">
                 <h1 class="tour-listing-details__dastination-title">Golden Triangle with Haridwar &amp; Rishikesh &mdash; 8 Days from Monuments to the Mountains</h1>
               </div>
-              <!-- /.tour-listing-details__daetination-left --></div>
+              <!-- /.tour-listing-details__daetination-left -->
             </div>
   
           <!-- /.col-xl-4 -->
