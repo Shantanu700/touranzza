@@ -203,62 +203,6 @@
     </div>
   </section>
 
-  <!-- HERO SLIDER (same as home page) -->
-  <section class="main-slider-one" style="margin-top:0;">
-    <div class="main-slider-one__carousel trevlo-owl__carousel owl-carousel owl-theme" data-owl-options='{
-      "items": 1,
-      "margin": 0,
-      "smartSpeed": 700,
-      "loop": true,
-      "autoplay": true,
-      "autoplayTimeout": 5000,
-      "nav": true,
-      "dots": true,
-      "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"]
-    }'>
-      <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-1.webp);">
-        </div>
-        <div class="container">
-          <div class="main-slider-one__content">
-            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
-            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-2.webp);">
-        </div>
-        <div class="container">
-          <div class="main-slider-one__content">
-            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
-            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-3.webp);">
-        </div>
-        <div class="container">
-          <div class="main-slider-one__content">
-            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
-            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-4.webp);">
-        </div>
-        <div class="container">
-          <div class="main-slider-one__content">
-            <h5 class="main-slider-one__sub-title">Your compass to India</h5>
-            <h3 class="main-slider-one__title">Explore India with Touranzza</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- EXPLORE OPTIONS -->
   <div class="mandala-bg-wrapper">
 
