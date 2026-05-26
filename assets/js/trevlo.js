@@ -426,10 +426,26 @@
   //accrodion
   if ($(".trevlo-accrodion").length) {
     var accrodionGrp = $(".trevlo-accrodion");
+    var itineraryQuery = window.matchMedia("(max-width: 767px)");
+
+    function setTourItineraryState(scope) {
+      var isMobile = itineraryQuery.matches;
+      scope.find('.trevlo-accrodion[data-grp-name="tour-listing-details__faq"]').each(function () {
+        var itinerary = $(this);
+        var items = itinerary.find(".accrodion");
+        if (isMobile) {
+          items.removeClass("active").find(".accrodion-content").hide();
+        } else {
+          items.addClass("active").find(".accrodion-content").show();
+        }
+      });
+    }
+
     accrodionGrp.each(function () {
       var accrodionName = $(this).data("grp-name");
       var Self = $(this);
       var accordion = Self.find(".accrodion");
+      var isItinerary = accrodionName === "tour-listing-details__faq";
       Self.addClass(accrodionName);
       Self.find(".accrodion .accrodion-content").hide();
       Self.find(".accrodion.active").find(".accrodion-content").show();
@@ -437,20 +453,42 @@
         $(this)
           .find(".accrodion-title")
           .on("click", function () {
-            if ($(this).parent().hasClass("active") === false) {
-              $(".trevlo-accrodion." + accrodionName)
-                .find(".accrodion")
-                .removeClass("active");
-              $(".trevlo-accrodion." + accrodionName)
-                .find(".accrodion")
-                .find(".accrodion-content")
-                .slideUp();
-              $(this).parent().addClass("active");
-              $(this).parent().find(".accrodion-content").slideDown();
+            var item = $(this).parent();
+
+            if (isItinerary && !itineraryQuery.matches) {
+              return;
+            }
+
+            if (item.hasClass("active")) {
+              item.removeClass("active");
+              item.find(".accrodion-content").slideUp();
+            } else {
+              if (!isItinerary) {
+                $(".trevlo-accrodion." + accrodionName)
+                  .find(".accrodion")
+                  .removeClass("active");
+                $(".trevlo-accrodion." + accrodionName)
+                  .find(".accrodion")
+                  .find(".accrodion-content")
+                  .slideUp();
+              }
+              item.addClass("active");
+              item.find(".accrodion-content").slideDown();
             }
           });
       });
     });
+
+    setTourItineraryState($(document));
+    if (itineraryQuery.addEventListener) {
+      itineraryQuery.addEventListener("change", function () {
+        setTourItineraryState($(document));
+      });
+    } else if (itineraryQuery.addListener) {
+      itineraryQuery.addListener(function () {
+        setTourItineraryState($(document));
+      });
+    }
   }
 
   $(".add").on("click", function (e) {
