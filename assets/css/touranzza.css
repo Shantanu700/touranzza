@@ -2096,6 +2096,6 @@ html, body, .page-wrapper {
 
 /* ── Why choose icons — gold color ──────────────────────────────────────── */
 .why-choose-custom-icon {
-    filter: invert(78%) sepia(60%) saturate(800%) hue-rotate(5deg) brightness(105%) contrast(105%) !important;
+    filter: brightness(0) saturate(100%) invert(82%) sepia(60%) saturate(700%) hue-rotate(358deg) brightness(103%) contrast(102%) !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */

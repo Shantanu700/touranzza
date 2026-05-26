@@ -260,6 +260,67 @@
 
   <!-- EXPLORE OPTIONS -->
   <div class="mandala-bg-wrapper">
+
+    <!-- Gallery Carousel — all ChatGPT images -->
+    <section class="gallery-one" style="padding: 40px 0 20px;">
+      <div class="container">
+        <div class="sec-title text-center wow animated fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 20px;">
+          <p class="sec-title__tagline">Our Guests' Journeys</p>
+          <h2 class="sec-title__title">India Through Our Guests' Eyes</h2>
+        </div>
+        <div class="gallery-one__carousel trevlo-owl__carousel trevlo-owl__carousel--custom-nav owl-carousel owl-theme"
+          data-owl-options='{
+          "loop": true,
+          "items": 5,
+          "autoplay": true,
+          "autoplayTimeout": 3500,
+          "smartSpeed": 600,
+          "nav": true,
+          "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+          "dots": false,
+          "margin": 10,
+          "responsive": {
+            "0": { "items": 1 },
+            "576": { "items": 2 },
+            "992": { "items": 3 },
+            "1200": { "items": 4 },
+            "1400": { "items": 5 }
+          }
+        }'>
+          <?php
+          $gallery_images = [
+            "ChatGPT Image Apr 18, 2026, 01_15_46 AM.webp",
+            "ChatGPT Image Apr 18, 2026, 01_25_00 AM.webp",
+            "ChatGPT Image Apr 18, 2026, 01_39_20 AM.webp",
+            "ChatGPT Image Apr 18, 2026, 01_43_45 AM.webp",
+            "ChatGPT Image Apr 18, 2026, 01_49_26 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_28_35 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_29_56 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_33_23 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_33_30 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_34_45 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_35_59 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_38_36 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_39_43 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_41_01 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_42_29 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_44_41 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_46_42 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_48_41 AM.webp",
+            "ChatGPT Image Apr 19, 2026, 12_50_43 AM.webp",
+          ];
+          foreach ($gallery_images as $img) {
+            $src = "assets/images/gallery/" . $img;
+            echo '<div class="item"><div class="gallery-single"><div class="gallery-single__img-box">';
+            echo '<img src="' . $src . '" alt="Touranzza India Tour" class="gallery-single__img">';
+            echo '<div class="gallery-single__overlay"><a href="' . $src . '" class="gallery-single__btn trevlo-btn trevlo-btn--base-three img-popup"><span class="icon-plus"></span></a></div>';
+            echo '</div></div></div>';
+          }
+          ?>
+        </div>
+      </div>
+    </section>
+
     <section class="thankyou-explore">
       <div class="container">
         <h2 class="thankyou-explore__title">Continue Exploring India</h2>
