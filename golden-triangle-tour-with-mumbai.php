@@ -342,9 +342,9 @@
             </div>
             <!-- /.tour-listing-details__plan -->
 
-            <!-- INCLUSIONS / EXCLUSIONS -->
+            <!-- INCLUSIONS -->
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">Included / Excluded</h2>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
@@ -380,8 +380,14 @@
                     </li>
                   </ul>
                 </div>
-                <!-- /.col-lg-6 col-md-7 -->
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
+              </div>
+            </div>
+
+            <!-- EXCLUSIONS -->
+            <div class="tour-listing-details__included" style="margin-top:-30px;">
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>International flights</p>
@@ -403,9 +409,7 @@
                     </li>
                   </ul>
                 </div>
-                <!-- /.col-lg-6 col-md-5 -->
               </div>
-              <!-- /.row -->
             </div>
 
             <!-- BEST TIME -->

@@ -374,6 +374,19 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">For a complete experience of North India's royal heritage, explore our <a href="golden-triangle-tours" style="color: inherit; text-decoration: underline; font-weight: 600;">Imperial Golden Triangle Tour covering Delhi, Agra and Jaipur</a> — a curated multi-day private journey through India's most iconic cultural corridor.</p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want the Taj Mahal too? View our <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour by Car</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Prefer Delhi sightseeing? Explore the <a href="same-day-delhi-tour" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Delhi Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Have more days? Compare our <a href="golden-triangle-tours" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tours</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Need a train option? See the <a href="taj-mahal-day-tour-by-train" style="color: inherit; text-decoration: underline; font-weight: 600;">Taj Mahal Day Tour by Train</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
           </div>
           <!-- /.col-xl-8 -->
 
@@ -474,7 +487,7 @@
             <h3 class="tour-listing-details__title tour-listing-details__plan-title">Same Day Jaipur Tour FAQs</h3>
             <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="jaipur-tour-seo-faq">
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-              <div class="accrodion-title"><h4>Can Jaipur be done as a day trip from Delhi?</h4></div>
+              <div class="accrodion-title"><h4>Can Jaipur be done as a day trip from Delhi?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">Yes — it is a 5-hour drive or 4.5-hour train ride. Leaving Delhi by 5–6 AM gives you a full day of sightseeing in Jaipur before returning in the evening.</p></div></div>
             </div>
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

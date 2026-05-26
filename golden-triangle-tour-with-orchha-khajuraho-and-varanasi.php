@@ -496,7 +496,7 @@
               </div>
             </div>
             <div class="tour-listing-details__included">
-              <h2 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h2>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
@@ -521,8 +521,13 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-7 -->
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
+              </div>
+            </div>
+
+            <div class="tour-listing-details__included" style="margin-top:-30px;">
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>Additional Service</p>
@@ -539,9 +544,7 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-5 -->
               </div>
-              <!-- /.row -->
             </div>
 
             <!-- EXPLORE MORE LINKS -->
@@ -563,7 +566,7 @@
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">GT with Orchha, Khajuraho & Varanasi FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="orchha-varanasi-seo-faq">
               <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <div class="accrodion-title"><h4>What makes this tour different from a standard Golden Triangle?</h4></div>
+                <div class="accrodion-title"><h4>What makes this tour different from a standard Golden Triangle?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
                 <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">It adds Orchha's medieval cenotaphs and temples, Khajuraho's UNESCO-listed sculptural masterpieces, and Varanasi's sacred Ganges ghats — transforming a heritage tour into a complete cultural journey across five distinct destinations.</p></div></div>
               </div>
               <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

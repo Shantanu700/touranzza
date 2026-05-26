@@ -382,7 +382,7 @@
               </div>
             </div>
             <div class="tour-listing-details__included">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
@@ -401,8 +401,13 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-7 -->
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
+              </div>
+            </div>
+
+            <div class="tour-listing-details__included" style="margin-top:-30px;">
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>Additional Service</p>
@@ -419,9 +424,7 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-5 -->
               </div>
-              <!-- /.row -->
             </div>
 
             <!-- EXPLORE MORE LINKS -->
@@ -441,7 +444,7 @@
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Golden Triangle Tour 6 Days FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="priority-seo-faq">
                 <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                  <div class="accrodion-title"><h4>Is 6 days a good duration for Delhi Agra Jaipur?</h4></div>
+                  <div class="accrodion-title"><h4>Is 6 days a good duration for Delhi Agra Jaipur?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
                   <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">Yes, 6 days is one of the most comfortable durations for the Golden Triangle because it allows better sightseeing time, smoother drives and less rushed monument visits.</p></div></div>
                 </div>
                 <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

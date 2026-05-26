@@ -505,7 +505,7 @@
             <h3 class="tour-listing-details__title tour-listing-details__plan-title">Same Day Delhi Tour FAQs</h3>
             <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="delhi-tour-seo-faq">
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-              <div class="accrodion-title"><h4>What is covered on a same day Delhi sightseeing tour?</h4></div>
+              <div class="accrodion-title"><h4>What is covered on a same day Delhi sightseeing tour?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">Old Delhi highlights including Jama Masjid, Chandni Chowk rickshaw ride and Red Fort exterior, plus New Delhi landmarks like India Gate, Qutub Minar, Humayun's Tomb, Lotus Temple and a ceremonial drive past Rashtrapati Bhavan.</p></div></div>
             </div>
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

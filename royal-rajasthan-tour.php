@@ -386,6 +386,19 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">This itinerary suits travellers who want a first, thorough introduction to North India's heritage — couples on a landmark trip, honeymooners, cultural travellers in their 40s and beyond, and small family groups travelling privately. It's particularly good for first-time visitors who want the Taj Mahal and Rajasthan together, at a pace that allows for long lunches, unrushed photography, and a slow evening or two. It is not a backpacker route — expect comfort, private transport, and a degree of polish.</p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want the Golden Triangle plus Rajasthan? View our <a href="golden-triangle-tour-with-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle with Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Prefer a compact heritage route? Explore the <a href="rajasthan-heritage-tour" style="color: inherit; text-decoration: underline; font-weight: 600;">Rajasthan Heritage Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Looking for forts and palaces? Compare the <a href="fort-and-palaces-tour" style="color: inherit; text-decoration: underline; font-weight: 600;">Fort and Palaces Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want desert scenery? See the <a href="desert-tour-rajasthan" style="color: inherit; text-decoration: underline; font-weight: 600;">Desert Tour Rajasthan</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
             <!-- FAQ -->
             <div class="tour-listing-details__plan">
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Royal Rajasthan Tour FAQs</h3>

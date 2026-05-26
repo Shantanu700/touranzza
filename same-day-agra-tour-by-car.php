@@ -454,7 +454,7 @@
             <h3 class="tour-listing-details__title tour-listing-details__plan-title">Same Day Agra Tour by Car FAQs</h3>
             <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="agra-car-seo-faq">
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-              <div class="accrodion-title"><h4>Is a same day Agra tour from Delhi worth it?</h4></div>
+              <div class="accrodion-title"><h4>Is a same day Agra tour from Delhi worth it?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">Yes — with a private car and expert guide you can comfortably visit the Taj Mahal, Agra Fort and optionally Baby Taj in one day. The Yamuna Expressway makes the drive smooth and predictable.</p></div></div>
             </div>
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

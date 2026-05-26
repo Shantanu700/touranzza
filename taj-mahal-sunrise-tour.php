@@ -357,7 +357,7 @@
               </div>
             </div>
             <div class="tour-listing-details__included">
-              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions / Exclusions</h3>
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Inclusions</h3>
               <div class="row">
                 <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-one">
@@ -376,8 +376,13 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-7 -->
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
+              </div>
+            </div>
+
+            <div class="tour-listing-details__included" style="margin-top:-30px;">
+              <h3 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h3>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
                       <p>Additional Service</p>
@@ -394,9 +399,7 @@
                   </ul>
                   <!-- /.tour-listing-details__included-list-one -->
                 </div>
-                <!-- /.col-lg-6 col-md-5 -->
               </div>
-              <!-- /.row -->
             </div>
 
             <!-- EXPLORE MORE LINKS -->
@@ -418,7 +421,7 @@
               <h3 class="tour-listing-details__title tour-listing-details__plan-title">Taj Mahal Sunrise Tour FAQs</h3>
               <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="sunrise-tour-seo-faq">
               <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-                <div class="accrodion-title"><h4>What time does the Taj Mahal open for sunrise visits?</h4></div>
+                <div class="accrodion-title"><h4>What time does the Taj Mahal open for sunrise visits?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
                 <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">The Taj Mahal opens 30 minutes before sunrise. Depending on the season, this is typically between 5:30 AM and 6:30 AM. Your guide will confirm the exact time based on your travel date.</p></div></div>
               </div>
               <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">

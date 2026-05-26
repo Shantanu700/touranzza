@@ -399,6 +399,19 @@
               <p class="tour-listing-details__overview-text wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">This experience is ideal for travelers searching for best India tours that combine speed, comfort, and cultural depth. Unlike road journeys, this <strong>Taj Mahal tour from Delhi</strong> by train allows you to maximize your time exploring rather than traveling. It&rsquo;s a perfect choice for those planning short stays, India trip packages, or adding a quick cultural highlight to their itinerary.</p>
             </div>
 
+            <!-- EXPLORE MORE LINKS -->
+            <div class="tour-listing-details__included" style="border-bottom:none; padding-bottom:0;"><div class="wow animated fadeIn mt-4" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                <h3 class="tour-listing-details__title tour-listing-details__overview-title" style="font-size: 1.25rem;">Explore More Options</h3>
+              </div>
+              <ul class="tour-listing-details__overview-text wow animated fadeInUp list-unstyled" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Prefer a private road trip? View our <a href="same-day-agra-tour-by-car" style="color: inherit; text-decoration: underline; font-weight: 600;">Same Day Agra Tour by Car</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Want the premium express option? Explore the <a href="same-day-agra-tour-by-gatimaan-express" style="color: inherit; text-decoration: underline; font-weight: 600;">Gatimaan Express Agra Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Love early light? Compare the <a href="taj-mahal-sunrise-tour" style="color: inherit; text-decoration: underline; font-weight: 600;">Taj Mahal Sunrise Tour</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Have more days? See our <a href="golden-triangle-tours" style="color: inherit; text-decoration: underline; font-weight: 600;">Golden Triangle Tours</a>.</li>
+                <li style="margin-bottom: 8px;"><i class="fas fa-arrow-right" style="color:var(--trevlo-base); margin-right: 8px;"></i> Tailor your perfect trip: <a href="contact" style="color: inherit; text-decoration: underline; font-weight: 600;">Contact our specialists</a>.</li>
+              </ul>
+            </div>
+
           </div>
           <!-- /.col-xl-8 -->
 
@@ -487,7 +500,7 @@
             <h3 class="tour-listing-details__title tour-listing-details__plan-title">Taj Mahal Day Tour by Train FAQs</h3>
             <div class="trevlo-accrodion tour-listing-details__faq" data-grp-name="train-tour-seo-faq">
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
-              <div class="accrodion-title"><h4>Which train is used for the Taj Mahal day tour from Delhi?</h4></div>
+              <div class="accrodion-title"><h4>Which train is used for the Taj Mahal day tour from Delhi?<span class="faq-arrow" style="float:right;color:#ffc202;font-size:13px;transition:transform 0.3s;"><i class="fas fa-chevron-down"></i></span></h4></div>
               <div class="accrodion-content"><div class="inner"><p style="margin-top: 0.75rem;">The Gatimaan Express — India's fastest train — connects Delhi Hazrat Nizamuddin to Agra Cantonment in under 2 hours, making it the most efficient same-day option for visiting the Taj Mahal.</p></div></div>
             </div>
             <div class="accrodion wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
