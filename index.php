@@ -218,7 +218,16 @@
 
     /* Get to Know Us → extra top gap after Special Offer */
     .benefit-one {
-      padding: 100px 0 80px;
+      padding: 100px 0 0;
+    }
+    .benefit-one__bg {
+      display: block !important;
+      width: 35% !important;
+    }
+    @media (max-width: 767px) {
+      .benefit-one__bg {
+        width: 30% !important;
+      }
     }
 
     /* ── Tighter title gap for Top Picks section ── */
