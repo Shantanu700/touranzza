@@ -1731,191 +1731,189 @@
     </section>
     <!-- Benefit One End -->
 
-    <!-- Testimonial One Start -->
-    <section class="testimonial-one testimonial-one--home">
-      <div class="testimonial-one__bg" style="background-image: url(assets/images/shapes/testimonial-1-bg-2.png);"> </div>
-      <div class="container">
-        <div class="sec-title text-center">
-          <p class="sec-title__tagline">Testimonial</p>
-          <h2 class="sec-title__title">What Our Customers are<br>
-            Saying?</h2>
-        </div>
-      </div>
-      <div class="container">
-        <div
-          class="testimonial-one__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
-          data-owl-options='{
-              "items": 3,
-              "margin": 42,
-              "smartSpeed": 700,
-              "loop":false,
-              "autoplay": 6000,
-              "nav":false,
-              "dots":true,
-              "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
-              "responsive":{
-                  "0":{
-                      "items": 1
-                  },
-                  "768":{
-                      "items": 2
-                  },
-                  "1200":{
-                      "items": 3,
-                      "dots": false
-                  }
-              }
-              }'>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_15_46 AM.webp" alt="Jacob Jones"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Jacob Jones</h5>
-                <p class="testimonials-card__meta__designation">UK</p>
-              </div>
-              <div class="testimonials-card__quote">"Our group of 6 adults just spent the most amazing 5 days booking with
-                Touranzza for our Golden Triangle trip. The team customised the tour perfectly to suit our travel
-                arrangements. They are extremely professional and handle every detail with expertise. Everything we
-                requested was delivered flawlessly."</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_25_00 AM.webp" alt="Hanie Fox"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Hanie Fox</h5>
-                <p class="testimonials-card__meta__designation">USA</p>
-              </div>
-              <div class="testimonials-card__quote">"AMAZING tour of Taj Mahal! 5 STARS! Highly recommend. Touranzza
-                provided a seamless experience from the private car pickup in Delhi to the customized daily tours. Our
-                assigned guide, Santosh, was absolutely WONDERFUL—kind, patient, and exceptionally
-                knowledgeable."</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_43_45 AM.webp" alt="Guy Hawkins"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Guy Hawkins</h5>
-                <p class="testimonials-card__meta__designation">New York</p>
-              </div>
-              <div class="testimonials-card__quote">"Exceptional Service. From our first inquiry, the Touranzza team
-                was incredibly helpful and accommodating of our tight schedule. They arranged for a private driver,
-                Ashok, who provided safe and comfortable transfers between Delhi and Agra. A truly professional
-                company."</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_39_20 AM.webp" alt="Charlotte Parker"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Charlotte Parker</h5>
-                <p class="testimonials-card__meta__designation">Canada</p>
-              </div>
-              <div class="testimonials-card__quote">"Travel with confidence. Working with Touranzza feels like being
-                with family. The depth of historical knowledge and the care they put into their guest experiences is
-                clear from start to finish. We highly recommend Touranzza for anyone visiting India."</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_49_26 AM.webp" alt="Yuki Tanaka"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Yuki Tanaka</h5>
-                <p class="testimonials-card__meta__designation">Japan</p>
-              </div>
-              <div class="testimonials-card__quote">"A Memorable Visit to Agra. Our two-day experience with Touranzza
-                was amazing! We highly recommend choosing this agency and their attentive staff for a premium visit to
-                Agra. Every detail was handled with care and hospitality."</div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_38_36 AM.webp" alt="Arjun Mehta"> </div>
-              <div class="testimonials-card__meta">
-                <h5 class="testimonials-card__meta__name">Arjun Mehta</h5>
-                <p class="testimonials-card__meta__designation">India</p>
-              </div>
-              <div class="testimonials-card__quote">"Awesome Day Trip. Touranzza organized really nicely the 1 day trip
-                from Delhi to Agra, including the Taj Mahal, Inlay Art, Red Fort visits. Touranzza was always reachable
-                on WhatsApp."</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonial One End -->
-
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
 
-      <!-- SEO + Testimonial combined translucent box -->
-      <div class="home-seo-combined">
-        <section class="home-seo">
-          <div class="container">
-            <div class="home-seo__card">
-              <p class="home-seo__tagline">Private India Travel, Planned With Care</p>
-              <h1 class="home-seo__title">Luxury India Tours by Touranzza</h1>
-
-              <details class="home-seo__details">
-                <p class="home-seo__text home-seo__preview">
-                  Touranzza creates private luxury India tours for travelers who want more than a rushed checklist. Our
-                  itineraries bring together personal drivers, handpicked hotels, expert local guides and thoughtful
-                  pacing across India's most rewarding routes.
-                </p>
-
-                <summary class="home-seo__summary">
-                  Read more
-                  <span class="home-seo__chev" aria-hidden="true"><span class="icon-right-arrow"></span></span>
-                </summary>
-
-                <div class="home-seo__full">
-                  <p class="home-seo__text">
-                    First-time visitors often begin with the
-                    <a href="golden-triangle-tour-3-days">Golden Triangle Tour 3 Days</a>, the
-                    <a href="golden-triangle-tour-4-days">Golden Triangle Tour 4 Days</a> or the more relaxed
-                    <a href="golden-triangle-tour-6-days">Golden Triangle Tour 6 Days</a>, each covering Delhi, Agra, Jaipur
-                    and the Taj Mahal with private comfort.
-                  </p>
-                  <p class="home-seo__text">
-                    For travelers who want deeper culture, we extend the route into Rajasthan's palaces, desert towns and
-                    sacred cities. You can pair the Taj Mahal with the
-                    <a href="desert-tour-rajasthan">Rajasthan Desert Tour</a>, explore forts and lake palaces on the
-                    <a href="golden-triangle-tour-with-rajasthan">Golden Triangle with Rajasthan</a>, or choose a short
-                    <a href="same-day-agra-tour-by-car">Same Day Agra Tour by Car</a> when time is limited. Every trip can be
-                    tailored around your hotel style, guide language, pickup city, flight schedule and preferred pace.
-                  </p>
-
-                  <div class="home-seo__faq" aria-label="Frequently asked questions">
-                    <details>
-                      <summary>Which Touranzza tour should I choose first?</summary>
-                      <p>
-                        Choose a Golden Triangle tour if this is your first India visit. Choose a Rajasthan tour if you want
-                        forts, desert landscapes and palace hotels. Choose a same-day tour if you are short on time but want a
-                        private Taj Mahal, Delhi or Jaipur experience.
-                      </p>
-                    </details>
-                    <details>
-                      <summary>Are Touranzza itineraries private and customizable?</summary>
-                      <p>
-                        Yes. Most Touranzza journeys are planned as private tours with flexible routing, vehicle type, hotel
-                        category, guides and add-on experiences.
-                      </p>
-                    </details>
-                  </div>
+      <!-- Testimonial One Start (translucent card) -->
+      <div class="home-glass-card home-glass-card--testimonials">
+      <section class="testimonial-one testimonial-one--home" style="background: transparent !important;">
+        <div class="container">
+          <div class="sec-title text-center">
+            <p class="sec-title__tagline">Testimonial</p>
+            <h2 class="sec-title__title">What Our Customers are<br>
+              Saying?</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="testimonial-one__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
+            data-owl-options='{
+                "items": 3,
+                "margin": 42,
+                "smartSpeed": 700,
+                "loop":false,
+                "autoplay": 6000,
+                "nav":false,
+                "dots":true,
+                "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
+                "responsive":{
+                    "0":{
+                        "items": 1
+                    },
+                    "768":{
+                        "items": 2
+                    },
+                    "1200":{
+                        "items": 3,
+                        "dots": false
+                    }
+                }
+                }'>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_15_46 AM.webp" alt="Jacob Jones"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Jacob Jones</h5>
+                  <p class="testimonials-card__meta__designation">UK</p>
                 </div>
-              </details>
+                <div class="testimonials-card__quote">"Our group of 6 adults just spent the most amazing 5 days booking with
+                  Touranzza for our Golden Triangle trip. The team customised the tour perfectly to suit our travel
+                  arrangements. They are extremely professional and handle every detail with expertise. Everything we
+                  requested was delivered flawlessly."</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_25_00 AM.webp" alt="Hanie Fox"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Hanie Fox</h5>
+                  <p class="testimonials-card__meta__designation">USA</p>
+                </div>
+                <div class="testimonials-card__quote">"AMAZING tour of Taj Mahal! 5 STARS! Highly recommend. Touranzza
+                  provided a seamless experience from the private car pickup in Delhi to the customized daily tours. Our
+                  assigned guide, Santosh, was absolutely WONDERFUL—kind, patient, and exceptionally
+                  knowledgeable."</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_43_45 AM.webp" alt="Guy Hawkins"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Guy Hawkins</h5>
+                  <p class="testimonials-card__meta__designation">New York</p>
+                </div>
+                <div class="testimonials-card__quote">"Exceptional Service. From our first inquiry, the Touranzza team
+                  was incredibly helpful and accommodating of our tight schedule. They arranged for a private driver,
+                  Ashok, who provided safe and comfortable transfers between Delhi and Agra. A truly professional
+                  company."</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_39_20 AM.webp" alt="Charlotte Parker"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Charlotte Parker</h5>
+                  <p class="testimonials-card__meta__designation">Canada</p>
+                </div>
+                <div class="testimonials-card__quote">"Travel with confidence. Working with Touranzza feels like being
+                  with family. The depth of historical knowledge and the care they put into their guest experiences is
+                  clear from start to finish. We highly recommend Touranzza for anyone visiting India."</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_49_26 AM.webp" alt="Yuki Tanaka"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Yuki Tanaka</h5>
+                  <p class="testimonials-card__meta__designation">Japan</p>
+                </div>
+                <div class="testimonials-card__quote">"A Memorable Visit to Agra. Our two-day experience with Touranzza
+                  was amazing! We highly recommend choosing this agency and their attentive staff for a premium visit to
+                  Agra. Every detail was handled with care and hospitality."</div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonials-card centered-card">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_38_36 AM.webp" alt="Arjun Mehta"> </div>
+                <div class="testimonials-card__meta">
+                  <h5 class="testimonials-card__meta__name">Arjun Mehta</h5>
+                  <p class="testimonials-card__meta__designation">India</p>
+                </div>
+                <div class="testimonials-card__quote">"Awesome Day Trip. Touranzza organized really nicely the 1 day trip
+                  from Delhi to Agra, including the Taj Mahal, Inlay Art, Red Fort visits. Touranzza was always reachable
+                  on WhatsApp."</div>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+      </div><!-- /.home-glass-card--testimonials -->
+      <!-- Testimonial One End -->
+
+      <!-- SEO section (white card, separate) -->
+      <div style="padding: 40px 0;">
+        <div class="container">
+          <div class="home-seo__card" style="background: #fff;">
+            <p class="home-seo__tagline">Private India Travel, Planned With Care</p>
+            <h1 class="home-seo__title">Luxury India Tours by Touranzza</h1>
+
+            <details class="home-seo__details">
+              <p class="home-seo__text home-seo__preview">
+                Touranzza creates private luxury India tours for travelers who want more than a rushed checklist. Our
+                itineraries bring together personal drivers, handpicked hotels, expert local guides and thoughtful
+                pacing across India's most rewarding routes.
+              </p>
+
+              <summary class="home-seo__summary">
+                Read more
+                <span class="home-seo__chev" aria-hidden="true"><span class="icon-right-arrow"></span></span>
+              </summary>
+
+              <div class="home-seo__full">
+                <p class="home-seo__text">
+                  First-time visitors often begin with the
+                  <a href="golden-triangle-tour-3-days">Golden Triangle Tour 3 Days</a>, the
+                  <a href="golden-triangle-tour-4-days">Golden Triangle Tour 4 Days</a> or the more relaxed
+                  <a href="golden-triangle-tour-6-days">Golden Triangle Tour 6 Days</a>, each covering Delhi, Agra, Jaipur
+                  and the Taj Mahal with private comfort.
+                </p>
+                <p class="home-seo__text">
+                  For travelers who want deeper culture, we extend the route into Rajasthan's palaces, desert towns and
+                  sacred cities. You can pair the Taj Mahal with the
+                  <a href="desert-tour-rajasthan">Rajasthan Desert Tour</a>, explore forts and lake palaces on the
+                  <a href="golden-triangle-tour-with-rajasthan">Golden Triangle with Rajasthan</a>, or choose a short
+                  <a href="same-day-agra-tour-by-car">Same Day Agra Tour by Car</a> when time is limited. Every trip can be
+                  tailored around your hotel style, guide language, pickup city, flight schedule and preferred pace.
+                </p>
+
+                <div class="home-seo__faq" aria-label="Frequently asked questions">
+                  <details>
+                    <summary>Which Touranzza tour should I choose first?</summary>
+                    <p>
+                      Choose a Golden Triangle tour if this is your first India visit. Choose a Rajasthan tour if you want
+                      forts, desert landscapes and palace hotels. Choose a same-day tour if you are short on time but want a
+                      private Taj Mahal, Delhi or Jaipur experience.
+                    </p>
+                  </details>
+                  <details>
+                    <summary>Are Touranzza itineraries private and customizable?</summary>
+                    <p>
+                      Yes. Most Touranzza journeys are planned as private tours with flexible routing, vehicle type, hotel
+                      category, guides and add-on experiences.
+                    </p>
+                  </details>
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
       </div>
-      <!-- /SEO + Testimonial combined box -->
     </div>
     <!-- MANDALA BACKGROUND WRAPPER END -->
     <?php include("footer.php") ?>
