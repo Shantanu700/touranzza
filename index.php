@@ -1132,7 +1132,6 @@
   <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
   <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-  <script src="assets/vendors/animate/animate.min.js"></script>
   <script src="assets/vendors/wow/wow.js"></script>
   <script src="assets/vendors/tilt/tilt.jquery.js"></script>
   <script src="assets/vendors/jarallax/jarallax.min.js"></script>
