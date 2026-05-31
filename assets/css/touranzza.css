@@ -1082,33 +1082,20 @@ section.offer-one {
     background-color: #ffc202;
 }
 
-/* Reduce excessive spacing between sections (desktop) */
-.tour-listing-one {
-    padding-bottom: 40px !important;
-}
-
 .destination-one {
     padding-top: 40px !important;
-}
-
-.blog-one {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
 }
 
 .testimonial-one {
     padding-top: 40px !important;
 }
 
-@media (max-width: 767px) {
-    .blog-one {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
-
-    .tour-listing-one {
-        padding-bottom: 0 !important;
-    }
+/* Mandala sections: spacing lives on glass cards, not inner sections */
+.home-glass-card .tour-listing-one,
+.home-glass-card .gallery-one,
+.home-glass-card .blog-one {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 /* ──────────────────────────────────────────────────────────────
@@ -1810,49 +1797,69 @@ html, body, .page-wrapper {
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-/* ── Home page translucent glass cards (mobile) ───────────────────────────── */
-.home-glass-card,
-.tour-listing-glass-wrap {
-    background: transparent;
+/* ── Home page translucent glass cards (all screen sizes) ─────────────────── */
+.mandala-bg-wrapper .home-glass-card,
+.tour-listing-glass-wrap.home-glass-card {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 28px auto 0;
+    padding: 32px 28px 36px;
+    background: rgba(255, 255, 255, 0.58);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(19, 15, 16, 0.08);
 }
 
-.tour-listing-glass-wrap .tour-listing-one {
+.mandala-bg-wrapper .home-glass-card:first-of-type {
+    margin-top: 36px;
+}
+
+.mandala-bg-wrapper .home-glass-card:last-of-type {
+    margin-bottom: 36px;
+}
+
+.home-glass-card .tour-listing-one,
+.home-glass-card .gallery-one,
+.home-glass-card .blog-one {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-image: none !important;
     background-color: transparent !important;
 }
 
+.home-glass-card .sec-title {
+    margin-bottom: 22px !important;
+}
+
+.home-glass-card .tour-listing-one__carousel,
+.home-glass-card .gallery-one__carousel,
+.home-glass-card .blog-page__carousel {
+    margin-top: 0 !important;
+}
+
 @media (max-width: 767px) {
+    .mandala-bg-wrapper {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
     .mandala-bg-wrapper .home-glass-card:first-of-type {
-        margin-top: 10px;
+        margin-top: 18px;
     }
 
     .mandala-bg-wrapper .home-glass-card {
-        margin: 8px 12px 0;
-        padding: 14px 12px 16px;
-        background: rgba(255, 255, 255, 0.58);
-        backdrop-filter: blur(14px);
-        -webkit-backdrop-filter: blur(14px);
-        border: 1px solid rgba(255, 255, 255, 0.52);
+        max-width: none;
+        margin: 24px 16px 0;
+        padding: 18px 14px 22px;
         border-radius: 14px;
-        box-shadow: 0 2px 18px rgba(19, 15, 16, 0.08);
     }
 
     .mandala-bg-wrapper .home-glass-card:last-of-type {
-        margin-bottom: 8px;
+        margin-bottom: 24px;
     }
 
-    .home-glass-card .tour-listing-one,
-    .home-glass-card .gallery-one,
-    .home-glass-card .blog-one {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-        background-image: none !important;
-    }
-
-    .home-glass-card .tour-listing-one {
-        background-color: transparent !important;
-    }
-
-    .home-glass-card > .container,
     .home-glass-card .container {
         padding-left: 0 !important;
         padding-right: 0 !important;
@@ -1860,7 +1867,7 @@ html, body, .page-wrapper {
     }
 
     .home-glass-card .sec-title {
-        margin-bottom: 12px !important;
+        margin-bottom: 14px !important;
     }
 
     .home-glass-card .sec-title__title {
@@ -1873,12 +1880,6 @@ html, body, .page-wrapper {
         font-size: 14px !important;
         letter-spacing: 0.5px !important;
         margin-bottom: 4px !important;
-    }
-
-    .home-glass-card .tour-listing-one__carousel,
-    .home-glass-card .gallery-one__carousel,
-    .home-glass-card .blog-page__carousel {
-        margin-top: 0 !important;
     }
 }
 
@@ -2170,19 +2171,6 @@ html, body, .page-wrapper {
 
 /* ── Mobile home page: reduce spacing + why-choose carousel ─────────────── */
 @media (max-width: 767px) {
-
-    /* Tighter section padding on home page */
-    .mandala-bg-wrapper {
-        padding-top: 4px;
-        padding-bottom: 4px;
-    }
-
-    .tour-listing-one,
-    .gallery-one,
-    .blog-one {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-    }
 
     .why-choose-one,
     .offer-one,

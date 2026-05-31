@@ -99,7 +99,7 @@
   <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
   <!-- template styles -->
   <link rel="stylesheet" href="assets/css/trevlo.css?v=2" />
-  <link rel="stylesheet" href="assets/css/touranzza.css?v=3" />
+  <link rel="stylesheet" href="assets/css/touranzza.css?v=4" />
   <style>
     /* ── Luxury font for slider subtitle ── */
     .main-slider-one__sub-title {
@@ -199,17 +199,11 @@
       filter: brightness(0) saturate(100%) invert(72%) sepia(80%) saturate(500%) hue-rotate(5deg) brightness(105%);
     }
 
-    /* ── Section spacing normalisation ── */
-    .tour-listing-one {
-      padding: 80px 0;
-    }
-
-    .gallery-one {
-      padding: 30px 0;
-    }
-
-    .blog-one {
-      padding: 30px 0 60px;
+    /* ── Section spacing (glass cards handle mandala sections) ── */
+    .mandala-bg-wrapper .home-glass-card .tour-listing-one,
+    .mandala-bg-wrapper .home-glass-card .gallery-one,
+    .mandala-bg-wrapper .home-glass-card .blog-one {
+      padding: 0 !important;
     }
 
     .why-choose-one {
@@ -241,11 +235,6 @@
         padding: 36px 0 !important;
       }
 
-      .mandala-bg-wrapper .home-glass-card .tour-listing-one,
-      .mandala-bg-wrapper .home-glass-card .gallery-one,
-      .mandala-bg-wrapper .home-glass-card .blog-one {
-        padding: 0 !important;
-      }
     }
 
 
