@@ -2099,3 +2099,55 @@ html, body, .page-wrapper {
     filter: brightness(0) saturate(100%) invert(82%) sepia(60%) saturate(700%) hue-rotate(358deg) brightness(103%) contrast(102%) !important;
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Mobile home page: reduce spacing + why-choose carousel ─────────────── */
+@media (max-width: 767px) {
+
+    /* Reduce all section padding on home page */
+    .tour-listing-one,
+    .gallery-one,
+    .blog-one,
+    .why-choose-one,
+    .offer-one,
+    .benefit-one,
+    .testimonial-one,
+    .destination-one,
+    .home-seo-combined {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    /* Why-choose carousel dots */
+    .why-choose-cards-carousel .owl-dots {
+        margin-top: 16px !important;
+        text-align: center;
+    }
+    .why-choose-cards-carousel .owl-dot span {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.4);
+        display: inline-block;
+        margin: 0 4px;
+        transition: background 0.3s;
+    }
+    .why-choose-cards-carousel .owl-dot.active span {
+        background: #ffc202;
+    }
+
+    /* Cards compact on mobile */
+    .why-choose-one__box {
+        min-height: 140px !important;
+        padding: 20px 16px 16px !important;
+    }
+
+    .why-choose-one__box__title {
+        font-size: 14px !important;
+    }
+
+    /* Sec-title spacing */
+    .sec-title {
+        margin-bottom: 20px !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */

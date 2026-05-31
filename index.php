@@ -1568,59 +1568,57 @@
           </div>
         </div>
         <div class="row gutter-y-30">
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+          <div class="why-choose-cards-carousel owl-carousel owl-theme" data-owl-options='{
+            "items": 1,
+            "margin": 16,
+            "loop": true,
+            "autoplay": true,
+            "autoplayTimeout": 3500,
+            "nav": false,
+            "dots": true,
+            "responsive": {
+              "0": { "items": 1 },
+              "480": { "items": 2 },
+              "768": { "items": 4 }
+            }
+          }'>
+          <div class="item">
             <div class="why-choose-one__box">
               <div class="why-choose-one__box__bg"
                 style="background-image: url(assets/images/backgrounds/why-choose-bg-1-1.webp);"></div>
               <div class="why-choose-one__box__icon"><img src="assets/images/icons/taj-mahal.webp" alt="Taj Mahal"
                   class="why-choose-custom-icon"></div>
-              <h3 class="why-choose-one__box__title">One Day Tour</h3>
-              <a href="1-day-tours"
-                style="position: absolute; bottom: 15px; right: 20px; color: #ffeb3b; font-size: 14px; font-weight: bold; z-index: 2; text-decoration: none; display: flex; align-items: center; gap: 5px;">Discover
-                More <span class="icon-right-arrow"></span></a>
+              <h3 class="why-choose-one__box__title"><a href="1-day-tours" style="color:inherit;text-decoration:none;">One Day Tour</a></h3>
             </div>
-            <!-- /.why-choose-box -->
           </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+          <div class="item">
             <div class="why-choose-one__box">
               <div class="why-choose-one__box__bg"
                 style="background-image: url(assets/images/backgrounds/why-choose-bg-1-2.webp);"></div>
               <div class="why-choose-one__box__icon"><img src="assets/images/icons/city.webp" alt="City"
                   class="why-choose-custom-icon"></div>
-              <h3 class="why-choose-one__box__title">Under 3-5 Days Journey</h3>
-              <a href="3-to-5-days-tours"
-                style="position: absolute; bottom: 15px; right: 20px; color: #ffeb3b; font-size: 14px; font-weight: bold; z-index: 2; text-decoration: none; display: flex; align-items: center; gap: 5px;">Discover
-                More <span class="icon-right-arrow"></span></a>
+              <h3 class="why-choose-one__box__title"><a href="3-to-5-days-tours" style="color:inherit;text-decoration:none;">Under 3-5 Days Journey</a></h3>
             </div>
-            <!-- /.why-choose-box -->
           </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+          <div class="item">
             <div class="why-choose-one__box">
               <div class="why-choose-one__box__bg"
                 style="background-image: url(assets/images/backgrounds/why-choose-bg-1-3.webp);"></div>
               <div class="why-choose-one__box__icon"><img src="assets/images/icons/temple.webp" alt="Temple"
                   class="why-choose-custom-icon"></div>
-              <h3 class="why-choose-one__box__title">6-10 days Tours</h3>
-              <a href="6-to-10-days-expeditions"
-                style="position: absolute; bottom: 15px; right: 20px; color: #ffeb3b; font-size: 14px; font-weight: bold; z-index: 2; text-decoration: none; display: flex; align-items: center; gap: 5px;">Discover
-                More <span class="icon-right-arrow"></span></a>
+              <h3 class="why-choose-one__box__title"><a href="6-to-10-days-expeditions" style="color:inherit;text-decoration:none;">6-10 days Tours</a></h3>
             </div>
-            <!-- /.why-choose-box -->
           </div>
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+          <div class="item">
             <div class="why-choose-one__box">
               <div class="why-choose-one__box__bg"
                 style="background-image: url(assets/images/backgrounds/why-choose-bg-1-4.webp);"></div>
               <div class="why-choose-one__box__icon"><img src="assets/images/icons/tower.webp" alt="Tower"
                   class="why-choose-custom-icon"></div>
-              <h3 class="why-choose-one__box__title">10+ Days Grand Tours</h3>
-              <a href="10-plus-days-grand-tours"
-                style="position: absolute; bottom: 15px; right: 20px; color: #ffeb3b; font-size: 14px; font-weight: bold; z-index: 2; text-decoration: none; display: flex; align-items: center; gap: 5px;">Discover
-                More <span class="icon-right-arrow"></span></a>
+              <h3 class="why-choose-one__box__title"><a href="10-plus-days-grand-tours" style="color:inherit;text-decoration:none;">10+ Days Grand Tours</a></h3>
             </div>
-            <!-- /.why-choose-box -->
           </div>
-        </div>
+          </div><!-- /.why-choose-cards-carousel -->
       </div>
       <!-- /.container -->
     </section>
