@@ -136,10 +136,6 @@
     }
 
     @media (max-width: 767px) {
-      .main-slider-one__image {
-        height: 320px !important;
-      }
-
       .main-slider-one__title img {
         transform: translate(0, 10px) !important;
         max-width: 150px;
@@ -245,6 +241,10 @@
 
     @media (max-width: 767px) {
 
+      .main-slider-one__image {
+        height: 220px !important;
+      }
+
       .why-choose-one,
       .offer-one,
       .benefit-one,
@@ -254,6 +254,10 @@
 
       .tour-listing-one .sec-title {
         margin-bottom: 0 !important;
+      }
+
+      .tour-listing-glass-wrap {
+        padding-bottom: 10px !important;
       }
 
       .testimonial-one .centered-card {
