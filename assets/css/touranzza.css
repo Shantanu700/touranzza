@@ -2242,4 +2242,268 @@ html, body, .page-wrapper {
         background: #ffc202;
     }
 }
+
+/* ── Mobile home: offer, why-choose, testimonials, blog carousel ──────────── */
+@media (max-width: 767px) {
+
+    /* Start Planning Today — compact, no extra yellow padding */
+    section.offer-one {
+        padding-top: 22px !important;
+        padding-bottom: 28px !important;
+        overflow: hidden;
+    }
+
+    .offer-one .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .offer-one__content {
+        top: 0 !important;
+        margin-bottom: 16px !important;
+        padding-right: 0 !important;
+    }
+
+    .offer-one__top-title {
+        font-size: 17px !important;
+        margin-bottom: 6px !important;
+    }
+
+    .offer-one__heading {
+        font-size: 1.35rem !important;
+        line-height: 1.25 !important;
+    }
+
+    .offer-one__text {
+        font-size: 14px !important;
+        margin-top: 10px !important;
+        margin-bottom: 16px !important;
+        line-height: 1.55 !important;
+    }
+
+    .offer-one__btn-box .trevlo-btn {
+        padding: 12px 20px !important;
+        font-size: 13px !important;
+    }
+
+    .offer-one__img-box {
+        margin-top: 0 !important;
+    }
+
+    .offer-one__inner-img-box {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    /* Hide circular “dancing” secondary image */
+    .offer-one__img-three {
+        display: none !important;
+        animation: none !important;
+    }
+
+    /* Main image — rectangular, squared corners */
+    .offer-one__img-one {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+        min-height: unset !important;
+        aspect-ratio: 4 / 3 !important;
+        object-fit: cover !important;
+        border-radius: 0 !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .offer-one__shape-one,
+    .offer-one__shape-two,
+    .offer-one__bottom-bg {
+        display: none !important;
+    }
+
+    /* Choose your trip — square cards, slider with arrows */
+    .why-choose-one {
+        padding: 28px 0 !important;
+    }
+
+    .why-choose-one .sec-title {
+        margin-bottom: 12px !important;
+    }
+
+    .why-choose-one__text {
+        margin: 0 0 14px !important;
+        font-size: 14px !important;
+        line-height: 1.55 !important;
+    }
+
+    .why-choose-row.owl-carousel {
+        position: relative;
+        padding: 0 4px;
+    }
+
+    .why-choose-row.owl-carousel .owl-stage-outer {
+        padding: 4px 0 8px;
+    }
+
+    .why-choose-row.owl-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .why-choose-row.owl-carousel .col-lg-3,
+    .why-choose-row.owl-carousel .col-md-6 {
+        width: 100%;
+        max-width: 168px;
+        flex: 0 0 auto;
+        padding: 0;
+    }
+
+    .why-choose-row.owl-carousel .why-choose-one__box {
+        width: 168px;
+        height: 168px;
+        min-height: 168px !important;
+        max-height: 168px;
+        aspect-ratio: 1;
+        margin: 0 auto;
+        padding: 14px 10px 12px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 8px !important;
+    }
+
+    .why-choose-row.owl-carousel .why-choose-one__box__icon {
+        margin-bottom: 8px;
+    }
+
+    .why-choose-row.owl-carousel .why-choose-custom-icon {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
+    .why-choose-row.owl-carousel .why-choose-one__box__title {
+        font-size: 12px !important;
+        line-height: 1.25 !important;
+        flex: 0 !important;
+    }
+
+    .why-choose-row.owl-carousel .owl-nav {
+        position: absolute !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        width: 100% !important;
+        left: 0 !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        pointer-events: none !important;
+        margin: 0 !important;
+        z-index: 10;
+    }
+
+    .why-choose-row.owl-carousel .owl-nav button {
+        pointer-events: auto !important;
+        width: 36px !important;
+        height: 36px !important;
+        background-color: rgba(0, 0, 0, 0.55) !important;
+        color: #fff !important;
+        border-radius: 50% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 2px !important;
+        position: static !important;
+    }
+
+    .why-choose-row.owl-carousel .owl-nav button:hover {
+        background-color: #ffc202 !important;
+        color: #000 !important;
+    }
+
+    /* Testimonials — tighter around titles and cards */
+    .testimonial-one.testimonial-one--home {
+        padding-top: 22px !important;
+        padding-bottom: 22px !important;
+    }
+
+    .testimonial-one--home > .container:first-of-type {
+        padding-bottom: 0 !important;
+    }
+
+    .testimonial-one--home .sec-title {
+        margin-bottom: 6px !important;
+    }
+
+    .testimonial-one--home .sec-title__tagline {
+        margin-bottom: 4px !important;
+    }
+
+    .testimonial-one--home .sec-title__title {
+        font-size: 1.35rem !important;
+        line-height: 1.25 !important;
+    }
+
+    .testimonial-one__carousel .owl-stage-outer {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .testimonials-card.centered-card,
+    .testimonial-one .centered-card {
+        margin-top: 0 !important;
+        min-height: unset !important;
+        padding: 12px 14px 14px !important;
+    }
+
+    .testimonials-card__image.enlarge-image,
+    .testimonial-one .enlarge-image {
+        width: 70px !important;
+        height: 84px !important;
+        min-width: 70px !important;
+        min-height: 84px !important;
+        margin: 0 auto 8px !important;
+        border-width: 2px !important;
+        border-radius: 6px !important;
+    }
+
+    .testimonials-card.centered-card .testimonials-card__meta,
+    .centered-card .testimonials-card__meta {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        margin-bottom: 6px !important;
+        padding: 4px 10px !important;
+        min-width: unset !important;
+    }
+
+    .testimonials-card.centered-card .testimonials-card__meta__name,
+    .centered-card .testimonials-card__meta__name {
+        font-size: 11px !important;
+    }
+
+    .testimonials-card.centered-card .testimonials-card__meta__designation,
+    .centered-card .testimonials-card__meta__designation {
+        font-size: 9px !important;
+    }
+
+    .testimonials-card.centered-card .testimonials-card__quote,
+    .centered-card .testimonials-card__quote {
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        margin-top: 6px !important;
+        padding: 0 4px !important;
+    }
+
+    /* Find Your Perfect India Journey — slider arrows (mobile only) */
+    .home-glass-card--blog .blog-page__carousel .owl-stage-outer {
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) {
+    .trevlo-owl__carousel--blog-mobile-nav .owl-nav {
+        display: none !important;
+    }
+}
 /* ─────────────────────────────────────────────────────────────────────────── */

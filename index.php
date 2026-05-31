@@ -99,7 +99,7 @@
   <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
   <!-- template styles -->
   <link rel="stylesheet" href="assets/css/trevlo.css?v=2" />
-  <link rel="stylesheet" href="assets/css/touranzza.css?v=4" />
+  <link rel="stylesheet" href="assets/css/touranzza.css?v=5" />
   <style>
     /* ── Luxury font for slider subtitle ── */
     .main-slider-one__sub-title {
@@ -1382,16 +1382,16 @@
             <!-- /.sec-title__title -->
           </div>
           <!-- /.sec-title -->
-          <div class="blog-page__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav owl-theme owl-carousel"
+          <div class="blog-page__carousel trevlo-owl__carousel trevlo-owl__carousel--custom-nav trevlo-owl__carousel--blog-mobile-nav owl-theme owl-carousel"
             data-owl-options='{
             "items": 5,
             "margin": 30,
             "smartSpeed": 700,
             "loop":false,
             "autoplay": 6000,
-            "nav":false,
+            "nav":true,
             "dots":false,
-            "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
+            "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
             "responsive":{
                 "0":{
                     "items": 1
