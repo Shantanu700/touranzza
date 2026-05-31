@@ -1487,185 +1487,6 @@
       </div>
       </div><!-- /.home-glass-card--blog -->
       <!-- /.blog-one -->
-
-      <!-- Testimonial One Start -->
-      <div class="home-glass-card home-glass-card--testimonials">
-      <section class="testimonial-one testimonial-one--home"
-        style="background: transparent !important;">
-        <div class="container" style="max-width: 1200px;">
-          <div class="sec-title text-center" style="margin-bottom: 20px;">
-            <p class="sec-title__tagline">Testimonial</p>
-            <h2 class="sec-title__title">What Our Customers are Saying ? </h2>
-          </div>
-        </div>
-        <div class="container" style="max-width: 1200px;">
-          <div
-            class="testimonial-one__carousel trevlo-owl__carousel trevlo-owl__carousel--custom-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
-            data-owl-options='{
-            "items": 3,
-            "margin": 30,
-            "smartSpeed": 700,
-            "loop":true,
-            "autoplay": true,
-            "nav":true,
-            "dots":false,
-            "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
-            "responsive":{
-                "0":{
-                    "items": 1
-                },
-                "768":{
-                    "items": 2
-                },
-                "1200":{
-                    "items": 3
-                }
-            }
-            }'>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_15_46 AM.webp" alt="Jacob Jones"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Jacob Jones</h5>
-                  <p class="testimonials-card__meta__designation">UK</p>
-                </div>
-                <div class="testimonials-card__quote">"Our group of 6 adults just spent the most amazing 5 days booking
-                  with
-                  Touranzza for our Golden Triangle trip. The team customised the tour perfectly to suit our travel
-                  arrangements. They are extremely professional and handle every detail with expertise. Everything we
-                  requested was delivered flawlessly."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_25_00 AM.webp" alt="Hanie Fox"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Hanie Fox</h5>
-                  <p class="testimonials-card__meta__designation">USA</p>
-                </div>
-                <div class="testimonials-card__quote">"AMAZING tour of Taj Mahal! 5 STARS! Highly recommend. Touranzza
-                  provided a seamless experience from the private car pickup in Delhi to the customized daily tours. Our
-                  assigned guide, Santosh, was absolutely WONDERFUL—kind, patient, and exceptionally
-                  knowledgeable."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_43_45 AM.webp" alt="Guy Hawkins"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Guy Hawkins</h5>
-                  <p class="testimonials-card__meta__designation">New York</p>
-                </div>
-                <div class="testimonials-card__quote">"Exceptional Service. From our first inquiry, the Touranzza team
-                  was incredibly helpful and accommodating of our tight schedule. They arranged for a private driver,
-                  Ashok, who provided safe and comfortable transfers between Delhi and Agra. A truly professional
-                  company."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_39_20 AM.webp" alt="Charlotte Parker">
-                </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Charlotte Parker</h5>
-                  <p class="testimonials-card__meta__designation">Canada</p>
-                </div>
-                <div class="testimonials-card__quote">"Travel with confidence. Working with Touranzza feels like being
-                  with family. The depth of historical knowledge and the care they put into their guest experiences is
-                  clear from start to finish. We highly recommend Touranzza for anyone visiting India."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_38_36 AM.webp" alt="Arjun Mehta"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Arjun Mehta</h5>
-                  <p class="testimonials-card__meta__designation">India</p>
-                </div>
-                <div class="testimonials-card__quote">"Awesome Day Trip. Touranzza organized a flawless one-day
-                  excursion from Delhi to Agra, covering the Taj Mahal, local Inlay Art, and the Red Fort. Their support
-                  team was highly responsive and available 24/7 via WhatsApp for everything we needed."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_39_43 AM.webp" alt="Sophia de Luca">
-                </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Sophia de Luca</h5>
-                  <p class="testimonials-card__meta__designation">Italy</p>
-                </div>
-                <div class="testimonials-card__quote">"World-Class Experience! We booked Touranzza through our hotel and
-                  couldn't be happier with the 4-hour luxury tour of the Taj Mahal and Agra Fort. As frequent travelers,
-                  we've worked with many tour companies, but Touranzza is easily one of the best we have encountered!"
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_41_01 AM.webp" alt="Mark Thompson"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Mark Thompson</h5>
-                  <p class="testimonials-card__meta__designation">Australia</p>
-                </div>
-                <div class="testimonials-card__quote">"Professional & Responsive. Touranzza was fantastic to work with.
-                  The team was extremely responsive to all our emails. The private transportation from Delhi with Ash
-                  was excellent, and the guided tour provided deep historical insights into the Taj Mahal. Highly
-                  recommended."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 18, 2026, 01_49_26 AM.webp" alt="Yuki Tanaka"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Yuki Tanaka</h5>
-                  <p class="testimonials-card__meta__designation">Japan</p>
-                </div>
-                <div class="testimonials-card__quote">"A Memorable Visit to Agra. Our two-day experience with Touranzza
-                  was amazing! We highly recommend choosing this agency and their attentive staff for a premium visit to
-                  Agra. Every detail was handled with care and hospitality."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_33_23 AM.webp" alt="Elena Rossi"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">Elena Rossi</h5>
-                  <p class="testimonials-card__meta__designation">Germany</p>
-                </div>
-                <div class="testimonials-card__quote">"Boutique Excellence. An absolutely wonderful experience thanks to
-                  Touranzza. The entire team is passionate about sharing India's rich history. Unlike generic tour
-                  operators, Touranzza provides high-end, boutique personalized service that makes all the
-                  difference."</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimonials-card centered-card">
-                <div class="testimonials-card__image enlarge-image"> <img
-                    src="assets/images/gallery/ChatGPT Image Apr 19, 2026, 12_34_45 AM.webp" alt="David Miller"> </div>
-                <div class="testimonials-card__meta">
-                  <h5 class="testimonials-card__meta__name">David Miller</h5>
-                  <p class="testimonials-card__meta__designation">USA</p>
-                </div>
-                <div class="testimonials-card__quote">"Top-notch hospitality from start to end! Our entire Northern
-                  India itinerary was balanced and exciting. Not only did we get VIP treatment, but our driver Ashok was
-                  an absolute professional. We simply cannot recommend Touranzza enough. 10/10 experience!"</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      </div><!-- /.home-glass-card--testimonials -->
-      <!-- Testimonial One End -->
     </div>
     <!-- MANDALA BACKGROUND WRAPPER END -->
 
@@ -1909,6 +1730,181 @@
       </div>
     </section>
     <!-- Benefit One End -->
+
+    <!-- Testimonial One Start -->
+    <div class="home-glass-card home-glass-card--testimonials">
+    <section class="testimonial-one testimonial-one--home"
+      style="background: transparent !important;">
+      <div class="container">
+        <div class="sec-title text-center">
+          <h2 class="sec-title__title">What Our Customers are Saying ? </h2>
+          <!-- /.sec-title__title -->
+        </div>
+        <!-- /.sec-title -->
+        <div
+          class="testimonial-one__carousel trevlo-owl__carousel trevlo-owl__carousel--custom-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
+          data-owl-options='{
+          "items": 3,
+          "margin": 30,
+          "smartSpeed": 700,
+          "loop":true,
+          "autoplay":false,
+          "nav":true,
+          "dots":false,
+          "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
+          "responsive":{
+              "0":{
+                  "items": 1,
+                  "nav": false
+              },
+              "768":{
+                  "items": 2,
+                  "nav": true
+              },
+              "1200":{
+                  "items": 3
+              }
+          }
+          }'>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-1.webp" alt="Jacob Jones">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Jacob Jones</h5>
+                <p class="testimonials-card__meta__designation">UK</p>
+              </div>
+              <div class="testimonials-card__quote">"Our group of 6 adults just spent the most amazing 5 days booking
+                the Golden Triangle tour with Touranzza. The service from start to finish was exceptional!"</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-2.webp" alt="Hanie Fox">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Hanie Fox</h5>
+                <p class="testimonials-card__meta__designation">USA</p>
+              </div>
+              <div class="testimonials-card__quote">"AMAZING tour of Taj Mahal! 5 STARS! Highly recommend. Touranzza
+                made our visit seamless, informative, and truly unforgettable. The guide was knowledgeable and
+                friendly."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-3.webp" alt="Guy Hawkins">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Guy Hawkins</h5>
+                <p class="testimonials-card__meta__designation">New York</p>
+              </div>
+              <div class="testimonials-card__quote">"Exceptional Service. From our first inquiry, the Touranzza team
+                was responsive, courteous, and thorough. Our driver arrived early and the vehicle was immaculate."
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-4.webp" alt="Charlotte Parker">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Charlotte Parker</h5>
+                <p class="testimonials-card__meta__designation">Canada</p>
+              </div>
+              <div class="testimonials-card__quote">"Travel with confidence. Working with Touranzza feels like being
+                guided by a close friend who knows India inside out. Every detail was taken care of."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-5.webp" alt="Arjun Mehta">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Arjun Mehta</h5>
+                <p class="testimonials-card__meta__designation">India</p>
+              </div>
+              <div class="testimonials-card__quote">"Awesome Day Trip. Touranzza organized a flawless one-day
+                experience. Even as an Indian, I discovered new perspectives on our heritage through their expert
+                guides."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-6.webp" alt="Sophia de Luca">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Sophia de Luca</h5>
+                <p class="testimonials-card__meta__designation">Italy</p>
+              </div>
+              <div class="testimonials-card__quote">"World-Class Experience! We booked Touranzza through our hotel and
+                it was the best decision we made. The Taj Mahal at sunrise was breathtaking."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-7.webp" alt="Mark Thompson">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Mark Thompson</h5>
+                <p class="testimonials-card__meta__designation">Australia</p>
+              </div>
+              <div class="testimonials-card__quote">"Professional & Responsive. Touranzza was fantastic to work with.
+                The booking process was straightforward and their recommendations were spot on."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-8.webp" alt="Yuki Tanaka">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Yuki Tanaka</h5>
+                <p class="testimonials-card__meta__designation">Japan</p>
+              </div>
+              <div class="testimonials-card__quote">"A Memorable Visit to Agra. Our two-day experience with Touranzza
+                was absolutely wonderful. The guide's knowledge of Mughal history was impressive."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-9.webp" alt="Elena Rossi">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">Elena Rossi</h5>
+                <p class="testimonials-card__meta__designation">Germany</p>
+              </div>
+              <div class="testimonials-card__quote">"Boutique Excellence. An absolutely wonderful experience thanks to
+                the entire Touranzza team. Every aspect was curated with care and attention to detail."</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card centered-card">
+              <div class="testimonials-card__image enlarge-image"> <img
+                  src="assets/images/testimonial/testimonial-1-10.webp" alt="David Miller">
+              </div>
+              <div class="testimonials-card__meta">
+                <h5 class="testimonials-card__meta__name">David Miller</h5>
+                <p class="testimonials-card__meta__designation">USA</p>
+              </div>
+              <div class="testimonials-card__quote">"Top-notch hospitality from start to end! Our entire Northern
+                India itinerary was balanced and exciting. Not only did we get VIP treatment, but our driver Ashok was
+                an absolute professional. We simply cannot recommend Touranzza enough. 10/10 experience!"</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div><!-- /.home-glass-card--testimonials -->
+    <!-- Testimonial One End -->
 
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
