@@ -676,6 +676,21 @@ div#enquiryForm h3 {
     opacity: 0.4;
 }
 
+.page-header__bg.blog {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-image: url(../images/backgrounds/page-header-bg.webp);
+    opacity: 0.4;
+}
+
 .about-one__counter__title {
     font-weight: 400;
     line-height: 1;
