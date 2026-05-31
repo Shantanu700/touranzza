@@ -254,6 +254,17 @@
         display: none !important;
       }
 
+      .testimonial-one .enlarge-image {
+        width: 150px !important;
+        height: 190px !important;
+      }
+
+    }
+
+    @media (min-width: 768px) {
+      .testimonial-one .sec-title {
+        margin-bottom: 5px !important;
+      }
     }
 
 
