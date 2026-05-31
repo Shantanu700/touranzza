@@ -264,7 +264,8 @@
         margin-bottom: 0 !important;
       }
 
-      .tour-listing-glass-wrap {
+      .mandala-bg-wrapper .tour-listing-glass-wrap,
+      .home-glass-card.tour-listing-glass-wrap {
         padding: 18px 14px 4px !important;
       }
 
