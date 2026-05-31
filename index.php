@@ -2012,7 +2012,7 @@
         if (mq.matches) {
           if ($row.hasClass('owl-loaded')) return;
           $row.find('.col-lg-3, .col-md-6').addClass('item');
-          $row.addClass('owl-carousel owl-theme trevlo-owl__carousel trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
+          $row.addClass('owl-carousel owl-theme trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
           $row.owlCarousel({
             items: 1,
             margin: 14,
@@ -2025,7 +2025,7 @@
           });
         } else if ($row.hasClass('owl-loaded')) {
           $row.trigger('destroy.owl.carousel');
-          $row.removeClass('owl-carousel owl-theme owl-loaded trevlo-owl__carousel trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
+          $row.removeClass('owl-carousel owl-theme owl-loaded trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
           $row.find('.col-lg-3, .col-md-6').removeClass('item');
         }
       }
