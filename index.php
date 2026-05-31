@@ -1136,7 +1136,7 @@
   <script src="assets/vendors/wow/wow.js"></script>
   <script src="assets/vendors/tilt/tilt.jquery.js"></script>
   <script src="assets/vendors/jarallax/jarallax.min.js"></script>
-  <script src="assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+  <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
   <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="assets/vendors/nouislider/nouislider.min.js"></script>
   <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
