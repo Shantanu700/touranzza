@@ -142,6 +142,14 @@
         margin: 0 auto;
       }
 
+      .main-slider-one__sub-title {
+        font-size: 13px !important;
+      }
+
+      .main-slider-one__title {
+        font-size: 28px !important;
+      }
+
       .sec-title__tagline {
         font-size: 16px !important;
         letter-spacing: 1px !important;
