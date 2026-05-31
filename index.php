@@ -136,11 +136,8 @@
     }
 
     @media (max-width: 767px) {
-      .main-slider-one__carousel {
-        max-width: 92% !important;
-        margin: 0 auto !important;
-        border-radius: 12px !important;
-        overflow: hidden !important;
+      .main-slider-one__image {
+        height: 320px !important;
       }
 
       .main-slider-one__title img {
@@ -688,14 +685,14 @@
       <div class="main-slider-one__carousel trevlo-owl__carousel owl-carousel owl-theme" data-owl-options='{
     "items": 1,
     "margin": 0,
-    "loop": false,
+    "loop": true,
     "smartSpeed": 700,
     "animateOut": "fadeOut",
     "autoplayTimeout": 5000, 
     "nav": true,
     "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
     "dots": false,
-    "autoplay": false
+    "autoplay": true
     }'>
         <div class="item">
           <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/silder-2.webp);">
@@ -812,8 +809,8 @@
             "items": 6,
             "margin": 30,
             "smartSpeed": 700,
-            "loop":false,
-            "autoplay": false,
+            "loop":true,
+            "autoplay": 3000,
             "nav":true,
             "dots":false,
             "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
@@ -1297,8 +1294,8 @@
           <div
             class="gallery-one__carousel trevlo-owl__carousel trevlo-owl__carousel--custom-nav owl-carousel owl-theme"
             data-owl-options='{
-"loop": false,
-            "autoplay": false,
+"loop": true,
+            "autoplay": true,
             "autoplayTimeout": 4000,
             "smartSpeed": 600,
             "nav": true,
@@ -1448,8 +1445,8 @@
             "items": 5,
             "margin": 30,
             "smartSpeed": 700,
-            "loop":false,
-            "autoplay": false,
+            "loop":true,
+            "autoplay": 6000,
             "nav":true,
             "dots":false,
             "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
@@ -1685,8 +1682,8 @@
             "items": 5,
             "margin": 65,
             "smartSpeed": 700,
-            "loop":false,
-            "autoplay": false,
+            "loop":true,
+            "autoplay": 6000,
             "nav":false,
             "dots":false,
             "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
@@ -1811,14 +1808,14 @@
                 "items": 3,
                 "margin": 42,
                 "smartSpeed": 700,
-                "loop":false,
-"autoplay": false,
-                 "nav":false,
-                 "dots":true,
-                "navText": ["<span class=&apos;fa fa-angle-left&apos;></span>","<span class=&apos;fa fa-angle-right&apos;></span>"],
-                "responsive":{
-                    "0":{
-                        "items": 1
+                "loop":true,
+                "autoplay": 6000,
+                "nav":false,
+                "dots":true,
+            "navText": ["<span class=&apos;icon-left-arrow&apos;></span>","<span class=&apos;icon-right-arrow&apos;></span>"],
+            "responsive":{
+                "0":{
+                    "items": 1
                     },
                     "768":{
                         "items": 2
