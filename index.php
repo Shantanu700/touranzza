@@ -99,7 +99,7 @@
   <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
   <!-- template styles -->
   <link rel="stylesheet" href="assets/css/trevlo.css?v=2" />
-  <link rel="stylesheet" href="assets/css/touranzza.css?v=5" />
+  <link rel="stylesheet" href="assets/css/touranzza.css?v=6" />
   <style>
     /* ── Luxury font for slider subtitle ── */
     .main-slider-one__sub-title {
@@ -2006,6 +2006,44 @@
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
     <!-- template js -->
     <script src="assets/js/trevlo.js?v=4"></script>
+    <script>
+    /* Mobile-only: why-choose square-card slider (must run after jQuery + Owl) */
+    jQuery(function($) {
+      var mq = window.matchMedia('(max-width: 767px)');
+
+      function setupWhyChooseCarousel() {
+        var $row = $('.why-choose-row');
+        if (!$row.length || typeof $.fn.owlCarousel === 'undefined') return;
+
+        if (mq.matches) {
+          if ($row.hasClass('owl-loaded')) return;
+          $row.find('.col-lg-3, .col-md-6').addClass('item');
+          $row.addClass('owl-carousel owl-theme trevlo-owl__carousel trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
+          $row.owlCarousel({
+            items: 1,
+            margin: 14,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3500,
+            nav: true,
+            dots: false,
+            navText: ['<span class="icon-left-arrow"></span>', '<span class="icon-right-arrow"></span>']
+          });
+        } else if ($row.hasClass('owl-loaded')) {
+          $row.trigger('destroy.owl.carousel');
+          $row.removeClass('owl-carousel owl-theme owl-loaded trevlo-owl__carousel trevlo-owl__carousel--custom-nav why-choose-mobile-slider');
+          $row.find('.col-lg-3, .col-md-6').removeClass('item');
+        }
+      }
+
+      setupWhyChooseCarousel();
+      if (mq.addEventListener) {
+        mq.addEventListener('change', setupWhyChooseCarousel);
+      } else if (mq.addListener) {
+        mq.addListener(setupWhyChooseCarousel);
+      }
+    });
+    </script>
 </body>
 
 </html>
