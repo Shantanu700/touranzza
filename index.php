@@ -240,6 +240,20 @@
         padding: 36px 0 !important;
       }
 
+      .tour-listing-one .sec-title {
+        margin-bottom: 0 !important;
+      }
+
+      .testimonial-one .centered-card {
+        min-height: auto !important;
+        padding: 40px 20px 35px !important;
+        margin-top: 30px !important;
+      }
+
+      .testimonial-one .owl-dots {
+        display: none !important;
+      }
+
     }
 
 
@@ -1744,8 +1758,7 @@
         <div class="container">
           <div class="sec-title text-center">
             <p class="sec-title__tagline">Testimonial</p>
-            <h2 class="sec-title__title">What Our Customers are<br>
-              Saying?</h2>
+            <h2 class="sec-title__title">What Our Customers are Saying?</h2>
           </div>
         </div>
         <div class="container">
