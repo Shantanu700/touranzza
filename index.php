@@ -268,6 +268,21 @@
         height: 190px !important;
       }
 
+      .testimonial-one .sec-title {
+        margin-bottom: 0 !important;
+      }
+
+      .testimonial-one .centered-card .testimonials-card__meta {
+        top: 10px !important;
+        right: 0 !important;
+      }
+
+      .benefit-one__bg {
+        top: auto !important;
+        bottom: 0 !important;
+        height: 55% !important;
+      }
+
     }
 
     @media (min-width: 768px) {
