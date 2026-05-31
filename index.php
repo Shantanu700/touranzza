@@ -1733,6 +1733,8 @@
     </section>
     <!-- Benefit One End -->
 
+    <!-- MANDALA BACKGROUND WRAPPER START -->
+    <div class="mandala-bg-wrapper">
       <!-- Testimonial One Start -->
       <div class="home-glass-card home-glass-card--testimonials">
       <section class="testimonial-one testimonial-one--home"
@@ -1911,6 +1913,8 @@
       </section>
       </div><!-- /.home-glass-card--testimonials -->
       <!-- Testimonial One End -->
+    </div>
+    <!-- MANDALA BACKGROUND WRAPPER END -->
 
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
