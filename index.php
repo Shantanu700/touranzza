@@ -264,11 +264,6 @@
         margin-bottom: 0 !important;
       }
 
-      .mandala-bg-wrapper .tour-listing-glass-wrap,
-      .home-glass-card.tour-listing-glass-wrap {
-        padding: 18px 14px 4px !important;
-      }
-
       .tour-listing-glass-wrap .sec-title {
         margin-bottom: 6px !important;
       }
@@ -809,7 +804,7 @@
     <!-- MANDALA BACKGROUND WRAPPER START -->
     <div class="mandala-bg-wrapper">
       <!-- Tour Listing One Start -->
-      <div class="home-glass-card tour-listing-glass-wrap">
+      <div class="home-glass-card tour-listing-glass-wrap" style="padding: 18px 14px 0 !important;">
       <section class="tour-listing-one" style="background-image: url(assets/images/backgrounds/tour-bg-1.webp);">
         <div class="container">
           <div class="sec-title text-center">
