@@ -1809,8 +1809,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-4.webp" alt="Charlotte Parker">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-2-1.webp" alt="Charlotte Parker">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Charlotte Parker</h5>
@@ -1822,8 +1822,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-5.webp" alt="Arjun Mehta">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-2-2.webp" alt="Arjun Mehta">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Arjun Mehta</h5>
@@ -1836,8 +1836,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-6.webp" alt="Sophia de Luca">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-2-3.webp" alt="Sophia de Luca">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Sophia de Luca</h5>
@@ -1849,8 +1849,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-7.webp" alt="Mark Thompson">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-1-1.webp" alt="Mark Thompson">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Mark Thompson</h5>
@@ -1862,8 +1862,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-8.webp" alt="Yuki Tanaka">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-1-2.webp" alt="Yuki Tanaka">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Yuki Tanaka</h5>
@@ -1875,8 +1875,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-9.webp" alt="Elena Rossi">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-1-3.webp" alt="Elena Rossi">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">Elena Rossi</h5>
@@ -1888,8 +1888,8 @@
           </div>
           <div class="item">
             <div class="testimonials-card centered-card">
-              <div class="testimonials-card__image enlarge-image"> <img
-                  src="assets/images/testimonial/testimonial-1-10.webp" alt="David Miller">
+                <div class="testimonials-card__image enlarge-image"> <img
+                    src="assets/images/testimonial/testimonial-2-1.webp" alt="David Miller">
               </div>
               <div class="testimonials-card__meta">
                 <h5 class="testimonials-card__meta__name">David Miller</h5>
