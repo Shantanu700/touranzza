@@ -221,6 +221,11 @@
       padding: 100px 0 80px;
     }
 
+    /* ── Tighter title gap for Top Picks section ── */
+    .tour-listing-one .sec-title {
+      margin-bottom: 5px !important;
+    }
+
     /* Testimonials → squeezed bottom */
     .testimonial-one {
       padding: 80px 0 60px;
@@ -417,8 +422,7 @@
       position: relative !important;
       display: block !important;
       width: 100% !important;
-      height: 240px !important;
-      /* Fixed height for image area */
+      height: 180px !important;
       overflow: hidden !important;
     }
 
