@@ -263,7 +263,10 @@
 
     @media (min-width: 768px) {
       .testimonial-one .sec-title {
-        margin-bottom: 5px !important;
+        margin-bottom: 0 !important;
+      }
+      .testimonial-one .sec-title__title {
+        font-size: 28px !important;
       }
     }
 
