@@ -278,9 +278,9 @@
       }
 
       .benefit-one__bg {
-        top: auto !important;
-        bottom: 0 !important;
-        height: 55% !important;
+        top: 52% !important;
+        bottom: auto !important;
+        height: 48% !important;
       }
 
     }
