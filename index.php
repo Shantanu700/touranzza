@@ -257,7 +257,11 @@
       }
 
       .tour-listing-glass-wrap {
-        padding-bottom: 10px !important;
+        padding: 18px 14px 4px !important;
+      }
+
+      .tour-listing-glass-wrap .sec-title {
+        margin-bottom: 6px !important;
       }
 
       .testimonial-one .centered-card {
