@@ -1553,9 +1553,14 @@ html, body, .page-wrapper {
 /* ── Testimonials mobile fixes ─────────────────────────────────────────── */
 @media (max-width: 767px) {
 
-    /* Hide nav arrows — auto-slide only on mobile */
-    .testimonial-one__carousel .owl-nav {
-        display: none !important;
+    /* Testimonial carousel — keep visible on mobile */
+    .home-glass-card--testimonials .testimonial-one__carousel {
+        display: block !important;
+        min-height: 160px;
+    }
+
+    .home-glass-card--testimonials .testimonial-one__carousel .owl-nav {
+        display: flex !important;
     }
 
     /* Make testimonial card images much bigger and properly visible */
@@ -1822,7 +1827,8 @@ html, body, .page-wrapper {
 
 .home-glass-card .tour-listing-one,
 .home-glass-card .gallery-one,
-.home-glass-card .blog-one {
+.home-glass-card .blog-one,
+.home-glass-card .testimonial-one {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     background-image: none !important;
@@ -2452,9 +2458,21 @@ html, body, .page-wrapper {
     }
 
     /* Testimonials — tighter around titles and cards */
-    .testimonial-one.testimonial-one--home {
-        padding-top: 22px !important;
-        padding-bottom: 22px !important;
+    .testimonial-one.testimonial-one--home,
+    .home-glass-card--testimonials .testimonial-one {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        overflow: visible !important;
+    }
+
+    .home-glass-card--testimonials .testimonial-one__carousel .owl-stage-outer {
+        overflow: hidden;
+        min-height: 140px;
+        padding-top: 8px !important;
+    }
+
+    .home-glass-card--testimonials .trevlo-owl__carousel--with-shadow .owl-stage-outer {
+        padding-top: 8px !important;
     }
 
     .testimonial-one--home > .container:first-of-type {
