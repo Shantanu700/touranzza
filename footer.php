@@ -291,3 +291,31 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+
+<script>
+/* ── Mobile-only: convert why-choose row to owl carousel ── */
+$(document).ready(function() {
+  if ($(window).width() <= 767) {
+    var $row = $('.why-choose-row');
+    if ($row.length && !$row.hasClass('owl-loaded')) {
+      // Wrap each col in an item div for owl
+      $row.find('.col-lg-3, .col-md-6').each(function() {
+        $(this).addClass('item');
+      });
+      $row.owlCarousel({
+        items: 1,
+        margin: 16,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3500,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: { items: 1 },
+          480: { items: 2 }
+        }
+      });
+    }
+  }
+});
+</script>

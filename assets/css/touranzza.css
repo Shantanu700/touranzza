@@ -1082,7 +1082,7 @@ section.offer-one {
     background-color: #ffc202;
 }
 
-/* Reduce excessive spacing between Explore Golden Triangle and Best Short Tours sections */
+/* Reduce excessive spacing between sections (desktop) */
 .tour-listing-one {
     padding-bottom: 40px !important;
 }
@@ -1091,14 +1091,24 @@ section.offer-one {
     padding-top: 40px !important;
 }
 
-/* Reduce excessive spacing between Most Popular Tours and Testimonials */
 .blog-one {
-    padding-top: 80px !important;
+    padding-top: 40px !important;
     padding-bottom: 40px !important;
 }
 
 .testimonial-one {
     padding-top: 40px !important;
+}
+
+@media (max-width: 767px) {
+    .blog-one {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .tour-listing-one {
+        padding-bottom: 0 !important;
+    }
 }
 
 /* ──────────────────────────────────────────────────────────────
@@ -1800,18 +1810,76 @@ html, body, .page-wrapper {
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-/* ── Tour listing slider translucent glass wrapper ──────────────────────── */
+/* ── Home page translucent glass cards (mobile) ───────────────────────────── */
+.home-glass-card,
 .tour-listing-glass-wrap {
-    background: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
+    background: transparent;
 }
 
 .tour-listing-glass-wrap .tour-listing-one {
-    background: transparent !important;
+    background-color: transparent !important;
+}
+
+@media (max-width: 767px) {
+    .mandala-bg-wrapper .home-glass-card:first-of-type {
+        margin-top: 10px;
+    }
+
+    .mandala-bg-wrapper .home-glass-card {
+        margin: 8px 12px 0;
+        padding: 14px 12px 16px;
+        background: rgba(255, 255, 255, 0.58);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(255, 255, 255, 0.52);
+        border-radius: 14px;
+        box-shadow: 0 2px 18px rgba(19, 15, 16, 0.08);
+    }
+
+    .mandala-bg-wrapper .home-glass-card:last-of-type {
+        margin-bottom: 8px;
+    }
+
+    .home-glass-card .tour-listing-one,
+    .home-glass-card .gallery-one,
+    .home-glass-card .blog-one {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        background-image: none !important;
+    }
+
+    .home-glass-card .tour-listing-one {
+        background-color: transparent !important;
+    }
+
+    .home-glass-card > .container,
+    .home-glass-card .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .home-glass-card .sec-title {
+        margin-bottom: 12px !important;
+    }
+
+    .home-glass-card .sec-title__title {
+        font-size: clamp(1.2rem, 5.2vw, 1.45rem) !important;
+        line-height: 1.25 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .home-glass-card .sec-title__tagline {
+        font-size: 14px !important;
+        letter-spacing: 0.5px !important;
+        margin-bottom: 4px !important;
+    }
+
+    .home-glass-card .tour-listing-one__carousel,
+    .home-glass-card .gallery-one__carousel,
+    .home-glass-card .blog-page__carousel {
+        margin-top: 0 !important;
+    }
 }
 
 /* Hide owl dots on tour listing carousel */
@@ -2103,18 +2171,27 @@ html, body, .page-wrapper {
 /* ── Mobile home page: reduce spacing + why-choose carousel ─────────────── */
 @media (max-width: 767px) {
 
-    /* Reduce all section padding on home page */
+    /* Tighter section padding on home page */
+    .mandala-bg-wrapper {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
     .tour-listing-one,
     .gallery-one,
-    .blog-one,
+    .blog-one {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
     .why-choose-one,
     .offer-one,
     .benefit-one,
     .testimonial-one,
     .destination-one,
     .home-seo-combined {
-        padding-top: 30px !important;
-        padding-bottom: 30px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 
     /* Why-choose carousel dots */
@@ -2148,6 +2225,33 @@ html, body, .page-wrapper {
     /* Sec-title spacing */
     .sec-title {
         margin-bottom: 20px !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Why-choose: mobile carousel + hide Discover More on mobile ─────────── */
+@media (max-width: 767px) {
+    /* Hide Discover More on mobile */
+    .why-choose-one__box > a[href] {
+        display: none !important;
+    }
+    /* Make entire box clickable via title link */
+    .why-choose-one__box__title a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+    /* Carousel dots */
+    .why-choose-row.owl-carousel .owl-dots {
+        margin-top: 16px;
+        text-align: center;
+    }
+    .why-choose-row.owl-carousel .owl-dot span {
+        width: 8px; height: 8px; border-radius: 50%;
+        background: rgba(255,255,255,0.4);
+        display: inline-block; margin: 0 4px;
+    }
+    .why-choose-row.owl-carousel .owl-dot.active span {
+        background: #ffc202;
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
