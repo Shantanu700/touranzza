@@ -1147,3 +1147,17 @@
 </body>
 
 </html>
+
+<script>
+/* Reinitialize testimonial carousel */
+jQuery(function($) {
+  var $testi = $('.testimonial-one__carousel');
+  if ($testi.length && !$testi.hasClass('owl-loaded')) {
+    $testi.owlCarousel({
+      items: 3, margin: 30, smartSpeed: 700, loop: true, autoplay: true, nav: true, dots: false,
+      navText: ['<span class="icon-left-arrow"></span>', '<span class="icon-right-arrow"></span>'],
+      responsive: { 0: { items: 1 }, 768: { items: 2 }, 1200: { items: 3 } }
+    });
+  }
+});
+</script>

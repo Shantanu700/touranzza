@@ -1,3 +1,4 @@
+```html
 <!-- enquiry -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
 <!-- enquiry -->
@@ -64,7 +65,7 @@
                   <li><a href="golden-triangle-tour-with-mumbai">GT with Mumbai</a></li>
                 </ul>
               </li>
-              <li class="dropdown rajasthan-tours-col"><a href="rajasthan-tours">Royal Rajasthan Retreats</a>
+              <li class="dropdown"><a href="rajasthan-tours">Royal Rajasthan Retreats</a>
                 <ul class="sub-menu">
                   <li><a href="royal-rajasthan-tour">Royal Rajasthan Tour</a></li>
                   <li><a href="desert-tour-rajasthan">Desert Tour Rajasthan</a></li>
@@ -154,7 +155,6 @@
     background-color: transparent !important;
   }
 
-
   .main-header {
     position: -webkit-sticky !important;
     position: sticky !important;
@@ -162,12 +162,13 @@
     width: 100% !important;
     z-index: 1000 !important;
   }
+  
   /* ── Premium Solid Black Header ── */
   .main-header {
-    background-color: #130f10 !important; /* Match footer black */
+    background-color: #130f10 !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-    border-bottom: 1.5px solid rgba(255, 194, 2, 0.4) !important; /* Brand yellow accent */
+    border-bottom: 1.5px solid rgba(255, 194, 2, 0.4) !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
     transition: all 0.3s ease-in-out;
   }
@@ -176,7 +177,6 @@
   .page-wrapper {
     padding-top: 0 !important;
     overflow: visible !important;
-    /* Critical for position: sticky to work */
   }
 
   /* Hide the theme's default secondary ghost header */
@@ -186,27 +186,21 @@
   }
 
   /* Prevent theme's own hover JS from showing sub-menu on tour-pkg-dropdown */
-  /* The custom JS handles this — theme must not interfere */
   .tour-pkg-dropdown > .sub-menu {
     display: none !important;
     pointer-events: none !important;
   }
-  .tour-pkg-dropdown.is-open > .sub-menu {
-    display: grid !important;
-    pointer-events: auto !important;
-  }
-
+  
   /* ── Header Width Constraint ── */
   .main-header .container {
     max-width: 1200px !important;
     margin: 0 auto !important;
   }
 
-  /* ── Responsive Header Layout ── */
+  /* ── Responsive Header Layout (Mobile/Tablet) ── */
   @media (max-width: 1199px) {
     .main-header {
       background: #130f10 !important;
-      /* Solid black for global consistency */
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
     }
 
@@ -233,150 +227,10 @@
       display: flex !important;
       order: 1;
       color: #ffc202 !important;
-      /* Brand yellow for visibility on black header */
     }
   }
 
-  /* ── Tour Packages landscape dropdown (Desktop Only) ── */
-  @media (min-width: 1200px) {
-    .tour-pkg-dropdown {
-      position: static !important;
-    }
-
-    .tour-pkg-dropdown>.sub-menu {
-      display: none;
-      pointer-events: none;
-      position: absolute !important;
-      left: 50% !important;
-      right: auto !important;
-      top: 100% !important;
-      transform: translateX(-50%) !important;
-      min-width: unset !important;
-      width: 100vw !important;
-      max-width: 100vw !important;
-      box-sizing: border-box !important;
-      grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
-      padding: 14px 18px !important;
-      gap: 0;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
-      border-top: 3px solid #ffc202;
-      background: #fff;
-      z-index: 99999;
-      overflow-x: hidden !important;
-      overflow-y: auto !important;
-      max-height: calc(100vh - 170px) !important;
-    }
-
-    /* Open state (JS controlled) */
-    .tour-pkg-dropdown.is-open > .sub-menu {
-      display: grid !important;
-      pointer-events: auto;
-    }
-
-    /* Each category column */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown {
-      min-width: 0 !important;
-      padding: 0 8px;
-      border-right: 1px solid #e0e0e0;
-      /* Darkened division line */
-    }
-
-    /* Specific darker line after Royal Rajasthan Retreats */
-    .tour-pkg-dropdown>.sub-menu>li.rajasthan-tours-col {
-      border-right: 2px solid #555555 !important;
-      /* Darker and thicker separator */
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown:last-child {
-      border-right: none;
-    }
-
-    /* Category heading link → gold badge */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>a {
-      display: block !important;
-      background: #ffc202 !important;
-      color: #000000 !important;
-      /* Changed to black for visibility */
-      font-size: 10px !important;
-      font-weight: 700 !important;
-      text-transform: uppercase !important;
-      letter-spacing: 0.4px;
-      padding: 4px 7px !important;
-      border-radius: 3px;
-      margin-bottom: 8px;
-      min-height: 32px;
-      white-space: normal;
-      line-height: 1.2;
-      text-align: center !important;
-      overflow-wrap: anywhere;
-      /* Keeps the headings centered in their blocks */
-    }
-
-    /* Sub-sub-menu: always visible, static block — override theme scaleY(0) hide */
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu {
-      position: static !important;
-      display: block !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-      transform: none !important;
-      transform-origin: unset !important;
-      transition: none !important;
-      box-shadow: none !important;
-      padding: 0 !important;
-      min-width: unset !important;
-      background: transparent !important;
-      border: none !important;
-      border-radius: 0 !important;
-      max-height: none !important;
-      /* Removed fixed height to prevent scrolling */
-      overflow: visible !important;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu::-webkit-scrollbar {
-      width: 3px;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu::-webkit-scrollbar-thumb {
-      background: #ffc202;
-      border-radius: 2px;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li {
-      border-bottom: 1px solid #e0e0e0;
-      /* Darkened the horizontal separators slightly as well */
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a {
-      padding: 4px 4px !important;
-      font-size: 11px !important;
-      color: #444 !important;
-      white-space: normal !important;
-      line-height: 1.3;
-      display: flex !important;
-      align-items: flex-start;
-      justify-content: flex-start !important;
-      /* Forces left alignment */
-      text-align: left !important;
-      /* Forces left alignment */
-      gap: 4px;
-      background: transparent !important;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a::before {
-      content: '›';
-      color: #ffc202;
-      font-size: 14px;
-      flex-shrink: 0;
-      line-height: 1.4;
-    }
-
-    .tour-pkg-dropdown>.sub-menu>li.dropdown>.sub-menu>li>a:hover {
-      color: #ffc202 !important;
-      padding-left: 8px !important;
-    }
-  }
-
-  /* ── Desktop-Only Menu Styles (Moved from inline to CSS) ── */
+  /* ── Desktop Header & Side-by-Side Multi-Level Dropdown ── */
   @media (min-width: 1200px) {
     .main-header__nav.main-menu {
       flex: 1 !important;
@@ -393,12 +247,128 @@
       margin: 0 !important;
       padding: 0 !important;
     }
-  }
 
-  /* ── Mobile Dropdown Hiding ── */
-  @media (max-width: 1199px) {
-    .tour-pkg-dropdown>.sub-menu {
+    /* 1. Ensure the parent list item acts as an anchor */
+    .tour-pkg-dropdown {
+      position: relative !important;
+    }
+
+    /* 2. Level 1 Dropdown Box (Categories) */
+    .tour-pkg-dropdown > .sub-menu {
+      display: none;
+      position: absolute !important;
+      top: 100% !important;
+      left: 0 !important;
+      min-width: 280px !important;
+      background: #ffffff !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13) !important;
+      border-top: 3px solid #ffc202 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      z-index: 99999 !important;
+      list-style: none !important;
+      border-radius: 0 0 4px 4px !important;
+    }
+
+    /* Open state controlled by JS for Level 1 */
+    .tour-pkg-dropdown.is-open > .sub-menu {
+      display: block !important;
+      pointer-events: auto !important;
+    }
+
+    /* Level 1 List Items */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown {
+      position: relative !important; /* Critical to anchor the nested submenu */
+      border-bottom: 1px solid #f0f0f0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: block !important;
+    }
+    .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child {
+      border-bottom: none !important;
+    }
+
+    /* Level 1 Category Links */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > a {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      padding: 14px 22px !important;
+      color: #333333 !important;
+      font-size: 15px !important;
+      font-weight: 600 !important;
+      text-transform: capitalize !important;
+      background: transparent !important;
+      transition: all 0.2s ease !important;
+      text-decoration: none !important;
+      line-height: 1.4 !important;
+    }
+
+    /* Add right arrow to indicate sub-menu exists */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
+      content: '\203A';
+      font-size: 20px;
+      color: #ffc202;
+      margin-left: 10px;
+    }
+
+    /* Level 1 Hover State */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > a {
+      background-color: #fcfcfc !important;
+      color: #ffc202 !important;
+    }
+
+    /* 3. Level 2 Dropdown Box (Nested Tour Lists) */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
       display: none !important;
+      position: absolute !important;
+      top: 0 !important; /* Aligns with the top of the hovered Level 1 item */
+      left: 100% !important; /* Pushes entirely to the right */
+      min-width: 290px !important;
+      background: #ffffff !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13) !important;
+      border-top: 3px solid #ffc202 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      z-index: 100000 !important;
+      list-style: none !important;
+      border-radius: 0 0 4px 4px !important;
+    }
+
+    /* Show Level 2 on Level 1 hover */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu {
+      display: block !important;
+    }
+
+    /* Level 2 Sub-list Items */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li {
+      border-bottom: 1px solid #f0f0f0 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      display: block !important;
+    }
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child {
+      border-bottom: none !important;
+    }
+
+    /* Level 2 Sub-list Links */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a {
+      display: block !important;
+      padding: 12px 22px !important;
+      font-size: 14px !important;
+      color: #555555 !important;
+      background: transparent !important;
+      transition: all 0.2s ease !important;
+      text-decoration: none !important;
+      line-height: 1.4 !important;
+      white-space: normal !important;
+    }
+
+    /* Level 2 Sub-list Hover State */
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
+      background-color: #fcfcfc !important;
+      color: #ffc202 !important;
+      padding-left: 28px !important; /* Indent effect on hover */
     }
   }
 </style>
@@ -416,6 +386,7 @@
 
     var closeTimer = null;
     var openTimer = null;
+    
     function openMenu() {
       if (closeTimer) {
         clearTimeout(closeTimer);
@@ -444,7 +415,7 @@
         closeTimer = null;
       }
       if (openTimer) clearTimeout(openTimer);
-      // Hover-intent: only open if user actually hovers the link briefly.
+      // Hover-intent delay
       openTimer = setTimeout(openMenu, 240);
     }
 
@@ -456,11 +427,9 @@
     trigger.setAttribute('aria-haspopup', 'true');
     trigger.setAttribute('aria-expanded', 'false');
 
-    // Hover-only dropdown. Click should navigate to Tour Packages page.
     trigger.addEventListener('pointerenter', scheduleOpen);
     trigger.addEventListener('pointerleave', scheduleClose);
 
-    // Keep open while interacting with the dropdown itself.
     menu.addEventListener('pointerenter', openMenu);
     menu.addEventListener('pointerleave', scheduleClose);
 
@@ -473,3 +442,5 @@
     });
   })();
 </script>
+
+```
