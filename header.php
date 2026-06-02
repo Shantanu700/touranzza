@@ -182,7 +182,7 @@
     position: fixed !important;
     top: 110px !important;
     left: auto !important;
-    min-width: 210px !important;
+    width: 170px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
     box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
@@ -206,8 +206,8 @@
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 10px 16px !important;
-    font-size: 12px !important;
+    padding: 9px 12px !important;
+    font-size: 11px !important;
     font-weight: 700 !important;
     color: #222 !important;
     background: transparent !important;
@@ -219,9 +219,9 @@
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
     content: '\203A';
-    font-size: 16px;
+    font-size: 14px;
     color: #ffc202;
-    margin-left: 10px;
+    margin-left: 6px;
     flex-shrink: 0;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > a {
@@ -292,27 +292,24 @@
 
   function positionMenu() {
     var rect = li.getBoundingClientRect();
-    menu.style.left = rect.left + 'px';
+    var menuW = 170;
+    /* Center under the "Tour Packages" link */
+    var left = rect.left + (rect.width / 2) - (menuW / 2);
+    /* Keep within viewport */
+    if (left + menuW > window.innerWidth - 8) left = window.innerWidth - menuW - 8;
+    if (left < 8) left = 8;
+    menu.style.left = left + 'px';
   }
 
-  /* Position L2 submenus dynamically to avoid right-edge collision */
+  /* Position L2 submenus dynamically — always opens RIGHT */
   function positionSubMenus() {
     menu.querySelectorAll(':scope > li.dropdown').forEach(function(item) {
       var sub = item.querySelector(':scope > .sub-menu');
       if (!sub) return;
       item.addEventListener('mouseenter', function() {
         var itemRect = item.getBoundingClientRect();
-        var subW = 180;
-        var gap = 4;
-        var rightIfRight = itemRect.right + gap + subW;
-        if (rightIfRight > window.innerWidth - 10) {
-          /* Not enough space on right — open left */
-          sub.style.left = 'auto';
-          sub.style.right = (window.innerWidth - itemRect.left + gap) + 'px';
-        } else {
-          sub.style.right = 'auto';
-          sub.style.left = (itemRect.right + gap) + 'px';
-        }
+        sub.style.right = 'auto';
+        sub.style.left = (itemRect.right + 4) + 'px';
         sub.style.top = itemRect.top + 'px';
       });
     });
