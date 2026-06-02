@@ -15,6 +15,14 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.touranzza\.com [NC]
 RewriteRule ^(.*)$ https://touranzza.com/$1 [R=301,L]
 
+
+# -----------------------------------
+# STEP 2.5: Remove trailing slash
+# -----------------------------------
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ https://touranzza.com/$1 [R=301,L]
+
+
 # -----------------------------------
 # STEP 3: Fix .php URLs - 301 PERMANENT
 # -----------------------------------
