@@ -1,4 +1,3 @@
-```html
 <!-- enquiry -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
 <!-- enquiry -->
@@ -190,47 +189,8 @@
     display: none !important;
     pointer-events: none !important;
   }
-  
-  /* ── Header Width Constraint ── */
-  .main-header .container {
-    max-width: 1200px !important;
-    margin: 0 auto !important;
-  }
 
-  /* ── Responsive Header Layout (Mobile/Tablet) ── */
-  @media (max-width: 1199px) {
-    .main-header {
-      background: #130f10 !important;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
-    }
-
-    .main-header__nav.main-menu {
-      display: none !important;
-    }
-
-    .main-header__logo img {
-      max-height: 60px !important;
-    }
-
-    .main-header__right {
-      display: flex !important;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .main-header__booking-btn,
-    .main-header__right-right {
-      display: none !important;
-    }
-
-    .mobile-nav__toggler {
-      display: flex !important;
-      order: 1;
-      color: #ffc202 !important;
-    }
-  }
-
-  /* ── Desktop Header & Side-by-Side Multi-Level Dropdown ── */
+  /* ── Desktop: Classic Multi-Level Flyout Dropdown ── */
   @media (min-width: 1200px) {
     .main-header__nav.main-menu {
       flex: 1 !important;
@@ -238,7 +198,6 @@
       justify-content: flex-end !important;
       align-items: center !important;
     }
-
     .main-menu__list {
       white-space: nowrap !important;
       display: flex !important;
@@ -248,127 +207,113 @@
       padding: 0 !important;
     }
 
-    /* 1. Ensure the parent list item acts as an anchor */
-    .tour-pkg-dropdown {
-      position: relative !important;
-    }
+    /* L1 parent anchor */
+    .tour-pkg-dropdown { position: relative !important; }
 
-    /* 2. Level 1 Dropdown Box (Categories) */
+    /* L1 dropdown box */
     .tour-pkg-dropdown > .sub-menu {
       display: none;
       position: absolute !important;
       top: 100% !important;
       left: 0 !important;
       min-width: 280px !important;
-      background: #ffffff !important;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13) !important;
+      background: #fff !important;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.13) !important;
       border-top: 3px solid #ffc202 !important;
+      border-radius: 0 0 4px 4px !important;
       padding: 0 !important;
       margin: 0 !important;
       z-index: 99999 !important;
       list-style: none !important;
-      border-radius: 0 0 4px 4px !important;
     }
-
-    /* Open state controlled by JS for Level 1 */
     .tour-pkg-dropdown.is-open > .sub-menu {
       display: block !important;
       pointer-events: auto !important;
     }
 
-    /* Level 1 List Items */
+    /* L1 items — critical: position:relative anchors L2 */
     .tour-pkg-dropdown > .sub-menu > li.dropdown {
-      position: relative !important; /* Critical to anchor the nested submenu */
+      position: relative !important;
       border-bottom: 1px solid #f0f0f0 !important;
-      padding: 0 !important;
-      margin: 0 !important;
       display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
-    .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child {
-      border-bottom: none !important;
-    }
+    .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child { border-bottom: none !important; }
 
-    /* Level 1 Category Links */
+    /* L1 category links */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > a {
       display: flex !important;
       justify-content: space-between !important;
       align-items: center !important;
-      padding: 14px 22px !important;
-      color: #333333 !important;
-      font-size: 15px !important;
+      padding: 13px 20px !important;
+      color: #222 !important;
+      font-size: 14px !important;
       font-weight: 600 !important;
-      text-transform: capitalize !important;
       background: transparent !important;
-      transition: all 0.2s ease !important;
       text-decoration: none !important;
       line-height: 1.4 !important;
+      transition: all 0.2s ease !important;
+      white-space: nowrap !important;
     }
-
-    /* Add right arrow to indicate sub-menu exists */
+    /* Right arrow indicator */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
       content: '\203A';
       font-size: 20px;
       color: #ffc202;
-      margin-left: 10px;
+      margin-left: 12px;
+      flex-shrink: 0;
     }
-
-    /* Level 1 Hover State */
     .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > a {
-      background-color: #fcfcfc !important;
+      background: #fafafa !important;
       color: #ffc202 !important;
     }
 
-    /* 3. Level 2 Dropdown Box (Nested Tour Lists) */
+    /* L2 flyout box — right of L1 item */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
       display: none !important;
       position: absolute !important;
-      top: 0 !important; /* Aligns with the top of the hovered Level 1 item */
-      left: 100% !important; /* Pushes entirely to the right */
-      min-width: 290px !important;
-      background: #ffffff !important;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13) !important;
+      top: 0 !important;
+      left: 100% !important;
+      min-width: 280px !important;
+      background: #fff !important;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.13) !important;
       border-top: 3px solid #ffc202 !important;
+      border-radius: 0 0 4px 4px !important;
       padding: 0 !important;
       margin: 0 !important;
       z-index: 100000 !important;
       list-style: none !important;
-      border-radius: 0 0 4px 4px !important;
     }
-
-    /* Show Level 2 on Level 1 hover */
     .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu {
       display: block !important;
     }
 
-    /* Level 2 Sub-list Items */
+    /* L2 items */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li {
       border-bottom: 1px solid #f0f0f0 !important;
-      padding: 0 !important;
-      margin: 0 !important;
       display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
-    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child {
-      border-bottom: none !important;
-    }
+    .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child { border-bottom: none !important; }
 
-    /* Level 2 Sub-list Links */
+    /* L2 links */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a {
       display: block !important;
-      padding: 12px 22px !important;
-      font-size: 14px !important;
-      color: #555555 !important;
+      padding: 11px 20px !important;
+      font-size: 13px !important;
+      color: #555 !important;
       background: transparent !important;
-      transition: all 0.2s ease !important;
       text-decoration: none !important;
       line-height: 1.4 !important;
       white-space: normal !important;
+      transition: all 0.2s ease !important;
     }
-
-    /* Level 2 Sub-list Hover State */
     .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
-      background-color: #fcfcfc !important;
+      background: #fafafa !important;
       color: #ffc202 !important;
-      padding-left: 28px !important; /* Indent effect on hover */
+      padding-left: 28px !important;
     }
   }
 </style>
@@ -442,5 +387,3 @@
     });
   })();
 </script>
-
-```
