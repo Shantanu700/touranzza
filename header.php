@@ -156,6 +156,17 @@
     align-self: stretch !important;
     display: flex !important;
     align-items: center !important;
+    /* Override theme's 35px padding that causes the gap */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  /* Also zero out the link's own padding contribution */
+  .tour-pkg-dropdown > a {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
   }
 
   /* Block theme */
