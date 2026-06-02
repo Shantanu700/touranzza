@@ -229,14 +229,11 @@
     color: #ffc202 !important;
   }
 
-  /* L2: opens RIGHT, compact size, scrollable to avoid going off bottom */
+  /* L2: opens RIGHT with gap, fixed position calculated by JS */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
     display: none !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 100% !important;
-    right: auto !important;
-    width: 200px !important;
+    position: fixed !important;
+    width: 180px !important;
     max-height: 65vh !important;
     overflow-y: auto !important;
     background: #fff !important;
@@ -298,9 +295,33 @@
     menu.style.left = rect.left + 'px';
   }
 
+  /* Position L2 submenus dynamically to avoid right-edge collision */
+  function positionSubMenus() {
+    menu.querySelectorAll(':scope > li.dropdown').forEach(function(item) {
+      var sub = item.querySelector(':scope > .sub-menu');
+      if (!sub) return;
+      item.addEventListener('mouseenter', function() {
+        var itemRect = item.getBoundingClientRect();
+        var subW = 180;
+        var gap = 4;
+        var rightIfRight = itemRect.right + gap + subW;
+        if (rightIfRight > window.innerWidth - 10) {
+          /* Not enough space on right — open left */
+          sub.style.left = 'auto';
+          sub.style.right = (window.innerWidth - itemRect.left + gap) + 'px';
+        } else {
+          sub.style.right = 'auto';
+          sub.style.left = (itemRect.right + gap) + 'px';
+        }
+        sub.style.top = itemRect.top + 'px';
+      });
+    });
+  }
+
   function openMenu() {
     clearTimeout(closeTimer); clearTimeout(openTimer); closeTimer = null; openTimer = null;
     positionMenu();
+    positionSubMenus();
     li.classList.add('is-open');
     trigger.setAttribute('aria-expanded', 'true');
   }
