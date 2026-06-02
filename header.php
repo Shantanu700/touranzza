@@ -150,7 +150,7 @@
   .main-header__nav.main-menu { flex: 1 !important; display: flex !important; justify-content: flex-end !important; align-items: center !important; }
   .main-menu__list { display: flex !important; align-items: center !important; gap: 10px !important; margin: 0 !important; padding: 0 !important; white-space: nowrap !important; }
 
-  /* Parent anchor — no gap between header and dropdown */
+  /* Parent anchor — stretch full header height to eliminate gap */
   .tour-pkg-dropdown {
     position: relative !important;
     align-self: stretch !important;
@@ -158,36 +158,35 @@
     align-items: center !important;
   }
 
-  /* Block theme from showing sub-menu via its own JS */
+  /* Block theme */
   .tour-pkg-dropdown > .sub-menu {
     display: none !important;
     pointer-events: none !important;
   }
 
-  /* L1: vertical dropdown below "Tour Packages" — flush to header */
+  /* L1: attach flush — no gap */
   .tour-pkg-dropdown.is-open > .sub-menu {
     display: block !important;
     pointer-events: auto !important;
     position: absolute !important;
     top: 100% !important;
     left: 0 !important;
-    min-width: 240px !important;
+    min-width: 210px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
-    border-radius: 0 0 6px 6px !important;
-    padding: 4px 0 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+    border-radius: 0 0 4px 4px !important;
+    padding: 2px 0 !important;
     margin: 0 !important;
     z-index: 99999 !important;
     list-style: none !important;
   }
 
-  /* L1 items — position:relative anchors L2 */
+  /* L1 items */
   .tour-pkg-dropdown > .sub-menu > li.dropdown {
     position: relative !important;
     border-bottom: 1px solid #f2f2f2 !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0 !important; padding: 0 !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child { border-bottom: none !important; }
 
@@ -196,44 +195,44 @@
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 11px 18px !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
+    padding: 10px 16px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
     color: #222 !important;
     background: transparent !important;
     text-decoration: none !important;
-    transition: all 0.18s ease !important;
+    transition: all 0.15s ease !important;
     white-space: nowrap !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3px !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
     content: '\203A';
-    font-size: 18px;
+    font-size: 16px;
     color: #ffc202;
-    margin-left: 14px;
+    margin-left: 10px;
     flex-shrink: 0;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > a {
     background: #fffdf0 !important;
     color: #ffc202 !important;
-    padding-left: 22px !important;
   }
 
-  /* L2: ALL flyouts open to the LEFT to avoid right-edge collision */
+  /* L2: opens RIGHT, compact size, scrollable to avoid going off bottom */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
     display: none !important;
     position: absolute !important;
-    top: -4px !important;
-    right: 100% !important;
-    left: auto !important;
-    min-width: 240px !important;
-    max-width: 280px !important;
-    max-height: 70vh !important;
+    top: 0 !important;
+    left: 100% !important;
+    right: auto !important;
+    width: 200px !important;
+    max-height: 65vh !important;
     overflow-y: auto !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
-    border-radius: 0 0 6px 6px !important;
-    padding: 4px 0 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+    border-radius: 0 0 4px 4px !important;
+    padding: 2px 0 !important;
     margin: 0 !important;
     z-index: 100000 !important;
     list-style: none !important;
@@ -249,23 +248,26 @@
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child { border-bottom: none !important; }
 
-  /* L2 links */
+  /* L2 links — very compact */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a {
     display: block !important;
-    padding: 9px 16px !important;
-    font-size: 12px !important;
+    padding: 7px 14px !important;
+    font-size: 11px !important;
     color: #555 !important;
     background: transparent !important;
     text-decoration: none !important;
-    transition: all 0.18s ease !important;
+    transition: all 0.15s ease !important;
     white-space: normal !important;
-    line-height: 1.4 !important;
+    line-height: 1.3 !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
     background: #fffdf0 !important;
     color: #ffc202 !important;
-    padding-left: 22px !important;
+    padding-left: 18px !important;
   }
+  /* Scrollbar styling */
+  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar { width: 3px; }
+  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar-thumb { background: #ffc202; border-radius: 2px; }
 }
 </style>
 

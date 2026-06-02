@@ -2570,3 +2570,21 @@ html, body, .page-wrapper {
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Remove gap between header and Tour Packages dropdown ───────────────── */
+@media (min-width: 1200px) {
+    .tour-pkg-dropdown > a {
+        height: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .main-menu__list > .tour-pkg-dropdown {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
