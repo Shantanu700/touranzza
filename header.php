@@ -179,9 +179,9 @@
   .tour-pkg-dropdown.is-open > .sub-menu {
     display: block !important;
     pointer-events: auto !important;
-    position: absolute !important;
-    top: 100% !important;
-    left: 0 !important;
+    position: fixed !important;
+    top: 110px !important;
+    left: auto !important;
     min-width: 210px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
@@ -292,8 +292,15 @@
   var menu = li.querySelector(':scope > .sub-menu');
   if (!trigger || !menu) return;
   var closeTimer = null, openTimer = null;
+
+  function positionMenu() {
+    var rect = li.getBoundingClientRect();
+    menu.style.left = rect.left + 'px';
+  }
+
   function openMenu() {
     clearTimeout(closeTimer); clearTimeout(openTimer); closeTimer = null; openTimer = null;
+    positionMenu();
     li.classList.add('is-open');
     trigger.setAttribute('aria-expanded', 'true');
   }
@@ -312,5 +319,6 @@
   menu.addEventListener('pointerleave', scheduleClose);
   document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeMenu(); });
   document.addEventListener('click', function(e) { if (!li.contains(e.target)) closeMenu(); });
+  window.addEventListener('scroll', function() { if (li.classList.contains('is-open')) positionMenu(); });
 })();
 </script>
