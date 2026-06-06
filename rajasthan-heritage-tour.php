@@ -408,11 +408,11 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col-lg-6 col-md-5 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
+                <div class="col-lg-6 col-md-7 wow animated fadeInUp" data-wow-delay="0.3s" data-wow-duration="1500ms">
                   <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
-                      <p>International and domestic flights</p>
+                      <p>International flights</p>
                     </li>
                     <li> <i class="fas fa-times"></i>
                       <p>Indian e-visa or visa on arrival fees</p>
