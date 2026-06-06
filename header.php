@@ -93,8 +93,6 @@
           <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
-        </div>
-      </div>
     </div>
   </div>
 </header>
@@ -123,6 +121,7 @@
 }
 .page-wrapper { padding-top: 0 !important; overflow: visible !important; }
 .sticky-header--cloned, .stricky-header.stricky-fixed { display: none !important; }
+.main-header::after { display: none !important; }
 
 /* ── Mobile (hide desktop nav) ── */
 @media (max-width: 1199px) {
@@ -136,81 +135,112 @@
 
 /* ── Desktop flyout dropdown ── */
 @media (min-width: 1200px) {
-  .main-header__nav.main-menu { flex: 1 !important; display: flex !important; justify-content: flex-end !important; align-items: center !important; }
-  .main-menu__list { display: flex !important; align-items: center !important; gap: 10px !important; margin: 0 !important; padding: 0 !important; white-space: nowrap !important; }
+  .main-header__nav.main-menu {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
+  .main-menu__list {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    white-space: nowrap !important;
+  }
+  .main-menu__list > li + li { margin-left: 28px !important; }
+  .main-menu__list > li,
+  .main-menu__list > li:hover,
+  .main-menu__list > li.current {
+    background: transparent !important;
+  }
 
-  /* Parent anchor — stretch full header height to eliminate gap */
   .tour-pkg-dropdown {
     position: relative !important;
     align-self: stretch !important;
     display: flex !important;
     align-items: center !important;
-    /* Override theme's 35px padding that causes the gap */
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    background: transparent !important;
   }
-  /* Also zero out the link's own padding contribution */
   .tour-pkg-dropdown > a {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     height: 100% !important;
     display: flex !important;
     align-items: center !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: transparent !important;
+  }
+  .tour-pkg-dropdown:hover,
+  .tour-pkg-dropdown:hover > a {
+    background: transparent !important;
   }
 
-  /* Block theme */
   .tour-pkg-dropdown > .sub-menu {
-    display: none !important;
-    pointer-events: none !important;
-  }
-
-  /* L1: attach flush — no gap */
-  .tour-pkg-dropdown.is-open > .sub-menu {
     display: block !important;
-    pointer-events: auto !important;
-    position: fixed !important;
-    top: 110px !important;
-    left: auto !important;
-    width: 155px !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: -95px !important;
+    right: auto !important;
+    min-width: 0 !important;
+    width: 215px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
     border-radius: 0 0 4px 4px !important;
-    padding: 2px 0 !important;
-    margin: 0 !important;
-    z-index: 99999 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
     list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 99999 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateY(8px) !important;
+    transition: opacity 160ms ease, visibility 160ms ease, transform 160ms ease !important;
+  }
+  .tour-pkg-dropdown:hover > .sub-menu,
+  .tour-pkg-dropdown:focus-within > .sub-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: translateY(0) !important;
   }
 
-  /* L1 items */
   .tour-pkg-dropdown > .sub-menu > li.dropdown {
     position: relative !important;
+    width: 100% !important;
     border-bottom: 1px solid #f2f2f2 !important;
-    margin: 0 !important; padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child { border-bottom: none !important; }
-
-  /* L1 links */
+  .tour-pkg-dropdown > .sub-menu > li.dropdown:last-child {
+    border-bottom: none !important;
+  }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > a {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 9px 12px !important;
-    font-size: 11px !important;
+    min-height: 43px !important;
+    padding: 8px 13px !important;
+    font-size: 11.5px !important;
+    line-height: 1.3 !important;
     font-weight: 700 !important;
     color: #222 !important;
     background: transparent !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
     text-decoration: none !important;
-    transition: all 0.15s ease !important;
-    white-space: nowrap !important;
     text-transform: uppercase !important;
     letter-spacing: 0.3px !important;
+    white-space: nowrap !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
-    content: '\203A';
-    font-size: 14px;
+    content: '\2039';
+    font-size: 15px;
     color: #ffc202;
-    margin-left: 6px;
+    margin-left: 8px;
     flex-shrink: 0;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > a {
@@ -218,116 +248,67 @@
     color: #ffc202 !important;
   }
 
-  /* L2: opens RIGHT with gap, fixed position calculated by JS */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
-    display: none !important;
-    position: fixed !important;
-    top: 110px !important;
-    left: 999px !important;
-    width: 180px !important;
-    max-height: 65vh !important;
+    display: block !important;
+    position: absolute !important;
+    top: -3px !important;
+    left: auto !important;
+    right: calc(100% + 6px) !important;
+    min-width: 0 !important;
+    width: 238px !important;
+    max-height: 70vh !important;
     overflow-y: auto !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
     border-radius: 0 0 4px 4px !important;
-    padding: 2px 0 !important;
-    margin: 0 !important;
-    z-index: 100000 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
     list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 100000 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+    transform: translateX(8px) !important;
+    transition: opacity 140ms ease, visibility 140ms ease, transform 140ms ease !important;
   }
-  .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu {
-    display: block !important;
+  .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
+  .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: translateX(0) !important;
   }
 
-  /* L2 items */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li {
     border-bottom: 1px solid #f2f2f2 !important;
-    margin: 0 !important; padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child { border-bottom: none !important; }
-
-  /* L2 links — very compact */
+  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li:last-child {
+    border-bottom: none !important;
+  }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a {
     display: block !important;
-    padding: 7px 14px !important;
+    padding: 7px 13px !important;
     font-size: 11px !important;
+    line-height: 1.3 !important;
     color: #555 !important;
     background: transparent !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
     text-decoration: none !important;
-    transition: all 0.15s ease !important;
     white-space: normal !important;
-    line-height: 1.3 !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
     background: #fffdf0 !important;
     color: #ffc202 !important;
-    padding-left: 18px !important;
+    padding-left: 16px !important;
   }
-  /* Scrollbar styling */
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar { width: 3px; }
-  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar-thumb { background: #ffc202; border-radius: 2px; }
+  .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar-thumb {
+    background: #ffc202;
+    border-radius: 2px;
+  }
 }
 </style>
-
-<script>
-/* ── Hover-intent flyout for Tour Packages (desktop only) ── */
-(function () {
-  if (!window.matchMedia || !window.matchMedia('(min-width: 1200px)').matches) return;
-  var li = document.querySelector('.tour-pkg-dropdown');
-  if (!li) return;
-  var trigger = li.querySelector(':scope > a');
-  var menu = li.querySelector(':scope > .sub-menu');
-  if (!trigger || !menu) return;
-  var closeTimer = null, openTimer = null;
-
-  function positionMenu() {
-    var rect = li.getBoundingClientRect();
-    var menuW = 170;
-    /* Center under the "Tour Packages" link */
-    var left = rect.left + (rect.width / 2) - (menuW / 2);
-    /* Keep within viewport */
-    if (left + menuW > window.innerWidth - 8) left = window.innerWidth - menuW - 8;
-    if (left < 8) left = 8;
-    menu.style.left = left + 'px';
-  }
-
-  /* Position L2 submenus dynamically — always opens RIGHT */
-  function positionSubMenus() {
-    menu.querySelectorAll(':scope > li.dropdown').forEach(function(item) {
-      var sub = item.querySelector(':scope > .sub-menu');
-      if (!sub) return;
-      item.addEventListener('mouseenter', function() {
-        var itemRect = item.getBoundingClientRect();
-        sub.style.right = 'auto';
-        sub.style.left = (itemRect.right + 4) + 'px';
-        sub.style.top = itemRect.top + 'px';
-      });
-    });
-  }
-
-  function openMenu() {
-    clearTimeout(closeTimer); clearTimeout(openTimer); closeTimer = null; openTimer = null;
-    positionMenu();
-    positionSubMenus();
-    li.classList.add('is-open');
-    trigger.setAttribute('aria-expanded', 'true');
-  }
-  function closeMenu() {
-    clearTimeout(openTimer); openTimer = null;
-    li.classList.remove('is-open');
-    trigger.setAttribute('aria-expanded', 'false');
-  }
-  function scheduleOpen() { clearTimeout(closeTimer); closeTimer = null; clearTimeout(openTimer); openTimer = setTimeout(openMenu, 200); }
-  function scheduleClose() { clearTimeout(closeTimer); closeTimer = setTimeout(closeMenu, 150); }
-  trigger.setAttribute('aria-haspopup', 'true');
-  trigger.setAttribute('aria-expanded', 'false');
-  trigger.addEventListener('pointerenter', scheduleOpen);
-  trigger.addEventListener('pointerleave', scheduleClose);
-  menu.addEventListener('pointerenter', function() { clearTimeout(closeTimer); closeTimer = null; });
-  menu.addEventListener('pointerleave', scheduleClose);
-  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeMenu(); });
-  document.addEventListener('click', function(e) { if (!li.contains(e.target)) closeMenu(); });
-  window.addEventListener('scroll', function() { if (li.classList.contains('is-open')) positionMenu(); });
-})();
-</script>
