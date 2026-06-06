@@ -181,7 +181,7 @@
   .tour-pkg-dropdown > .sub-menu {
     display: block !important;
     position: absolute !important;
-    top: 100% !important;
+    top: calc(100% - 1px) !important;
     left: -95px !important;
     right: auto !important;
     min-width: 0 !important;
@@ -197,7 +197,7 @@
     opacity: 0 !important;
     visibility: hidden !important;
     pointer-events: none !important;
-    transform: translateY(8px) !important;
+    transform: none !important;
     transition: opacity 160ms ease, visibility 160ms ease, transform 160ms ease !important;
   }
   .tour-pkg-dropdown:hover > .sub-menu,
@@ -205,7 +205,7 @@
     opacity: 1 !important;
     visibility: visible !important;
     pointer-events: auto !important;
-    transform: translateY(0) !important;
+    transform: none !important;
   }
 
   .tour-pkg-dropdown > .sub-menu > li.dropdown {
@@ -237,7 +237,7 @@
     white-space: nowrap !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > a::after {
-    content: '\2039';
+    content: '\203A';
     font-size: 15px;
     color: #ffc202;
     margin-left: 8px;
@@ -252,8 +252,8 @@
     display: block !important;
     position: absolute !important;
     top: -3px !important;
-    left: auto !important;
-    right: calc(100% + 6px) !important;
+    left: calc(100% + 6px) !important;
+    right: auto !important;
     min-width: 0 !important;
     width: 238px !important;
     max-height: 70vh !important;
@@ -269,7 +269,7 @@
     opacity: 0 !important;
     visibility: hidden !important;
     pointer-events: none !important;
-    transform: translateX(8px) !important;
+    transform: none !important;
     transition: opacity 140ms ease, visibility 140ms ease, transform 140ms ease !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
@@ -277,7 +277,7 @@
     opacity: 1 !important;
     visibility: visible !important;
     pointer-events: auto !important;
-    transform: translateX(0) !important;
+    transform: none !important;
   }
 
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li {
