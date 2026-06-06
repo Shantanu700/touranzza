@@ -367,7 +367,7 @@
                   <h2 class="tour-listing-details__title tour-listing-details__included-title">Exclusions</h2>
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
-                      <p>International flights and any domestic flight connections</p>
+                      <p>International flights and any International flights connections</p>
                     </li>
                     <li> <i class="fas fa-times"></i>
                       <p>Indian e-visa or visa on arrival fees</p>

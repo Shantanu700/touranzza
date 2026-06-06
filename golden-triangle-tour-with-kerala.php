@@ -486,7 +486,7 @@
                 <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
-                      <p>Domestic flights unless included in your final quote</p>
+                      <p>International flights unless included in your final quote</p>
                     </li>
                     <li> <i class="fas fa-times"></i>
                       <p>Travel insurance and personal expenses</p>
@@ -545,7 +545,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Yes, Touranzza plans this as a private tour with customized hotels, private transfers, optional expert guides and flexible sightseeing. Domestic flights can be planned around your preferred dates and budget.</p>
+                      <p style="margin-top: 0.75rem;">Yes, Touranzza plans this as a private tour with customized hotels, private transfers, optional expert guides and flexible sightseeing. International flights can be planned around your preferred dates and budget.</p>
                     </div>
                   </div>
                 </div>

@@ -287,7 +287,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Morning transfer to Jaipur Airport for your included domestic flight to Goa. Met on arrival at Goa International Airport and transferred to your hotel. Afternoon free — your first taste of the Goan pace: ocean air, a slow walk to the beach, and dinner at a seafood shack. Overnight in Goa.</p>
+                      <p style="margin-top: 0.75rem;">Morning transfer to Jaipur Airport for your included International flights to Goa. Met on arrival at Goa International Airport and transferred to your hotel. Afternoon free — your first taste of the Goan pace: ocean air, a slow walk to the beach, and dinner at a seafood shack. Overnight in Goa.</p>
                     </div>
                   </div>
                 </div>
@@ -491,7 +491,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Yes. The economy class domestic flight from Jaipur to Goa is included in the tour price. Business class upgrades are available on request at an additional cost.</p>
+                      <p style="margin-top: 0.75rem;">Yes. The economy class International flights from Jaipur to Goa is included in the tour price. Business class upgrades are available on request at an additional cost.</p>
                     </div>
                   </div>
                 </div>

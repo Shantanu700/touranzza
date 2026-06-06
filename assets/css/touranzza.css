@@ -2588,3 +2588,20 @@ html, body, .page-wrapper {
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Inclusions / Exclusions: align headings at same height ─────────────── */
+.tour-listing-details__included.inclusions-exclusions-row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0 30px !important;
+    align-items: start !important;
+}
+.tour-listing-details__included.inclusions-exclusions-row .tour-listing-details__title {
+    margin-bottom: 16px !important;
+}
+@media (max-width: 767px) {
+    .tour-listing-details__included.inclusions-exclusions-row {
+        grid-template-columns: 1fr !important;
+    }
+}
+/* ─────────────────────────────────────────────────────────────────────────── */

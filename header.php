@@ -93,16 +93,6 @@
           <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="main-header__right">
-        <div class="mobile-nav__btn mobile-nav__toggler"><span></span><span></span><span></span></div>
-        <a href="tour-packages" class="main-header__booking-btn trevlo-btn trevlo-btn--white-two"><span>Start Booking</span></a>
-        <div class="main-header__right-right">
-          <div class="main-header__phone">
-            <div class="main-header__phone-icon"><span class="icon-phone-1"></span></div>
-            <div class="main-header__phone-text">
-              <h4 class="main-header__phone-number"><a href="tel:+919355995594">+91-9355995594</a></h4>
-            </div>
-          </div>
           <div class="main-header__divider"></div>
         </div>
       </div>
@@ -182,7 +172,7 @@
     position: fixed !important;
     top: 110px !important;
     left: auto !important;
-    width: 170px !important;
+    width: 155px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
     box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
@@ -233,6 +223,8 @@
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu {
     display: none !important;
     position: fixed !important;
+    top: 110px !important;
+    left: 999px !important;
     width: 180px !important;
     max-height: 65vh !important;
     overflow-y: auto !important;

@@ -311,7 +311,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Morning transfer to Jaipur Airport for your included domestic flight to Mumbai. Met on arrival and transferred to your hotel by a local representative. Afternoon free to rest or take an introductory walk along Marine Drive, Mumbai's famous Art Deco seafront promenade. Overnight in Mumbai.</p>
+                      <p style="margin-top: 0.75rem;">Morning transfer to Jaipur Airport for your included International flights to Mumbai. Met on arrival and transferred to your hotel by a local representative. Afternoon free to rest or take an introductory walk along Marine Drive, Mumbai's famous Art Deco seafront promenade. Overnight in Mumbai.</p>
                     </div>
                   </div>
                 </div>
@@ -361,7 +361,7 @@
                       <p>English-speaking guides in each city</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
-                      <p>Domestic flight: Jaipur to Mumbai (economy class)</p>
+                      <p>International flights: Jaipur to Mumbai (economy class)</p>
                     </li>
                     <li> <i class="fas fa-check-circle"></i>
                       <p>All monument entrance fees</p>
@@ -486,7 +486,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Yes, the economy class domestic flight from Jaipur to Mumbai is included in the tour price. Business class upgrades are available on request at an additional cost.</p>
+                      <p style="margin-top: 0.75rem;">Yes, the economy class International flights from Jaipur to Mumbai is included in the tour price. Business class upgrades are available on request at an additional cost.</p>
                     </div>
                   </div>
                 </div>

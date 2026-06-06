@@ -455,7 +455,7 @@
                 <div class="col-lg-12 col-md-12 wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
                   <ul class="tour-listing-details__included-list-two">
                     <li> <i class="fas fa-times"></i>
-                      <p>International and domestic flights</p>
+                      <p>International flights</p>
                     </li>
                     <li> <i class="fas fa-times"></i>
                       <p>Visa fees</p>

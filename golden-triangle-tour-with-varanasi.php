@@ -355,7 +355,7 @@
                   </div>
                   <div class="accrodion-content">
                     <div class="inner">
-                      <p style="margin-top: 0.75rem;">Today marks the transition from palaces to pilgrimage. India changes here. Take a domestic flight (or train) from Jaipur directly to Varanasi. Upon arrival, you'll be greeted and transferred to your hotel.</p>
+                      <p style="margin-top: 0.75rem;">Today marks the transition from palaces to pilgrimage. India changes here. Take a International flights (or train) from Jaipur directly to Varanasi. Upon arrival, you'll be greeted and transferred to your hotel.</p>
                       <p style="margin-top: 0.75rem;">In the evening, take an orientation walk along the ghats. This is your first introduction to arguably the oldest living city in the world, setting the stage for the deep spiritual immersion to follow over the next two days.</p>
                       <p style="margin-top: 0.75rem;"><strong><strong>Overnight:</strong></strong> Varanasi</p>
                     </div>
