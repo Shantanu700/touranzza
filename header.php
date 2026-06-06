@@ -93,7 +93,6 @@
           <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
-          <div class="main-header__divider"></div>
         </div>
       </div>
     </div>
