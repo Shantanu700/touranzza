@@ -39,7 +39,7 @@
             <a href="tour-packages">Tour Packages</a>
             <ul class="sub-menu">
               <li class="dropdown">
-                <a href="golden-triangle-tours">Golden Triangle</a>
+                <a href="golden-triangle-tours">Imperial Golden Triangle</a>
                 <ul class="sub-menu">
                   <li><a href="golden-triangle-tour-5-days">5 Days Golden Triangle</a></li>
                   <li><a href="golden-triangle-tour-3-days">3 Days Golden Triangle</a></li>
@@ -200,7 +200,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 160ms ease, visibility 160ms ease, transform 160ms ease !important;
+    transition: opacity 0ms ease, visibility 0ms ease !important;
   }
   .tour-pkg-dropdown:hover > .sub-menu,
   .tour-pkg-dropdown:focus-within > .sub-menu {
@@ -229,7 +229,7 @@
     font-size: 13px !important;
     line-height: 1.3 !important;
     font-weight: 700 !important;
-    color: #ffc202 !important;
+    color: #222 !important;
     background: transparent !important;
     border-radius: 0 !important;
     margin: 0 !important;
@@ -272,7 +272,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 140ms ease, visibility 140ms ease, transform 140ms ease !important;
+    transition: opacity 0ms ease, visibility 0ms ease !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
   .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
@@ -295,7 +295,7 @@
     padding: 7px 13px !important;
     font-size: 12px !important;
     line-height: 1.3 !important;
-    color: #ffc202 !important;
+    color: #555 !important;
     background: transparent !important;
     border-radius: 0 !important;
     margin: 0 !important;
@@ -304,7 +304,7 @@
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
     background: #fffdf0 !important;
-    color: #000 !important;
+    color: #ffc202 !important;
     padding-left: 16px !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar { width: 3px; }
