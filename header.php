@@ -200,7 +200,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0s 350ms, visibility 0s 350ms !important;
+    transition: opacity 0s 2000ms, visibility 0s 2000ms !important;
   }
   .tour-pkg-dropdown:hover > .sub-menu,
   .tour-pkg-dropdown:focus-within > .sub-menu {

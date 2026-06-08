@@ -175,8 +175,8 @@ h1.tour-listing-details__dastination-title {
 }
 
 .tour-listing-details__destination {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: var(--trevlo-white2, #FAF5EE);
     margin-bottom: 40px;
 }
