@@ -211,8 +211,17 @@ h1.tour-listing-details__dastination-title {
     margin-top: 4px !important;
 }
 
+.tour-listing-details__ratings-box .trevlo-ratings i {
+    font-size: 11px !important;
+}
+
 .tour-listing-details__ratings-text {
-    font-size: 12px !important;
+    font-size: 11px !important;
+}
+
+.tripadvisor-icon {
+    font-size: 16px !important;
+    margin-right: 6px !important;
 }
 
 .tour-listing-details__destination-info {
@@ -223,8 +232,6 @@ h1.tour-listing-details__dastination-title {
 .tour-listing-details__ratings-box {
     display: flex;
     align-items: center;
-    margin-top: 15px;
-}
 
 p.tour-listing-details__overview-text.wow.animated.fadeInUp.animated {
     color: #000;
@@ -1356,9 +1363,9 @@ html, body, .page-wrapper {
 
 /* ── TripAdvisor Rating Icon ── */
 .tripadvisor-icon {
-    color: #00AF87 !important; /* TripAdvisor Green */
-    font-size: 24px !important;
-    margin-right: 12px !important;
+    color: #00AF87 !important;
+    font-size: 16px !important;
+    margin-right: 6px !important;
     display: inline-block !important;
     vertical-align: middle !important;
 }
@@ -1797,7 +1804,7 @@ html, body, .page-wrapper {
     }
 
     .tour-listing-details__ratings-text {
-        font-size: 12px !important;
+        font-size: 11px !important;
         margin: 0 !important;
     }
 
@@ -1806,7 +1813,7 @@ html, body, .page-wrapper {
     }
 
     .tripadvisor-icon {
-        font-size: 18px !important;
+        font-size: 16px !important;
         margin-right: 6px !important;
     }
 
@@ -2025,16 +2032,24 @@ html, body, .page-wrapper {
         padding-left: 0 !important;
     }
 
+    .tour-listing-details__ratings-box .trevlo-ratings i {
+        font-size: 11px !important;
+    }
+
+    .tour-listing-details__ratings-text {
+        font-size: 11px !important;
+    }
+
+    .tour-listing-details__ratings-box .tripadvisor-icon {
+        font-size: 16px !important;
+        margin-right: 6px !important;
+    }
+
     /* Title font size */
     h1.tour-listing-details__dastination-title {
         font-size: 22px !important;
         line-height: 1.2 !important;
         margin-bottom: 0 !important;
-    }
-
-    .tour-listing-details__destination {
-        padding: 22px 0 0 !important;
-        min-height: 120px !important;
     }
 
     .tour-listing-details__destination {
