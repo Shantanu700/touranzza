@@ -90,6 +90,7 @@
           </li>
 
           <li><a href="photo-gallery">Photo Gallery</a></li>
+          <li><a href="blog">Blog</a></li>
           <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
@@ -138,7 +139,7 @@
   .main-header__nav.main-menu {
     flex: 1 !important;
     display: flex !important;
-    justify-content: flex-end !important;
+    justify-content: flex-start !important;
     align-items: center !important;
   }
   .main-menu__list {
