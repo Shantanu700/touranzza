@@ -211,6 +211,21 @@ h1.tour-listing-details__dastination-title {
     margin-top: 4px !important;
 }
 
+.tour-listing-details__ratings-box .trevlo-ratings i {
+    font-size: 12px !important;
+}
+
+.tour-listing-details__ratings-box .tripadvisor-icon {
+    font-size: 16px !important;
+    margin-right: 6px !important;
+}
+
+.tour-listing-details__ratings-box .google-icon,
+.tour-listing-details__ratings-box i.fab.fa-google {
+    font-size: 16px !important;
+    margin-right: 6px !important;
+}
+
 .tour-listing-details__ratings-text {
     font-size: 12px !important;
 }
@@ -1800,17 +1815,17 @@ html, body, .page-wrapper {
         margin: 0 !important;
     }
 
-    .trevlo-ratings i {
-        font-size: 11px !important;
+    .tour-listing-details__ratings-box .trevlo-ratings i {
+        font-size: 12px !important;
     }
 
-    .tripadvisor-icon {
-        font-size: 18px !important;
+    .tour-listing-details__ratings-box .tripadvisor-icon {
+        font-size: 16px !important;
         margin-right: 6px !important;
     }
 
-    .google-ratings-box .google-icon,
-    .google-ratings-box i.fab.fa-google {
+    .tour-listing-details__ratings-box .google-icon,
+    .tour-listing-details__ratings-box i.fab.fa-google {
         font-size: 16px !important;
         margin-right: 6px !important;
     }
@@ -2022,6 +2037,15 @@ html, body, .page-wrapper {
         gap: 6px !important;
         margin-bottom: 0 !important;
         padding-left: 0 !important;
+    }
+
+    .tour-listing-details__ratings-box .trevlo-ratings i {
+        font-size: 12px !important;
+    }
+
+    .tour-listing-details__ratings-box .tripadvisor-icon {
+        font-size: 16px !important;
+        margin-right: 6px !important;
     }
 
     /* Title font size */
