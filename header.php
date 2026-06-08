@@ -39,25 +39,25 @@
             <a href="tour-packages">Tour Packages</a>
             <ul class="sub-menu">
               <li class="dropdown">
-                <a href="golden-triangle-tours">Imperial Golden Triangle</a>
+                <a href="golden-triangle-tours">Golden Triangle</a>
                 <ul class="sub-menu">
                   <li><a href="golden-triangle-tour-5-days">5 Days Golden Triangle</a></li>
                   <li><a href="golden-triangle-tour-3-days">3 Days Golden Triangle</a></li>
                   <li><a href="golden-triangle-tour-4-days">4 Days Golden Triangle</a></li>
                   <li><a href="golden-triangle-tour-6-days">6 Days Golden Triangle</a></li>
                   <li><a href="golden-triangle-tour-7-days">7 Days Golden Triangle</a></li>
-                  <li><a href="golden-triangle-tour-with-ranthambore">GT with Ranthambore</a></li>
-                  <li><a href="golden-triangle-tour-with-rajasthan">GT with Rajasthan</a></li>
-                  <li><a href="golden-triangle-tour-with-varanasi">GT with Varanasi</a></li>
-                  <li><a href="golden-triangle-tour-with-amritsar">GT with Amritsar</a></li>
-                  <li><a href="golden-triangle-tour-with-haridwar-and-rishikesh">GT with Haridwar &amp; Rishikesh</a></li>
-                  <li><a href="golden-triangle-tour-with-orchha-khajuraho">GT with Orchha &amp; Khajuraho</a></li>
-                  <li><a href="golden-triangle-tour-with-orchha-khajuraho-and-varanasi">GT with Orchha, Khajuraho &amp; Varanasi</a></li>
-                  <li><a href="golden-triangle-tour-with-ajmer-and-pushkar">GT with Ajmer &amp; Pushkar</a></li>
-                  <li><a href="golden-triangle-tour-with-udaipur">GT with Udaipur</a></li>
-                  <li><a href="golden-triangle-tour-with-goa">GT with Goa</a></li>
-                  <li><a href="golden-triangle-tour-with-kerala">GT with Kerala</a></li>
-                  <li><a href="golden-triangle-tour-with-mumbai">GT with Mumbai</a></li>
+                  <li><a href="golden-triangle-tour-with-ranthambore">Golden Triangle with Ranthambore</a></li>
+                  <li><a href="golden-triangle-tour-with-rajasthan">Golden Triangle with Rajasthan</a></li>
+                  <li><a href="golden-triangle-tour-with-varanasi">Golden Triangle with Varanasi</a></li>
+                  <li><a href="golden-triangle-tour-with-amritsar">Golden Triangle with Amritsar</a></li>
+                  <li><a href="golden-triangle-tour-with-haridwar-and-rishikesh">Golden Triangle with Haridwar &amp; Rishikesh</a></li>
+                  <li><a href="golden-triangle-tour-with-orchha-khajuraho">Golden Triangle with Orchha &amp; Khajuraho</a></li>
+                  <li><a href="golden-triangle-tour-with-orchha-khajuraho-and-varanasi">Golden Triangle with Orchha, Khajuraho &amp; Varanasi</a></li>
+                  <li><a href="golden-triangle-tour-with-ajmer-and-pushkar">Golden Triangle with Ajmer &amp; Pushkar</a></li>
+                  <li><a href="golden-triangle-tour-with-udaipur">Golden Triangle with Udaipur</a></li>
+                  <li><a href="golden-triangle-tour-with-goa">Golden Triangle with Goa</a></li>
+                  <li><a href="golden-triangle-tour-with-kerala">Golden Triangle with Kerala</a></li>
+                  <li><a href="golden-triangle-tour-with-mumbai">Golden Triangle with Mumbai</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -184,7 +184,7 @@
     display: block !important;
     position: absolute !important;
     top: calc(100% - 1px) !important;
-    left: -95px !important;
+    left: 0 !important;
     right: auto !important;
     min-width: 0 !important;
     width: 215px !important;
@@ -226,10 +226,10 @@
     align-items: center !important;
     min-height: 43px !important;
     padding: 8px 13px !important;
-    font-size: 11.5px !important;
+    font-size: 13px !important;
     line-height: 1.3 !important;
     font-weight: 700 !important;
-    color: #222 !important;
+    color: #ffc202 !important;
     background: transparent !important;
     border-radius: 0 !important;
     margin: 0 !important;
@@ -293,9 +293,9 @@
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a {
     display: block !important;
     padding: 7px 13px !important;
-    font-size: 11px !important;
+    font-size: 12px !important;
     line-height: 1.3 !important;
-    color: #555 !important;
+    color: #ffc202 !important;
     background: transparent !important;
     border-radius: 0 !important;
     margin: 0 !important;
@@ -304,7 +304,7 @@
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li > a:hover {
     background: #fffdf0 !important;
-    color: #ffc202 !important;
+    color: #000 !important;
     padding-left: 16px !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu::-webkit-scrollbar { width: 3px; }
