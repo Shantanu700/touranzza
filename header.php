@@ -200,7 +200,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0.15s ease, visibility 0.15s ease !important;
+    transition: opacity 0.3s ease 0.15s, visibility 0.3s ease 0.15s !important;
   }
   .tour-pkg-dropdown:hover > .sub-menu,
   .tour-pkg-dropdown:focus-within > .sub-menu {
@@ -208,7 +208,7 @@
     visibility: visible !important;
     pointer-events: auto !important;
     transform: none !important;
-    transition: opacity 0.15s ease, visibility 0.15s ease !important;
+    transition: opacity 0.2s ease 0s, visibility 0.2s ease 0s !important;
   }
 
   .tour-pkg-dropdown > .sub-menu > li.dropdown {
@@ -273,7 +273,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0.15s ease, visibility 0.15s ease !important;
+    transition: opacity 0.3s ease 0.15s, visibility 0.3s ease 0.15s !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
   .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
@@ -281,7 +281,7 @@
     visibility: visible !important;
     pointer-events: auto !important;
     transform: none !important;
-    transition: opacity 0.15s ease, visibility 0.15s ease !important;
+    transition: opacity 0.2s ease 0s, visibility 0.2s ease 0s !important;
   }
 
   .tour-pkg-dropdown > .sub-menu > li.dropdown > .sub-menu > li {
