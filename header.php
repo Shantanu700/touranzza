@@ -187,7 +187,7 @@
     left: 0 !important;
     right: auto !important;
     min-width: 0 !important;
-    width: 215px !important;
+    width: 250px !important;
     background: #fff !important;
     border-top: 3px solid #ffc202 !important;
     border-radius: 0 0 4px 4px !important;
@@ -273,7 +273,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0s 350ms, visibility 0s 350ms !important;
+    transition: opacity 0s 0s, visibility 0s 0s !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
   .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
