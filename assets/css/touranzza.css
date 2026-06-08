@@ -175,7 +175,7 @@ h1.tour-listing-details__dastination-title {
 }
 
 .tour-listing-details__destination {
-    padding: 14px 0 0;
+    padding: 22px 0 0;
     background-color: var(--trevlo-white2, #FAF5EE);
     margin-bottom: 40px;
 }
@@ -1420,7 +1420,7 @@ html, body, .page-wrapper {
     }
 
     .tour-listing-details__destination {
-        padding: 14px 0 0 !important;
+        padding: 22px 0 0 !important;
         margin-bottom: 24px !important;
     }
 
@@ -1758,7 +1758,7 @@ html, body, .page-wrapper {
 @media (max-width: 767px) {
 
     .tour-listing-details__destination {
-        padding: 14px 16px 0 !important;
+        padding: 22px 16px 0 !important;
         margin-bottom: 16px !important;
     }
 
@@ -2011,7 +2011,7 @@ html, body, .page-wrapper {
     }
 
     .tour-listing-details__destination {
-        padding: 14px 0 0 !important;
+        padding: 22px 0 0 !important;
     }
 }
 /* ─────────────────────────────────────────────────────────────────────────── */
