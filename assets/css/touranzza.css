@@ -181,6 +181,10 @@ h1.tour-listing-details__dastination-title {
     margin-bottom: 40px;
 }
 
+.tour-listing-details__destination-row {
+    align-items: flex-start !important;
+}
+
 .tour-listing-details__ratings-box {
     display: flex;
     align-items: center;
