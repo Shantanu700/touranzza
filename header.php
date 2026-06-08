@@ -147,7 +147,7 @@
     align-items: center !important;
     gap: 0 !important;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 0 0 40px !important;
     white-space: nowrap !important;
   }
   .main-menu__list > li + li { margin-left: 28px !important; }
