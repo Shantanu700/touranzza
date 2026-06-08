@@ -200,7 +200,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0ms ease, visibility 0ms ease !important;
+    transition: opacity 350ms ease, visibility 350ms ease !important;
   }
   .tour-pkg-dropdown:hover > .sub-menu,
   .tour-pkg-dropdown:focus-within > .sub-menu {
@@ -272,7 +272,7 @@
     visibility: hidden !important;
     pointer-events: none !important;
     transform: none !important;
-    transition: opacity 0ms ease, visibility 0ms ease !important;
+    transition: opacity 350ms ease, visibility 350ms ease !important;
   }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
   .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
