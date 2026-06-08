@@ -48,6 +48,11 @@
     .blog-page-section .blog-card:hover {
       box-shadow: 0 8px 30px rgba(0,0,0,0.1);
     }
+    .blog-page-section .blog-card a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
     .blog-page-section .blog-card img {
       width: 100%;
       height: 220px;
@@ -56,22 +61,13 @@
     .blog-page-section .blog-card-body {
       padding: 25px;
     }
-    .blog-page-section .blog-card-date {
-      font-size: 0.85rem;
-      color: #999;
-      margin-bottom: 8px;
-    }
     .blog-page-section .blog-card-title {
       font-size: 1.2rem;
       font-weight: 700;
       margin-bottom: 12px;
       color: #000;
     }
-    .blog-page-section .blog-card-title a {
-      color: #000;
-      text-decoration: none;
-    }
-    .blog-page-section .blog-card-title a:hover {
+    .blog-page-section .blog-card-title:hover {
       color: #ffc202;
     }
     .blog-page-section .blog-card-excerpt {
@@ -87,6 +83,10 @@
     }
     .blog-page-section .blog-card-link:hover {
       color: #000;
+    }
+    .blog-page-section .blog-card-link i {
+      font-size: 0.8rem;
+      margin-left: 4px;
     }
   </style>
 </head>
@@ -112,72 +112,163 @@
     <section class="blog-page-section">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-1.webp" alt="Golden Triangle Tour">
-              <div class="blog-card-body">
-                <div class="blog-card-date">March 15, 2026</div>
-                <h3 class="blog-card-title"><a href="golden-triangle-tour-4-days">Discover the Magic of India's Golden Triangle</a></h3>
-                <p class="blog-card-excerpt">Explore Delhi, Agra, and Jaipur in this unforgettable journey through India's most iconic landmarks, from the Taj Mahal to Amber Fort.</p>
-                <a href="golden-triangle-tour-4-days" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://www.tripoto.com/trip/exploring-the-taj-mahal-a-complete-guide-3f31e43deb7225b7" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-1.webp" alt="Exploring the Taj Mahal">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Exploring the Taj Mahal: A Complete Guide</h3>
+                  <p class="blog-card-excerpt">A comprehensive guide to visiting the Taj Mahal, including tips on the best time to visit, ticket information, and what to expect.</p>
+                  <span class="blog-card-link">Read on Tripoto <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-2.webp" alt="Rajasthan Tour">
-              <div class="blog-card-body">
-                <div class="blog-card-date">February 28, 2026</div>
-                <h3 class="blog-card-title"><a href="rajasthan-heritage-tour">The Royal Road: A Journey Through Rajasthan's Palaces</a></h3>
-                <p class="blog-card-excerpt">Step into a world of maharajas and magnificent forts as we take you through the vibrant desert state of Rajasthan.</p>
-                <a href="rajasthan-heritage-tour" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://www.tripoto.com/trip/d7d807a0-5025-11f1-bc02-4201ac1d0034" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-2.webp" alt="India Travel Guide">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Incredible India: A Journey Through Diversity</h3>
+                  <p class="blog-card-excerpt">Discover the vibrant culture, rich history, and breathtaking landscapes that make India a traveler's paradise.</p>
+                  <span class="blog-card-link">Read on Tripoto <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-3.webp" alt="Taj Mahal Sunrise">
-              <div class="blog-card-body">
-                <div class="blog-card-date">January 10, 2026</div>
-                <h3 class="blog-card-title"><a href="taj-mahal-sunrise-tour">Witnessing the Taj Mahal at Sunrise: A Once-in-a-Lifetime Experience</a></h3>
-                <p class="blog-card-excerpt">There's nothing quite like watching the first rays of sun illuminate the marble masterpiece. Here's what to expect on a sunrise visit.</p>
-                <a href="taj-mahal-sunrise-tour" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://medium.com/@touranzza/qutub-minar-delhis-iconic-landmark-deaa02cafdb1" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-3.webp" alt="Qutub Minar Delhi">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Qutub Minar: Delhi's Iconic Landmark</h3>
+                  <p class="blog-card-excerpt">Explore the history and architecture of Qutub Minar, one of Delhi's most famous UNESCO World Heritage sites.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-1.webp" alt="Same Day Agra Tour">
-              <div class="blog-card-body">
-                <div class="blog-card-date">December 5, 2025</div>
-                <h3 class="blog-card-title"><a href="same-day-agra-tour-by-car">How to Experience Agra in a Day from Delhi</a></h3>
-                <p class="blog-card-excerpt">Short on time? Our guide shows you exactly how to visit the Taj Mahal, Agra Fort, and more in a single day from Delhi.</p>
-                <a href="same-day-agra-tour-by-car" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://www.tripoto.com/trip/khajuraho-temples-art-architecture-and-the-kind-of-silence-you-dont-expect-3f342db3af452dd5" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-1.webp" alt="Khajuraho Temples">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Khajuraho Temples: Art, Architecture & Silence</h3>
+                  <p class="blog-card-excerpt">Discover the intricate carvings and stunning architecture of the Khajuraho temples, a UNESCO World Heritage site.</p>
+                  <span class="blog-card-link">Read on Tripoto <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-2.webp" alt="India Travel Tips">
-              <div class="blog-card-body">
-                <div class="blog-card-date">November 18, 2025</div>
-                <h3 class="blog-card-title"><a href="soul-of-india-tours">Essential India Travel Tips for First-Time Visitors</a></h3>
-                <p class="blog-card-excerpt">From visa requirements to packing essentials, everything you need to know before your first trip to incredible India.</p>
-                <a href="soul-of-india-tours" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://medium.com/@touranzza/tiger-safari-in-ranthambore-national-park-065a07d8c735" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-2.webp" alt="Ranthambore Tiger Safari">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Tiger Safari in Ranthambore National Park</h3>
+                  <p class="blog-card-excerpt">Experience the thrill of spotting Bengal tigers in their natural habitat at Ranthambore National Park.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 blog-card-wrapper">
             <div class="blog-card">
-              <img src="assets/images/blog/blog-1-3.webp" alt="India Culture">
-              <div class="blog-card-body">
-                <div class="blog-card-date">October 22, 2025</div>
-                <h3 class="blog-card-title"><a href="the-maharaja-collection">The Maharaja Collection: Luxury Train Travel in India</a></h3>
-                <p class="blog-card-excerpt">Discover the opulent world of luxury train journeys that let you experience India like royalty.</p>
-                <a href="the-maharaja-collection" class="blog-card-link">Read More <i class="fas fa-arrow-right"></i></a>
-              </div>
+              <a href="https://medium.com/@touranzza/jim-corbett-national-park-a-wildlife-adventure-that-doesnt-try-too-hard-6d6c50040043" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-3.webp" alt="Jim Corbett National Park">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Jim Corbett National Park: A Wildlife Adventure</h3>
+                  <p class="blog-card-excerpt">A wildlife adventure that doesn't try too hard — explore the beauty of India's oldest national park.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://medium.com/@touranzza/kaziranga-national-park-home-of-the-one-horned-rhino-d394f313b93b" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-1.webp" alt="Kaziranga National Park">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Kaziranga National Park: Home of the One-Horned Rhino</h3>
+                  <p class="blog-card-excerpt">Discover Kaziranga, a UNESCO World Heritage site and the sanctuary of the endangered one-horned rhinoceros.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://medium.com/@touranzza/rishikesh-the-yoga-capital-of-the-world-b656cd78d651" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-2.webp" alt="Rishikesh Yoga">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Rishikesh: The Yoga Capital of the World</h3>
+                  <p class="blog-card-excerpt">Discover why Rishikesh is known as the global capital of yoga, meditation, and spiritual wellness.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://medium.com/p/7bab5a1fed68?postPublishedType=initial" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-3.webp" alt="India Travel Stories">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Exploring India: Stories from the Road</h3>
+                  <p class="blog-card-excerpt">Personal travel stories and insights from across India, capturing the essence of this incredible country.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://medium.com/@touranzza/goas-best-hidden-beaches-920fee53e787" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-1.webp" alt="Goa Hidden Beaches">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Goa's Best Hidden Beaches</h3>
+                  <p class="blog-card-excerpt">Escape the crowds and discover Goa's most secluded and pristine beaches for a perfect tropical getaway.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://medium.com/@touranzza/andaman-and-nicobar-islands-a-tropical-paradise-4fd042527719" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-2.webp" alt="Andaman Islands">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Andaman & Nicobar Islands: A Tropical Paradise</h3>
+                  <p class="blog-card-excerpt">Explore the pristine beaches, crystal-clear waters, and rich marine life of the Andaman and Nicobar Islands.</p>
+                  <span class="blog-card-link">Read on Medium <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 blog-card-wrapper">
+            <div class="blog-card">
+              <a href="https://www.tripoto.com/trip/motorbiking-in-leh-ladakh-3f324be1dcad8d260" target="_blank" rel="noopener noreferrer">
+                <img src="assets/images/blog/blog-1-3.webp" alt="Leh Ladakh Motorbiking">
+                <div class="blog-card-body">
+                  <h3 class="blog-card-title">Motorbiking in Leh Ladakh</h3>
+                  <p class="blog-card-excerpt">Conquer the highest motorable passes in the world on an unforgettable motorbiking adventure through Ladakh.</p>
+                  <span class="blog-card-link">Read on Tripoto <i class="fas fa-external-link-alt"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
