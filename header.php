@@ -139,15 +139,16 @@
   .main-header__nav.main-menu {
     flex: 1 !important;
     display: flex !important;
-    justify-content: flex-start !important;
+    justify-content: flex-end !important;
     align-items: center !important;
+    padding-right: 40px !important;
   }
   .main-menu__list {
     display: flex !important;
     align-items: center !important;
     gap: 0 !important;
     margin: 0 !important;
-    padding: 0 0 0 40px !important;
+    padding: 0 !important;
     white-space: nowrap !important;
   }
   .main-menu__list > li + li { margin-left: 28px !important; }
