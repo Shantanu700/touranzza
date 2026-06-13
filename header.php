@@ -94,6 +94,9 @@
           <li><a href="contact">Contact</a></li>
         </ul>
       </nav>
+      <div class="main-header__right">
+        <div class="mobile-nav__btn mobile-nav__toggler"><span></span><span></span><span></span></div>
+      </div>
     </div>
   </div>
 </header>
