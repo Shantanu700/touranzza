@@ -202,45 +202,55 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtajmer.jpg" alt="Ajmer Sharif Dargah">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtajmer2.jpg" alt="Pushkar Lake Brahma Temple">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt7.jpg" alt="Golden Triangle Tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt8.jpg" alt="Delhi Heritage Tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt9.jpg" alt="Agra Taj Mahal">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt10.jpg" alt="Jaipur Pink City">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"},{"src": "assets/images/gtimages/gtajmer2.jpg"},{"src": "assets/images/gtimages/gt7.jpg"},{"src": "assets/images/gtimages/gt8.jpg"},{"src": "assets/images/gtimages/gt9.jpg"},{"src": "assets/images/gtimages/gt10.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
         </div>
+          <div class="tour-listing-details__top-carousel-item item">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-1.webp" alt="Taj Mahal">
+              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
+                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtajmer.jpg"}, {"src": "assets/images/gtimages/gtajmer2.jpg"}, {"src": "assets/images/gtimages/gt7.jpg"}, {"src": "assets/images/gtimages/gt8.jpg"}, {"src": "assets/images/gtimages/gt9.jpg"}, {"src": "assets/images/gtimages/gt10.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
+            </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
+          </div>
+          <!-- /.tour-listing-details__top-carousel-item item -->
         <!-- /.tour-listing-details__top-carousel-wrapper -->
       </div>
       <!-- /.tour-listing-details__top-carousel -->

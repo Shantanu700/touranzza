@@ -78,40 +78,50 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore1.jpg" alt="Ranthambore Tiger Safari">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"},{"src": "assets/images/gtimages/gtranthambore2.jpg"},{"src": "assets/images/gtimages/gt1.jpg"},{"src": "assets/images/gtimages/gt2.jpg"},{"src": "assets/images/gtimages/gt3.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gtranthambore2.jpg" alt="Ranthambore National Park">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"},{"src": "assets/images/gtimages/gtranthambore2.jpg"},{"src": "assets/images/gtimages/gt1.jpg"},{"src": "assets/images/gtimages/gt2.jpg"},{"src": "assets/images/gtimages/gt3.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt1.jpg" alt="Golden Triangle Tour India">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"},{"src": "assets/images/gtimages/gtranthambore2.jpg"},{"src": "assets/images/gtimages/gt1.jpg"},{"src": "assets/images/gtimages/gt2.jpg"},{"src": "assets/images/gtimages/gt3.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt2.jpg" alt="Delhi Agra Jaipur Tour">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"},{"src": "assets/images/gtimages/gtranthambore2.jpg"},{"src": "assets/images/gtimages/gt1.jpg"},{"src": "assets/images/gtimages/gt2.jpg"},{"src": "assets/images/gtimages/gt3.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt3.jpg" alt="Taj Mahal Agra Fort">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"},{"src": "assets/images/gtimages/gtranthambore2.jpg"},{"src": "assets/images/gtimages/gt1.jpg"},{"src": "assets/images/gtimages/gt2.jpg"},{"src": "assets/images/gtimages/gt3.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
         </div>
       </div>
-</div><!-- /.container -->
+
+          <div class="tour-listing-details__top-carousel-item item">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-1.webp" alt="Taj Mahal">
+              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
+                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtranthambore1.jpg"}, {"src": "assets/images/gtimages/gtranthambore2.jpg"}, {"src": "assets/images/gtimages/gt1.jpg"}, {"src": "assets/images/gtimages/gt2.jpg"}, {"src": "assets/images/gtimages/gt3.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
+            </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
+          </div>
+          <!-- /.tour-listing-details__top-carousel-item item --></div><!-- /.container -->
       <div class="tour-listing-details__destination">
         <div class="container">
           <div class="tour-listing-details__destination-row row">
