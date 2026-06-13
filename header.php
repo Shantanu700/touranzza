@@ -79,13 +79,6 @@
                   <li><a href="same-day-jaipur-tour">Same Day Jaipur Tour</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
-                <a href="tour-packages">Premium Collections</a>
-                <ul class="sub-menu">
-                  <li><a href="soul-of-india-tours">Soul of India Tours</a></li>
-                  <li><a href="the-maharaja-collection">The Maharaja Collection</a></li>
-                </ul>
-              </li>
             </ul>
           </li>
 
