@@ -160,7 +160,7 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt13.jpg" alt="Golden Triangle Tour 6 Days photo 1">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agrai-tour-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
@@ -170,7 +170,7 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt14.jpg" alt="Golden Triangle Tour 6 Days photo 2">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agrai-tour-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
@@ -180,7 +180,7 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt15.jpg" alt="Golden Triangle Tour 6 Days photo 3">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agrai-tour-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
@@ -190,33 +190,24 @@
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/gtimages/gt16.jpg" alt="Golden Triangle Tour 6 Days photo 4">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agrai-tour-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
+              <!-- /.tour-listing-details__top-carousel-overlay -->
+            </div>
+            <!-- /.tour-listing-details__top-carousel-image -->
+          </div>
+          <div class="tour-listing-details__top-carousel-item item">
+            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agrai-tour-1.webp" alt="Taj Mahal">
+              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
+                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agrai-tour-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
           <!-- /.tour-listing-details__top-carousel-item item -->
-          <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-1.webp" alt="Taj Mahal">
-              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
-                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
-            </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
-          </div>
+
           <!-- /.tour-listing-details__top-carousel-item item -->
         </div>
-          <div class="tour-listing-details__top-carousel-item item">
-            <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-1.webp" alt="Taj Mahal">
-              <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
-                  class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gt13.jpg"},{"src": "assets/images/gtimages/gt14.jpg"},{"src": "assets/images/gtimages/gt15.jpg"},{"src": "assets/images/gtimages/gt16.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
-              <!-- /.tour-listing-details__top-carousel-overlay -->
-            </div>
-            <!-- /.tour-listing-details__top-carousel-image -->
-          </div>
-          <!-- /.tour-listing-details__top-carousel-item item -->
         <!-- /.tour-listing-details__top-carousel-wrapper -->
       </div>
       <!-- /.tour-listing-details__top-carousel -->

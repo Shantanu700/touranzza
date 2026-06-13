@@ -185,19 +185,20 @@
                   data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"},{"src": "assets/images/gtimages/gtvaranasi2.jpg"},{"src": "assets/images/gtimages/gt4.jpg"},{"src": "assets/images/gtimages/gt5.jpg"},{"src": "assets/images/gtimages/gt6.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
             </div>
           </div>
-        </div>
-      </div>
-
           <div class="tour-listing-details__top-carousel-item item">
             <div class="tour-listing-details__top-carousel-image"> <img src="assets/images/tours/agra-1.webp" alt="Taj Mahal">
               <div class="tour-listing-details__top-carousel-overlay"> <a href="#"
                   class="tour-listing-details__top-carousel-btn trevlo-btn trevlo-btn--base-three trevlo-image-popup"
-                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"}, {"src": "assets/images/gtimages/gtvaranasi2.jpg"}, {"src": "assets/images/gtimages/gt4.jpg"}, {"src": "assets/images/gtimages/gt5.jpg"}, {"src": "assets/images/gtimages/gt6.jpg"}], "gallery": {"enabled": true}, "type": "image"}'><span class="icon-plus"></span></a> </div>
+                  data-gallery-options='{"items": [{"src": "assets/images/gtimages/gtvaranasi1.jpg"},{"src": "assets/images/gtimages/gtvaranasi2.jpg"},{"src": "assets/images/gtimages/gt4.jpg"},{"src": "assets/images/gtimages/gt5.jpg"},{"src": "assets/images/gtimages/gt6.jpg"},{"src": "assets/images/tours/agra-1.webp"}],"gallery": {"enabled": true},"type": "image"}'><span class="icon-plus"></span></a> </div>
               <!-- /.tour-listing-details__top-carousel-overlay -->
             </div>
             <!-- /.tour-listing-details__top-carousel-image -->
           </div>
-          <!-- /.tour-listing-details__top-carousel-item item --></div><!-- /.container -->
+          <!-- /.tour-listing-details__top-carousel-item item -->
+
+        </div>
+      </div>
+</div><!-- /.container -->
       <div class="tour-listing-details__destination">
         <div class="container">
           <div class="tour-listing-details__destination-row row">
