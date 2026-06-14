@@ -271,6 +271,15 @@
     transform: none !important;
     transition: opacity 0.3s ease 0.15s, visibility 0.3s ease 0.15s !important;
   }
+  .tour-pkg-dropdown > .sub-menu > li.dropdown::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 100% !important;
+    width: 8px !important;
+    height: 100% !important;
+    background: transparent !important;
+  }
   .tour-pkg-dropdown > .sub-menu > li.dropdown:hover > .sub-menu,
   .tour-pkg-dropdown > .sub-menu > li.dropdown:focus-within > .sub-menu {
     opacity: 1 !important;
